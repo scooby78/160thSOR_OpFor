@@ -1,16 +1,14 @@
 /*
-	Name: 160th Mod
-	Author: AmTheAgent
-	Date: 27/09/15 01:09
+	Name: 160th SOR Mod
+	Author: Scooby
+	Date: 25/03/16
 	Description: cfgVehicles.hpp
 */
 
 class cfgVehicles 
 {	 
 #include "cfgBackpacks.hpp"
-#include "cfgMisc.hpp"
-#include "cfgTroopsDesert.hpp"
-#include "cfgOpForDesert.hpp"
+#include "cfgOpForVdv.hpp"
 #include "cfgCrates.hpp"
 #include "cfgAircraft.hpp"
 #include "cfgArmour.hpp"

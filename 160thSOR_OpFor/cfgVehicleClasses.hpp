@@ -1,7 +1,7 @@
 /*
 	Name: 160th SOR Mod
-	Author: AmTheAgent
-	Date: 27/09/15 01:09
+	Author: Scooby
+	Date: 25/03/16
 	Description: cfgVehicleClasses.hpp
 */
 

@@ -8,19 +8,19 @@
 #define Standard_Equipment 	"ItemMap",\
 							"ItemCompass",\
 							"ItemWatch",\
-							"tf_anprc152"
+							"tf_pnr1000a"
 
 #define Airborne_Equipment  "ItemMap",\
 							"ItemCompass",\
 							"ACE_Altimeter",\
-							"tf_anprc152",\
+							"tf_pnr1000a",\
 							"ItemGPS"
 							
 #define Recon_Equipment 	"ItemMap",\
 							"ItemCompass",\
 						    "ItemWatch",\
 							"tf_microdagr",\
-							"tf_anprc152",\
+							"tf_pnr1000a",\
 							"ItemGPS" 						
 						
 #define Standard_Meds   "ACE_fieldDressing",\
@@ -53,40 +53,44 @@
 
 #define SL_Equip 		"ACE_CableTie",\
 						"ACE_CableTie",\
-						"ACE_MapTools"
+						"ACE_MapTools",\
+						"ACE_Flashlight_MX991"
 						
 #define Recon_Equip 	"ACE_CableTie",\
 						"ACE_CableTie",\
 						"ACE_MapTools",\
-						"ACE_Flashlight_XL50"
+						"ACE_Flashlight_MX991"
+				
+						
+#define Standard_Mags 	"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_mag_mk3a2",\
+						"rhs_mag_mk3a2",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white"
 
-#define Standard_Mags 	"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"rhs_mag_m67","rhs_mag_m67",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_m18_green"
 
-#define SL_Mags	 		"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"rhs_mag_m67","rhs_mag_m67",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_yellow",\
-						"rhs_mag_m18_yellow"
+#define SL_Mags	 		"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_mag_mk3a2",\
+						"rhs_mag_mk3a2",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_black"
 						
 #define Recon_Mags		"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
 						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
@@ -94,19 +98,15 @@
 						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
 						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
 						"30Rnd_556x45_Stanag_Tracer_Red",\
-						"rhs_mag_m67",\
-						"rhs_mag_m67",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_green",\
-						"rhs_mag_m18_red",\
-						"rhs_mag_m18_red",\
-						"rhs_mag_an_m8hc",\
-						"rhs_mag_an_m8hc"	
+						"rhs_mag_mk3a2",\
+						"rhs_mag_mk3a2",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_black",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white"	
 					
-#define Std_Pistol		"rhsusf_mag_15Rnd_9x19_FMJ",\
-						"rhsusf_mag_15Rnd_9x19_FMJ",\
-						"rhsusf_mag_15Rnd_9x19_FMJ"\
-
-#define Std_m1911a1		"rhsusf_mag_7x45acp_MHP",\
-						"rhsusf_mag_7x45acp_MHP",\
-						"rhsusf_mag_7x45acp_MHP"
+#define Std_Pistol		"rhs_mag_9x18_12_57N181S",\
+						"rhs_mag_9x18_12_57N181S",\
+						"rhs_mag_9x18_12_57N181S"\
