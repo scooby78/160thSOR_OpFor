@@ -33,7 +33,7 @@ class Box_NATO_Wps_F;
 //PJ medical supply box//	
 class SOR_OpFor_PJ_Box_F : Land_MetalCase_01_large_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -53,7 +53,7 @@ class SOR_OpFor_PJ_Box_F : Land_MetalCase_01_large_F
 //PJ Backpack supply box//	
 class SOR_OpFor_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -67,7 +67,7 @@ class SOR_OpFor_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
 // Airborne Life Preservers (For missions with lost of flying outside glide distance from the coast)//
 class SOR_OpFor_Air_LP : Land_PlasticCase_01_medium_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -78,7 +78,7 @@ class SOR_OpFor_Air_LP : Land_PlasticCase_01_medium_F
 // Dive Gear	
 class SOR_OpFor_divegear : Land_PlasticCase_01_large_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -98,7 +98,7 @@ class SOR_OpFor_divegear : Land_PlasticCase_01_large_F
 // Ammo Box	
 class SOR_OpFor_A_Box_F : Box_NATO_Ammo_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -117,7 +117,7 @@ class SOR_OpFor_A_Box_F : Box_NATO_Ammo_F
 // Medical Box 
 class SOR_OpFor_M_Box_F : ACE_medicalSupplyCrate
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -129,13 +129,13 @@ class SOR_OpFor_M_Box_F : ACE_medicalSupplyCrate
 	};		
 	class TransportWeapons{};
 	class TransportMagazines{};
-	class TransportBackpacks {pack_xx(SOR_OpFor_Medic_Pack_D,1)};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Medic_Pack_VDV,1)};
 };	
 	
 // Explosives Box	
 class SOR_OpFor_E_Box_F : Box_NATO_AmmoOrd_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -161,7 +161,7 @@ class SOR_OpFor_E_Box_F : Box_NATO_AmmoOrd_F
 // Grenades Box	
 class SOR_OpFor_G_Box_F : Box_NATO_Grenades_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -183,7 +183,7 @@ class SOR_OpFor_G_Box_F : Box_NATO_Grenades_F
 // Support Equipment Box	
 class SOR_OpFor_S_Box_F : Box_NATO_Support_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -207,7 +207,7 @@ class SOR_OpFor_S_Box_F : Box_NATO_Support_F
 // Heavy weapons Box	
 class SOR_OpFor_HW_Box_F : Box_NATO_WpsSpecial_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
@@ -233,7 +233,7 @@ class SOR_OpFor_HW_Box_F : Box_NATO_WpsSpecial_F
 // Ammo Crate		
 class SOR_OpFor_A_Crate_F : B_supplyCrate_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -259,7 +259,7 @@ class SOR_OpFor_A_Crate_F : B_supplyCrate_F
 // All in one Crate		
 class SOR_OpFor_AM_Crate_F : B_supplyCrate_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -284,17 +284,17 @@ class SOR_OpFor_AM_Crate_F : B_supplyCrate_F
 		mag_xx(rhs_mag_rdg2_white,20)
 		mag_xx(rhs_mag_rdg2_black,20)
 	};
-	class TransportBackpacks {pack_xx(SOR_OpFor_Medic_Pack_D,3)};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Medic_Pack_VDV,3)};
 };
 	
 // M2 and Mortar Crate	
 class SOR_OpFor_HMG_Crate_F : B_supplyCrate_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OpFor_Faction_CRATE;
-	displayName = "Crate [M2/Mortar]";
+	displayName = "Crate [HMG/Mortar]";
 	icon = "iconCrateAmmo";
 	class TransportItems{};
 	class TransportWeapons{};
@@ -312,7 +312,7 @@ class SOR_OpFor_HMG_Crate_F : B_supplyCrate_F
 // Mortar Crate	//// To be phased out?????
 class SOR_OpFor_MOR_Crate_F : B_supplyCrate_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -335,7 +335,7 @@ class SOR_OpFor_MOR_Crate_F : B_supplyCrate_F
 // All in one pod	
 class SOR_OpFor_Land_Pod_Heli_Transport_04_ammo_F : Land_Pod_Heli_Transport_04_ammo_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
 	vehicleClass = "SOR_SupplyContainers";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -361,7 +361,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_ammo_F : Land_Pod_Heli_Transport_04_a
 // Medical pod	
 class SOR_OpFor_Land_Pod_Heli_Transport_04_medevac_F : Land_Pod_Heli_Transport_04_medevac_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
 	vehicleClass = "SOR_SupplyContainers";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -384,7 +384,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_medevac_F : Land_Pod_Heli_Transport_0
 	};
 	class TransportBackpacks
 	{
-		pack_xx(SOR_OpFor_Medic_Pack_D,3)
+		pack_xx(SOR_OPFor_Medic_Pack_VDV,3)
 		pack_xx(SOR_OpFor_PJMedicPack_D,3)
 	};
 };
@@ -392,7 +392,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_medevac_F : Land_Pod_Heli_Transport_0
 // Troop transport bench pod	
 class SOR_OpFor_Land_Pod_Heli_Transport_04_bench_F : Land_Pod_Heli_Transport_04_bench_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
 	vehicleClass = "SOR_SupplyContainers";
 	faction = SOR_OpFor_Faction_CRATE;
@@ -406,7 +406,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_bench_F : Land_Pod_Heli_Transport_04_
 // Covered troop transport pod		
 class SOR_OpFor_Land_Pod_Heli_Transport_04_covered_F : Land_Pod_Heli_Transport_04_covered_F
 {
-	editorCategory = "EdCat_Supplies";
+	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
 	vehicleClass = "SOR_SupplyContainers";
 	faction = SOR_OpFor_Faction_CRATE;

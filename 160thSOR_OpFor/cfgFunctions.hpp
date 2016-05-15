@@ -16,6 +16,7 @@ class CfgFunctions
 			class autoparadrop;
 			class chute;
 			class parajump;
+			class ai;
 		};
 	};
 };

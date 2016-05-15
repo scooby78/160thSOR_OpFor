@@ -99,7 +99,8 @@ class CfgPatches
 		{
 			"160_rhs_weap_ak74m_pkas",
 			"160_rhs_weap_ak74m_gp25_dtk",
-			"160_rhs_weap_ak74m_camo"
+			"160_rhs_weap_ak74m_camo",
+			"160_rhs_weap_ak74m_1p63"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 

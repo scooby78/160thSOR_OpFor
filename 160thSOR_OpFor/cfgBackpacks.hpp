@@ -219,3 +219,27 @@ class SOR_OPFor_CombatPack_VDV : rhs_assault_umbts
 		item_xx(rhsusf_acc_ACOG,1)			
 	};		
 };
+
+///////////////////////
+// AI ONLY BACKPACKS //
+///////////////////////
+
+// Custom PKM Pack
+class SOR_OpFor_AR_Pack_VDV_AI : rhs_assault_umbts
+{
+	displayName = "Pack VDV PKM";
+	class TransportMagazines
+	{
+		mag_xx(rhs_100Rnd_762x54mmR_green,2);
+	};
+};
+
+//Custom Rilfeman Ammobearer Pack
+class SOR_OPFor_Rifleman_Ammo_Pack_VDV_AI : rhs_assault_umbts
+{
+	displayName = "Pack VDV Rifleman";
+	class TransportMagazines
+	{
+		mag_xx(rhs_100Rnd_762x54mmR_green,2);
+	};
+};

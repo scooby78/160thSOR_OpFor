@@ -4,13 +4,33 @@
 	Date: 25/03/16
 	Description: cfgWeapons.hpp
 */
-
+//type = 4; //rpg
+//type = 2; //pistol
+//type = 1; //rifle
 class cfgWeapons 
 {
 
 	class rhs_weap_ak74m_pkas;
 	class rhs_weap_ak74m_gp25_dtk;
 	class rhs_weap_ak74m_camo;
+	class rhs_weap_M590_8RD;
+	
+	class 160_rhs_weap_M590_8RD: rhs_weap_M590_8RD 
+	{
+		type = 4;
+	};	
+
+	class 160_rhs_weap_ak74m_1p63: rhs_weap_ak74m_pkas 
+	{
+		class LinkedItems 
+		{
+			class LinkedItemsOptic 
+			{
+				item = "rhs_acc_1p63";
+				slot = "CowsSlot";
+			};
+		};
+	};	
 	
 	class 160_rhs_weap_ak74m_pkas: rhs_weap_ak74m_pkas 
 	{
@@ -52,9 +72,7 @@ class cfgWeapons
 			};
 		};
 	};	
-	
-	
-	
+
 /*	
 	
 	class 160_rhs_weap_sr25: rhs_weap_sr25_ec 

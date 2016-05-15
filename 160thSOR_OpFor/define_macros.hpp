@@ -92,12 +92,12 @@
 						"rhs_mag_rdg2_black",\
 						"rhs_mag_rdg2_black"
 						
-#define Recon_Mags		"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
-						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
-						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
-						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
-						"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",\
-						"30Rnd_556x45_Stanag_Tracer_Red",\
+#define Recon_Mags		"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
+						"rhs_30Rnd_545x39_AK_green",\
 						"rhs_mag_mk3a2",\
 						"rhs_mag_mk3a2",\
 						"rhs_mag_rdg2_black",\
@@ -109,4 +109,24 @@
 					
 #define Std_Pistol		"rhs_mag_9x18_12_57N181S",\
 						"rhs_mag_9x18_12_57N181S",\
-						"rhs_mag_9x18_12_57N181S"\
+						"rhs_mag_9x18_12_57N181S"
+
+#define AI_Std_Pistol		"rhs_mag_9x18_12_57N181S",\
+							"rhs_mag_9x18_12_57N181S",\
+							"rhs_mag_9x18_12_57N181S",\
+							"rhs_mag_9x18_12_57N181S",\
+							"rhs_mag_9x18_12_57N181S",\
+							"rhs_mag_9x18_12_57N181S"
+
+#define AI_Standard_Mags 	"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_30Rnd_545x39_AK_green",\
+							"rhs_mag_mk3a2",\
+							"rhs_mag_mk3a2",\
+							"rhs_mag_rdg2_white",\
+							"rhs_mag_rdg2_white"						
