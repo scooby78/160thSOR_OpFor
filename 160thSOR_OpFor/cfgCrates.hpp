@@ -22,7 +22,6 @@ class Land_Pod_Heli_Transport_04_covered_F;
 class Land_Pod_Heli_Transport_04_box_F;
 class Land_Pod_Heli_Transport_04_medevac_F;
 class Box_NATO_WpsSpecial_F;
-class Gunrack1;
 class Box_NATO_Wps_F;
 
 	

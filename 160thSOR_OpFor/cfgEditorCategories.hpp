@@ -24,19 +24,19 @@ class CfgEditorCategories
 	{
 		displayName = "160th Opfor Objects (Scripted)";
 	};	
-		class SOR_INDfor_Cat_Faction
+	class SOR_INDfor_Cat_Faction
 	{
 		displayName = "160th INDfor";
 	};
-	class SOR_OPFor_Cat_Supplies
+	class SOR_INDfor_Cat_Supplies
 	{
 		displayName = "160th INDfor Supplies";
 	};
-	class SOR_OPFor_Cat_Objects
+	class SOR_INDfor_Cat_Objects
 	{
 		displayName = "160th INDfor Objects";
 	};	
-	class SOR_OPFor_Cat_Objects_Scripted
+	class SOR_INDfor_Cat_Objects_Scripted
 	{
 		displayName = "160th INDfor Objects (Scripted)";
 	};	
