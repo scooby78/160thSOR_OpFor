@@ -24,21 +24,21 @@ class CfgEditorCategories
 	{
 		displayName = "160th Opfor Objects (Scripted)";
 	};	
-	class SOR_INDfor_Cat_Faction
+	class SOR_militia_Cat_Faction
 	{
-		displayName = "160th INDfor";
+		displayName = "160th militia";
 	};
-	class SOR_INDfor_Cat_Supplies
+	class SOR_militia_Cat_Supplies
 	{
-		displayName = "160th INDfor Supplies";
+		displayName = "160th militia Supplies";
 	};
-	class SOR_INDfor_Cat_Objects
+	class SOR_militia_Cat_Objects
 	{
-		displayName = "160th INDfor Objects";
+		displayName = "160th militia Objects";
 	};	
-	class SOR_INDfor_Cat_Objects_Scripted
+	class SOR_militia_Cat_Objects_Scripted
 	{
-		displayName = "160th INDfor Objects (Scripted)";
+		displayName = "160th militia Objects (Scripted)";
 	};	
 };
 
@@ -98,55 +98,55 @@ class CfgEditorSubcategories
 		displayName = "Captured Aircraft";
 	};
 
-	class SOR_INDFor_SubCat_SupplyBoxes 
+	class SOR_militia_SubCat_SupplyBoxes 
 	{
 		displayName = "160th Opfor Boxes"; 
 	};
-	class SOR_INDFor_SubCat_SupplyBoxes_Static 
+	class SOR_militia_SubCat_SupplyBoxes_Static 
 	{
 		displayName = "160th Opfor Boxes (Static)"; 
 	};
-	class SOR_INDFor_SubCat_SupplyCrates
+	class SOR_militia_SubCat_SupplyCrates
 	{
 		displayName = "160th Opfor Crates (Sling Loadable)";
 	};
-	class SOR_INDFor_SubCat_SupplyContainers
+	class SOR_militia_SubCat_SupplyContainers
 	{
 		displayName = "160th Opfor Containers (Sling Loadable)";
 	};	
-	class SOR_INDFor_SubCat_Infantry
+	class SOR_militia_SubCat_Infantry
 	{
 		displayName = "Men (Infantry)";
 	};	
-	class SOR_INDFor_SubCat_Infantry_AIR
+	class SOR_militia_SubCat_Infantry_AIR
 	{
 		displayName = "Men (Airborne)";
 	};	
-	class SOR_INDFor_SubCat_Infantry_MECH
+	class SOR_militia_SubCat_Infantry_MECH
 	{
 		displayName = "Men (Mechanised)";
 	};		
-	class SOR_INDFor_SubCat_Infantry_Support
+	class SOR_militia_SubCat_Infantry_Support
 	{
 		displayName = "Men (Support)";
 	};	
-	class SOR_INDFor_SubCat_Infantry_Recon
+	class SOR_militia_SubCat_Infantry_Recon
 	{
 		displayName = "Men (Recon)";
 	};	
-	class SOR_INDFor_SubCat_Objects
+	class SOR_militia_SubCat_Objects
 	{
 		displayName = "160th Opfor Objects";
 	};	
-	class SOR_INDFor_SubCat_Vehicles
+	class SOR_militia_SubCat_Vehicles
 	{
 		displayName = "Armour";
 	};		
-	class SOR_INDFor_SubCat_Aircraft
+	class SOR_militia_SubCat_Aircraft
 	{
 		displayName = "Aircraft";
 	};
-	class SOR_INDFor_SubCat_Aircraft_Captured
+	class SOR_militia_SubCat_Aircraft_Captured
 	{
 		displayName = "Captured Aircraft";
 	};			

@@ -28,9 +28,9 @@ class cfgFactionClasses
 		priority = 3;
 		side = 1;
 	};
-	class SOR_PMC_Faction 
+	class SOR_Militia_Faction 
 	{
-		displayName = "160th PMC";
+		displayName = "160th Militia";
 		icon = "160thSOR_OpFor\data\160th.paa";
 		priority = 4;
 		side = 0;

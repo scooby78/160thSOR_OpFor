@@ -9,7 +9,7 @@ class cfgVehicles
 {	 
 #include "cfgBackpacks.hpp"
 #include "cfgOpForVdv.hpp"
-#include "cfgINDFor.hpp"
+#include "cfgmilitia.hpp"
 #include "cfgCrates.hpp"
 #include "cfgAircraft.hpp"
 #include "cfgArmour.hpp"

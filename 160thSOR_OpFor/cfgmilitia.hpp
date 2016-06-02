@@ -2,7 +2,7 @@
 	Name: 160th SOR Mod
 	Author: Scooby
 	Date: 25/03/16
-	Description: cfgINDForVdv.hpp
+	Description: cfgmilitia.hpp
 */
 
 //////////////////////		
@@ -14,16 +14,16 @@ class I_Soldier_base_F;
 ////////////////////////////		    
 //SOR Enemy Faction Units//
 ////////////////////////////
-class SOR_INDfor_Base : I_Soldier_base_F	
+class SOR_militia_Base : I_Soldier_base_F	
 {
 	scope = 0;
 	scopeCurator = 0;
-	editorCategory = "SOR_INDfor_Cat_Faction";
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry";
-	vehicleclass = "SOR_INDfor_Infantry";
-	faction = SOR_INDfor_Faction;
-	uniformClass = "rhs_uniform_vdv_emr";		
-	displayName = "SOR_INDfor_Base";
+	editorCategory = "SOR_militia_Cat_Faction";
+	editorSubcategory = "SOR_militia_SubCat_Infantry";
+	vehicleclass = "SOR_militia_Infantry";
+	faction = SOR_militia_Faction;
+	uniformClass = "U_BG_Guerilla1_1";		
+	displayName = "SOR_militia_Base";
 	weapons[] = {"160_rhs_weap_ak74m_pkas","Throw","Put"};
 	respawnWeapons[] = {"160_rhs_weap_ak74m_pkas","Throw","Put"};
 	Items[] = {Standard_Meds};
@@ -32,20 +32,20 @@ class SOR_INDfor_Base : I_Soldier_base_F
 	respawnMagazines[] = {Standard_Mags};
 	linkedItems[] = 
 	{
-		"rhs_6b28_green",
+		"V_Chestrig_rgr",
 		"rhs_6b23_digi_6sh92",
 		Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{
-		"rhs_6b28_green",
+		"V_Chestrig_rgr",
 		"rhs_6b23_digi_6sh92",
 		Standard_Equipment
 	};
 };
 
 //Commander		
-class SOR_INDfor_Commander : SOR_INDfor_Base
+class SOR_militia_Commander : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -76,10 +76,10 @@ class SOR_INDfor_Commander : SOR_INDfor_Base
 };
 
 //Mechanised Commander 
-class SOR_INDfor_MechCommand : SOR_INDfor_Commander
+class SOR_militia_MechCommand : SOR_militia_Commander
 {
-	editorSubcategory = "SOR_INDFor_SubCat_Infantry_MECH";
-	vehicleclass = "SOR_INDFor_Infantry_MECH";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_MECH";
+	vehicleclass = "SOR_militia_Infantry_MECH";
 	displayName = "Mechanised Commander";
 	linkedItems[] = 
 	{	
@@ -100,10 +100,10 @@ class SOR_INDfor_MechCommand : SOR_INDfor_Commander
 };	
 
 //Air Commander 
-class SOR_INDfor_AirCommand : SOR_INDfor_Commander
+class SOR_militia_AirCommand : SOR_militia_Commander
 {
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_AIR";
-	vehicleclass = "SOR_INDfor_Infantry_AIR";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_AIR";
+	vehicleclass = "SOR_militia_Infantry_AIR";
 	displayName = "Airborne Commander";
 	backpack = "tf_mr6000l";		
 	uavHacker = 1; // allows UAV control
@@ -131,7 +131,7 @@ class SOR_INDfor_AirCommand : SOR_INDfor_Commander
 };	
 
 //Squad Actual	
-class SOR_INDfor_Actual : SOR_INDfor_Commander
+class SOR_militia_Actual : SOR_militia_Commander
 {
 	displayName = "Squad Actual";
 	backpack = "tf_mr3000_rhs";
@@ -153,7 +153,7 @@ class SOR_INDfor_Actual : SOR_INDfor_Commander
 
 
 //Platoon RTO
-class SOR_INDfor_RTO : SOR_INDfor_Actual
+class SOR_militia_RTO : SOR_militia_Actual
 {
 	displayName = "RTO";
 	backpack = "SOR_OPFor_RTO_Pack_VDV";
@@ -179,7 +179,7 @@ class SOR_INDfor_RTO : SOR_INDfor_Actual
 
 
 //Teamleader	
-class SOR_INDfor_Teamleader : SOR_INDfor_Base
+class SOR_militia_Teamleader : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -209,7 +209,7 @@ class SOR_INDfor_Teamleader : SOR_INDfor_Base
 };
 
 //Combat Medics
-class SOR_INDfor_Medic : SOR_INDfor_Base
+class SOR_militia_Medic : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -234,7 +234,7 @@ class SOR_INDfor_Medic : SOR_INDfor_Base
 	};
 };
 
-class SOR_INDfor_PKM : SOR_INDfor_Base
+class SOR_militia_PKM : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -273,7 +273,7 @@ class SOR_INDfor_PKM : SOR_INDfor_Base
 	};
 };
 
-class SOR_INDfor_PKP : SOR_INDfor_Base
+class SOR_militia_PKP : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -312,7 +312,7 @@ class SOR_INDfor_PKP : SOR_INDfor_Base
 	};
 };
 
-class SOR_INDfor_Grenadier : SOR_INDfor_Base
+class SOR_militia_Grenadier : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -330,7 +330,7 @@ class SOR_INDfor_Grenadier : SOR_INDfor_Base
 	};
 };
 
-class SOR_INDfor_Rifleman : SOR_INDfor_Base
+class SOR_militia_Rifleman : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -338,7 +338,7 @@ class SOR_INDfor_Rifleman : SOR_INDfor_Base
 	backpack = "SOR_OPFor_Rifleman_Pack_VDV";
 };					
 
-class SOR_INDfor_Rilfeman_Ammo : SOR_INDfor_Base
+class SOR_militia_Rilfeman_Ammo : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -347,13 +347,13 @@ class SOR_INDfor_Rilfeman_Ammo : SOR_INDfor_Base
 };
 	
 //Heli Pilot & CO-Pilot
-class SOR_INDfor_HeliPilot : SOR_INDfor_Base
+class SOR_militia_HeliPilot : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_AIR";
-	vehicleclass = "SOR_INDfor_Infantry_AIR";
-	uniformClass = "rhs_uniform_df15";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_AIR";
+	vehicleclass = "SOR_militia_Infantry_AIR";
+	uniformClass = "rU_I_HeliPilotCoveralls";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair 
 	displayName = "Heli Pilot";
@@ -393,7 +393,7 @@ class SOR_INDfor_HeliPilot : SOR_INDfor_Base
 };
 
 //Heli Crew Engineers
-class SOR_INDfor_HeliCrew : SOR_INDfor_HeliPilot
+class SOR_militia_HeliCrew : SOR_militia_HeliPilot
 {
 	displayName = "Heli Crew";
 	backpack = "";
@@ -434,7 +434,7 @@ class SOR_INDfor_HeliCrew : SOR_INDfor_HeliPilot
 };
 
 //Jet Pilots
-class SOR_INDfor_JetPilot : SOR_INDfor_HeliPilot
+class SOR_militia_JetPilot : SOR_militia_HeliPilot
 {
 	displayName = "Jet Pilot";		
 	backpack = "B_Parachute";
@@ -455,15 +455,15 @@ class SOR_INDfor_JetPilot : SOR_INDfor_HeliPilot
 };
 
 // MEV Pilot & CO-Pilot
-class SOR_INDfor_MEVPilot : SOR_INDfor_HeliPilot
+class SOR_militia_MEVPilot : SOR_militia_HeliPilot
 {
 	displayName = "MEV Pilot";
 };
 
-class SOR_INDfor_ParaJumper : SOR_INDfor_Medic
+class SOR_militia_ParaJumper : SOR_militia_Medic
 {
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_AIR";
-	vehicleclass = "SOR_INDfor_Infantry_AIR";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_AIR";
+	vehicleclass = "SOR_militia_Infantry_AIR";
 	displayName = "Para Jumper";
 	backpack = "SOR_OPFor_PJMedicPack_VDV";
 	uavHacker = 1; // allows UAV control
@@ -507,7 +507,7 @@ class SOR_INDfor_ParaJumper : SOR_INDfor_Medic
 };
 
 //Recon Units
-class SOR_INDfor_ReconLeader : SOR_INDfor_Base	
+class SOR_militia_ReconLeader : SOR_militia_Base	
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -553,7 +553,7 @@ class SOR_INDfor_ReconLeader : SOR_INDfor_Base
 	};		
 };
 
-class SOR_INDfor_ReconJTAC : SOR_INDfor_ReconLeader	
+class SOR_militia_ReconJTAC : SOR_militia_ReconLeader	
 {
 	icon =  "iconMan";
 	backpack = "tf_mr3000_rhs";
@@ -562,7 +562,7 @@ class SOR_INDfor_ReconJTAC : SOR_INDfor_ReconLeader
 	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","Throw","Put","rhs_pdu4"};		
 };
 
-class SOR_INDfor_ReconRifleman : SOR_INDfor_ReconLeader	
+class SOR_militia_ReconRifleman : SOR_militia_ReconLeader	
 {
 	icon =  "iconMan";
 	displayName = "Recon Rifleman";
@@ -573,12 +573,12 @@ class SOR_INDfor_ReconRifleman : SOR_INDfor_ReconLeader
 };
 
 //Mechanised Crew/Driver/Gunner Engineers
-class SOR_INDfor_MechCrew : SOR_INDfor_Base
+class SOR_militia_MechCrew : SOR_militia_Base
 {
 	scope = 2;
 	scopeCurator = 2;
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_MECH";
-	vehicleclass = "SOR_INDfor_Infantry_MECH";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_MECH";
+	vehicleclass = "SOR_militia_Infantry_MECH";
 	displayName = "Mechanised Gunner";
 	backpack = "";
 	weapons[] = {"rhs_weap_makarov_pmm","Throw", "Put"};
@@ -605,7 +605,7 @@ class SOR_INDfor_MechCrew : SOR_INDfor_Base
 	};
 };
 
-class SOR_INDfor_MechOperator : SOR_INDfor_MechCrew
+class SOR_militia_MechOperator : SOR_militia_MechCrew
 {
 	displayName = "Mechanised Operator";
 	backpack = "SOR_OPFor_Mech_Radio";
@@ -651,21 +651,21 @@ class SOR_INDfor_MechOperator : SOR_INDfor_MechCrew
 	};
 };
 
-class SOR_INDfor_MechCrewCommander : SOR_INDfor_MechOperator
+class SOR_militia_MechCrewCommander : SOR_militia_MechOperator
 {
 	displayName = "Mechanised Crew Commander";
 	backpack = "SOR_OPFor_Mech_Radio";
 	cost = 100000;
 };	
 
-class SOR_INDfor_MechDriver : SOR_INDfor_MechCrew
+class SOR_militia_MechDriver : SOR_militia_MechCrew
 {
 	displayName = "Mechanised Driver";
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
 };	
 
 //HMG Team
-class SOR_INDfor_HMGActual : SOR_INDfor_Actual
+class SOR_militia_HMGActual : SOR_militia_Actual
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Actual";
@@ -673,21 +673,21 @@ class SOR_INDfor_HMGActual : SOR_INDfor_Actual
 	backpack = "tf_mr3000_rhs";
 };
 
-class SOR_INDfor_HMGGunner : SOR_INDfor_Rifleman
+class SOR_militia_HMGGunner : SOR_militia_Rifleman
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Gunner";
 	backpack = "RHS_DShkM_Gun_Bag";
 };	
 
-class SOR_INDfor_HMGCarrier : SOR_INDfor_Rifleman
+class SOR_militia_HMGCarrier : SOR_militia_Rifleman
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Carrier";
 	backpack = "RHS_DShkM_TripodLow_Bag";
 };
 
-class SOR_INDfor_HMGRFL : SOR_INDfor_Grenadier
+class SOR_militia_HMGRFL : SOR_militia_Grenadier
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Rifleman M320";
@@ -695,28 +695,28 @@ class SOR_INDfor_HMGRFL : SOR_INDfor_Grenadier
 };	
 
 //Mortar Team
-class SOR_INDfor_MORActual : SOR_INDfor_Actual
+class SOR_militia_MORActual : SOR_militia_Actual
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Actual";
 	backpack = "tf_mr3000_rhs";
 };
 
-class SOR_INDfor_MORGunner : SOR_INDfor_Rifleman
+class SOR_militia_MORGunner : SOR_militia_Rifleman
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Gunner";
 	backpack = "RHS_Podnos_Gun_Bag";
 };	
 
-class SOR_INDfor_MORCarrier_VDV : SOR_INDfor_Rifleman
+class SOR_militia_MORCarrier_VDV : SOR_militia_Rifleman
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Carrier";
 	backpack = "RHS_Podnos_Bipod_Bag";
 };
 
-class SOR_INDfor_MORRFL_VDV : SOR_INDfor_Grenadier
+class SOR_militia_MORRFL_VDV : SOR_militia_Grenadier
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Rifleman M320";
@@ -725,9 +725,9 @@ class SOR_INDfor_MORRFL_VDV : SOR_INDfor_Grenadier
 
 
 //Repair Team
-class SOR_INDfor_Engineer : SOR_INDfor_Base
+class SOR_militia_Engineer : SOR_militia_Base
 {
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_Support";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_Support";
 	vehicleclass = "SOR_INDFfor_Infantry_Support";
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
 	weapons[] = {"Throw", "Put"};
@@ -737,10 +737,10 @@ class SOR_INDfor_Engineer : SOR_INDfor_Base
 	magazines[] = {};
 	respawnMagazines[] = {};	
 };	
-class SOR_INDfor_Eng_JNR : SOR_INDfor_Base
+class SOR_militia_Eng_JNR : SOR_militia_Base
 {
-	editorSubcategory = "SOR_INDfor_SubCat_Infantry_Support";
-	vehicleclass = "SOR_INDfor_Infantry_Support";
+	editorSubcategory = "SOR_militia_SubCat_Infantry_Support";
+	vehicleclass = "SOR_militia_Infantry_Support";
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
 	weapons[] = {"Throw", "Put"};
 	respawnWeapons[] = {"Throw", "Put"};
