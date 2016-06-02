@@ -28,7 +28,6 @@ class cfgFactionClasses
 		priority = 3;
 		side = 1;
 	};
-
 	class SOR_PMC_Faction 
 	{
 		displayName = "160th PMC";
