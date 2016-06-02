@@ -28,4 +28,12 @@ class cfgFactionClasses
 		priority = 3;
 		side = 1;
 	};
+
+	class SOR_PMC_Faction 
+	{
+		displayName = "160th PMC";
+		icon = "160thSOR_OpFor\data\160th.paa";
+		priority = 1;
+		side = 0;
+	};
 };
