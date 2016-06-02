@@ -45,7 +45,7 @@ class SOR_INDfor_Base : I_Soldier_base_F
 };
 
 //Commander		
-class SOR_INDfor_Commander : SOR_INDfor_Base_VDV
+class SOR_INDfor_Commander : SOR_INDfor_Base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -658,7 +658,7 @@ class SOR_INDfor_MechCrewCommander : SOR_INDfor_MechOperator
 	cost = 100000;
 };	
 
-class SOR_INDfor_MechDriver : SOR_OPFor_MechCrew
+class SOR_INDfor_MechDriver : SOR_INDfor_MechCrew
 {
 	displayName = "Mechanised Driver";
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
