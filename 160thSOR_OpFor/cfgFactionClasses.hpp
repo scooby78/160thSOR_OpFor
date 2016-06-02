@@ -32,7 +32,7 @@ class cfgFactionClasses
 	{
 		displayName = "160th PMC";
 		icon = "160thSOR_OpFor\data\160th.paa";
-		priority = 1;
+		priority = 4;
 		side = 0;
 	};
 };
