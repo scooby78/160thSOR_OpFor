@@ -1,6 +1,6 @@
 /*
 	Name: 160th SOR Mod
-	Author: Scooby
+	Author: Yettie
 	Date: 25/03/16
 	Description: cfgmilitia.hpp
 */
@@ -24,6 +24,7 @@ class SOR_militia_Base : I_Soldier_base_F
 	faction = SOR_militia_Faction;
 	uniformClass = "U_BG_Guerilla1_1";		
 	displayName = "SOR_militia_Base";
+	aiBrainType = "SORSoldierBrain";
 	weapons[] = {"160_rhs_weap_ak74m_pkas","Throw","Put"};
 	respawnWeapons[] = {"160_rhs_weap_ak74m_pkas","Throw","Put"};
 	Items[] = {Standard_Meds};

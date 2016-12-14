@@ -13,6 +13,12 @@ class RHS_Mi8AMT_vdv;
 class RHS_Su25SM_KH29_vvsc;
 class RHS_T50_vvs_generic;
 class rhs_ka60_grey;
+class O_Heli_Transport_04_F;
+class O_Heli_Transport_04_medevac_F;
+class O_Heli_Transport_04_bench_F;
+class O_Heli_Transport_04_covered_F;
+class I_Plane_Fighter_03_AA_F;
+class I_Plane_Fighter_03_CAS_F;
 
 // Transport Helos	
 class SOR_OpFor_rhs_Mi24P_AT_vdv : RHS_Mi24P_AT_vdv
@@ -303,6 +309,31 @@ class SOR_OpFor_rhs_Mi8AMT_vdv : RHS_Mi8AMT_vdv
 	class TransportMagazines {mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6)};
 	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
 };
+
+//Transport (This is the only one that can attach and drop pods)
+class SOR_Opfor_Heli_Transport_04_F : O_Heli_Transport_04_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_VDV;
+	vehicleclass = "SOR_Aircraft";
+	displayName = "MI-290 Taru (C3/POD)";
+	class eventHandlers
+	{
+		init="_this call SLX_XEH_EH_Init;";
+	};
+	class TransportItems 
+	{
+		item_xx(ACE_FieldDressing,10)
+		item_xx(V_RebreatherIR,3)	
+	};
+	class TransportWeapons {};
+	class TransportMagazines {};
+	class TransportBackpacks 
+	{
+		pack_xx(SOR_OPFor_Repair_Pack_VDV,1)
+	};
+};
 	
 class SOR_OpFor_rhs_ka60_grey : rhs_ka60_grey
 {
@@ -339,6 +370,7 @@ class SOR_OpFor_rhs_Su25SM_KH29_vvsc : RHS_Su25SM_KH29_vvsc
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_JetPilot_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,10)};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -351,8 +383,39 @@ class SOR_OpFor_rhs_T50_vvs_generic : RHS_T50_vvs_generic
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_JetPilot_VDV_AI";	
 	class TransportItems {item_xx(ACE_FieldDressing,10)};
 	class TransportWeapons{};
 	class TransportMagazines{};
 	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
 };
+
+class SOR_Opfor_Fighter_AA : I_Plane_Fighter_03_AA_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_VDV;
+	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_JetPilot_VDV_AI";
+	side=0;
+	displayName = "L159 ALCA [AA] OpFor";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks{};
+};
+
+class SOR_Opfor_Fighter_CAS : I_Plane_Fighter_03_CAS_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_VDV;
+	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_JetPilot_VDV_AI";
+	side=0;
+	displayName = "L159 ALCA [CAS] OpFor";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks{};
+};	

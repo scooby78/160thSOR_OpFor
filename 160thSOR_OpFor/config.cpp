@@ -13,5 +13,6 @@
 #include "cfgGroups.hpp"
 #include "cfgWeapons.hpp"
 #include "cfgEditorCategories.hpp"
+#include "cfgBrains.hpp"
 
 

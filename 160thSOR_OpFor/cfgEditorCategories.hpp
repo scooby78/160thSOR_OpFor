@@ -10,19 +10,23 @@ class CfgEditorCategories
 {
 	class SOR_OPFor_Cat_Faction_VDV
 	{
-		displayName = "160th Opfor Russian (VDV)";
+		displayName = "160th Russian (VDV)";
 	};
+	class SOR_OPFor_Cat_Faction_VDV_AI
+	{
+		displayName = "160th AI Russian (VDV)";
+	};	
 	class SOR_OPFor_Cat_Supplies
 	{
-		displayName = "160th Opfor Supplies";
+		displayName = "160th Supplies Opfor";
 	};
 	class SOR_OPFor_Cat_Objects
 	{
-		displayName = "160th Opfor Objects";
+		displayName = "160th Objects Opfor";
 	};	
 	class SOR_OPFor_Cat_Objects_Scripted
 	{
-		displayName = "160th Opfor Objects (Scripted)";
+		displayName = "160th Objects Opfor (Scripted)";
 	};	
 	class SOR_militia_Cat_Faction
 	{
@@ -47,19 +51,19 @@ class CfgEditorSubcategories
 {
 	class SOR_OPFor_SubCat_SupplyBoxes 
 	{
-		displayName = "160th Opfor Boxes"; 
+		displayName = "Boxes"; 
 	};
 	class SOR_OPFor_SubCat_SupplyBoxes_Static 
 	{
-		displayName = "160th Opfor Boxes (Static)"; 
+		displayName = "Boxes (Static)"; 
 	};
 	class SOR_OPFor_SubCat_SupplyCrates
 	{
-		displayName = "160th Opfor Crates (Sling Loadable)";
+		displayName = "Crates";
 	};
 	class SOR_OPFor_SubCat_SupplyContainers
 	{
-		displayName = "160th Opfor Containers (Sling Loadable)";
+		displayName = "Containers";
 	};	
 	class SOR_OPFor_SubCat_Infantry
 	{
@@ -100,19 +104,19 @@ class CfgEditorSubcategories
 
 	class SOR_militia_SubCat_SupplyBoxes 
 	{
-		displayName = "160th Opfor Boxes"; 
+		displayName = "Boxes"; 
 	};
 	class SOR_militia_SubCat_SupplyBoxes_Static 
 	{
-		displayName = "160th Opfor Boxes (Static)"; 
+		displayName = "Boxes (Static)"; 
 	};
 	class SOR_militia_SubCat_SupplyCrates
 	{
-		displayName = "160th Opfor Crates (Sling Loadable)";
+		displayName = "Crates";
 	};
 	class SOR_militia_SubCat_SupplyContainers
 	{
-		displayName = "160th Opfor Containers (Sling Loadable)";
+		displayName = "Containers";
 	};	
 	class SOR_militia_SubCat_Infantry
 	{
@@ -136,7 +140,7 @@ class CfgEditorSubcategories
 	};	
 	class SOR_militia_SubCat_Objects
 	{
-		displayName = "160th Opfor Objects";
+		displayName = "Objects";
 	};	
 	class SOR_militia_SubCat_Vehicles
 	{

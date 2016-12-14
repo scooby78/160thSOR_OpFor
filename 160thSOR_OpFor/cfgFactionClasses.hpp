@@ -14,6 +14,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+	class 	SOR_OPFor_Faction_VDV_AI 
+	{
+		displayName = "160th AI Russian (VDV)";
+		icon = "160thSOR_OpFor\data\160th.paa";
+		priority = 1;
+		side = 1;
+	};	
 	class SOR_OPFor_Faction_OBJ
 	{
 		displayName = "160th SOR Objects";
