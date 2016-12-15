@@ -22,9 +22,8 @@ class Land_Pod_Heli_Transport_04_covered_F;
 class Land_Pod_Heli_Transport_04_box_F;
 class Land_Pod_Heli_Transport_04_medevac_F;
 class Box_NATO_WpsSpecial_F;
-class Gunrack1;
 class Box_NATO_Wps_F;
-
+class B_CargoNet_01_ammo_F;
 	
 /////////////////
 //Static stores//
@@ -34,7 +33,7 @@ class Box_NATO_Wps_F;
 class SOR_OpFor_PJ_Box_F : Land_MetalCase_01_large_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
-	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
+	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
 	displayName = "Box PJ Medical (Static)";
@@ -54,7 +53,7 @@ class SOR_OpFor_PJ_Box_F : Land_MetalCase_01_large_F
 class SOR_OpFor_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
-	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
+	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
 	displayName = "Box PJ Pack Storage (Static)";
@@ -68,7 +67,7 @@ class SOR_OpFor_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
 class SOR_OpFor_Air_LP : Land_PlasticCase_01_medium_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
-	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
+	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
 	displayName = "Box Airborne Life Preservers (Static)";
@@ -79,7 +78,7 @@ class SOR_OpFor_Air_LP : Land_PlasticCase_01_medium_F
 class SOR_OpFor_divegear : Land_PlasticCase_01_large_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
-	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes_Static";
+	editorSubcategory = "SOR_OPFor_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_OpFor_SupplyBoxes";
 	faction = SOR_OPFor_Faction_CRATE;
 	displayName = "Box [Dive Gear]";
@@ -231,7 +230,7 @@ class SOR_OpFor_HW_Box_F : Box_NATO_WpsSpecial_F
 ///////////////////////////
 
 // Ammo Crate		
-class SOR_OpFor_A_Crate_F : B_supplyCrate_F
+class SOR_OpFor_A_Crate_F : B_CargoNet_01_ammo_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
@@ -257,7 +256,7 @@ class SOR_OpFor_A_Crate_F : B_supplyCrate_F
 };
 
 // All in one Crate		
-class SOR_OpFor_AM_Crate_F : B_supplyCrate_F
+class SOR_OpFor_AM_Crate_F : B_CargoNet_01_ammo_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyCrates";
@@ -333,7 +332,7 @@ class SOR_OpFor_MOR_Crate_F : B_supplyCrate_F
 //////////////////////////////	
 
 // All in one pod	
-class SOR_OpFor_Land_Pod_Heli_Transport_04_ammo_F : Land_Pod_Heli_Transport_04_ammo_F
+class SOR_OpFor_Taru_Pod_ammo : Land_Pod_Heli_Transport_04_ammo_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
@@ -359,7 +358,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_ammo_F : Land_Pod_Heli_Transport_04_a
 };
 	
 // Medical pod	
-class SOR_OpFor_Land_Pod_Heli_Transport_04_medevac_F : Land_Pod_Heli_Transport_04_medevac_F
+class SOR_OpFor_Taru_Pod_medevac : Land_Pod_Heli_Transport_04_medevac_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
@@ -390,7 +389,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_medevac_F : Land_Pod_Heli_Transport_0
 };
 
 // Troop transport bench pod	
-class SOR_OpFor_Land_Pod_Heli_Transport_04_bench_F : Land_Pod_Heli_Transport_04_bench_F
+class SOR_OpFor_Taru_Pod_bench : Land_Pod_Heli_Transport_04_bench_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
@@ -404,7 +403,7 @@ class SOR_OpFor_Land_Pod_Heli_Transport_04_bench_F : Land_Pod_Heli_Transport_04_
 };
 
 // Covered troop transport pod		
-class SOR_OpFor_Land_Pod_Heli_Transport_04_covered_F : Land_Pod_Heli_Transport_04_covered_F
+class SOR_OpFor_Taru_Pod_covered : Land_Pod_Heli_Transport_04_covered_F
 {
 	editorCategory = "SOR_OPFor_Cat_Supplies";
 	editorSubcategory = "SOR_OPFor_SubCat_SupplyContainers";
