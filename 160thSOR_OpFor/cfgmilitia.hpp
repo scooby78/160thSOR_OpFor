@@ -1,5 +1,5 @@
 /*
-	Name: 160th SOR Mod
+	Name: 160th OPFOR Mod
 	Author: Yettie
 	Date: 25/03/16
 	Description: cfgmilitia.hpp

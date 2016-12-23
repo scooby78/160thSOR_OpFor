@@ -37,6 +37,7 @@ class SOR_OpFor_rhs_typhoon_vdv : rhs_typhoon_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -57,6 +58,7 @@ class SOR_OpFor_RHS_BM21_VDV_01 : RHS_BM21_VDV_01
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -83,6 +85,7 @@ class SOR_OpFor_rhs_btr60_vdv : rhs_btr60_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -105,6 +108,7 @@ class SOR_OpFor_rhs_btr70_vdv: rhs_btr70_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -127,6 +131,7 @@ class SOR_OpFor_rhs_btr80_vdv: rhs_btr80_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -149,6 +154,7 @@ class SOR_OpFor_rhs_btr80a_vdv: rhs_btr80a_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -171,6 +177,7 @@ class SOR_OpFor_rhs_bmp2e_vdv : rhs_bmp2e_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -193,6 +200,7 @@ class SOR_OpFor_rhs_bmd4ma_vdv : rhs_bmd4ma_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -215,6 +223,7 @@ class SOR_OpFor_rhs_prp3_vdv : rhs_prp3_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -237,6 +246,7 @@ class SOR_OpFor_rhs_sprut_vdv : rhs_sprut_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -259,6 +269,7 @@ class SOR_OpFor_rhs_t90a_tv : rhs_t90a_tv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -281,6 +292,7 @@ class SOR_OpFor_rhs_t80um : rhs_t80um
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -303,6 +315,7 @@ class SOR_OpFor_rhs_2s3_tv : rhs_2s3_tv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -330,6 +343,7 @@ class SOR_OpFor_rhs_gaz66_ammo_vdv : rhs_gaz66_ammo_vdv
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ-66 (Engineer / Ammo)";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -356,6 +370,7 @@ class SOR_OpFor_rhs_Ural_Fuel_VDV_01: RHS_Ural_Fuel_VDV_01
 	vehicleclass = "SOR_Vehicles";
 	displayName = "Ural-4320 (Engineer / Fuel)";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI";
 	class TransportItems {item_xx(ACE_FieldDressing,20)};
 	class TransportWeapons
 	{
@@ -380,6 +395,7 @@ class SOR_OpFor_rhs_gaz66_ap2_vdv : rhs_gaz66_ap2_vdv
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ-66-AP-2 (Medical)";
 //		armor = 500;
+	crew = "SOR_OPFor_MechDriver_VDV_AI"; 
 	class TransportItems 
 	{
 		item_xx(ACE_Fielddressing,24)
@@ -403,6 +419,7 @@ class SOR_OpFor_B_SDV_01_F : B_SDV_01_F
 //	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";
 	class TransportItems
 	{
 		item_xx(G_Diving,3)
@@ -422,6 +439,7 @@ class SOR_OpFor_rhs_Ural_VDV_01 : RHS_Ural_VDV_01
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 	displayName = "Ural (Troop)";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -435,7 +453,8 @@ class SOR_OpFor_rhs_Ural_VDV_01_eng : RHS_Ural_VDV_01
 //	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
-	displayName = "Ural (Engineer)";		
+	displayName = "Ural (Engineer)";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";	
 	class TransportItems
 	{
 		item_xx(ToolKit,1)			
@@ -465,6 +484,7 @@ class SOR_OpFor_rhs_tigr_vdv : rhs_tigr_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ (Unarmed)";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -479,6 +499,7 @@ class SOR_OpFor_rhs_tigr_m_vdv : rhs_tigr_m_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -493,6 +514,7 @@ class SOR_OpFor_rhs_tigr_sts_vdv : rhs_tigr_sts_vdv
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ (HMG/GL)";
+	crew = "SOR_OPFor_Rifleman_VDV_AI";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};

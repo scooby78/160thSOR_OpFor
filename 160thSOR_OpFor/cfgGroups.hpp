@@ -647,6 +647,7 @@ class CfgGroups
 				};
 			};
 		};
+// AI Groups
 		class SOR_Opfor_Groups_VDV_AI
 		{
 			name = "160th AI Russian  (VDV)";
@@ -663,7 +664,7 @@ class CfgGroups
 					class Unit0 
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
+						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
 						rank = SERGEANT;
 						position[] = {0, -0, 0};
 					};
@@ -678,7 +679,7 @@ class CfgGroups
 					class Unit2 
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
+						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
 						rank = CORPORAL;
 						position[] = {0, -6, 0};
 					};
@@ -692,21 +693,21 @@ class CfgGroups
 					class Unit4 
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
+						vehicle = "SOR_OPFor_Rifleman_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -10, 0};
 					};
 					class Unit5 
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
+						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -12, 0 };
 					};
 					class Unit6 
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
+						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
 						rank = CORPORAL;
 						position[] = {0, -16, 0};
 					};
@@ -720,21 +721,21 @@ class CfgGroups
 					class Unit8
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
+						vehicle = "SOR_OPFor_Rifleman_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -20, 0};
 					};
 					class Unit9
 					{
 						side = OPFOR;
-						vehicle = "SOR_OPFor_Rifleman_VDV_AI";
+						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -22, 0};
 					};
 				};
 				class SOR_Opfor_FireTeam1_VDV_AI
 				{
-					name = "Fire Team (1)";
+					name = "Fire Team";
 					faction = "SOR_Opfor_Faction_VDV_AI";
 					side = OPFOR;
 					rarityGroup = 0.75;
@@ -742,7 +743,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
+						vehicle = "SOR_Opfor_Grenadier_VDV_AI"; 
 						rank = SERGEANT;
 						position[] = {0, 0, 0};
 					};
@@ -756,49 +757,14 @@ class CfgGroups
 					class Unit2
 					{
 						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
+						vehicle = "SOR_OPFor_Rifleman_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -4, 0};
 					};
 					class Unit3
-					{
-						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
-						rank = PRIVATE;
-						position[] = {0, -6, 0};
-					};
-				};					
-				class SOR_Opfor_FireTeam2_VDV_AI
-				{
-					name = "Fire Team (2)";
-					faction = "SOR_Opfor_Faction_VDV_AI";
-					side = OPFOR;
-					rarityGroup = 0.75;
-					class Unit0
 					{
 						side = OPFOR;
 						vehicle = "SOR_Opfor_Teamleader_VDV_AI";
-						rank = SERGEANT;
-						position[] = {0, 0, 0};
-					};
-					class Unit1
-					{
-						side = OPFOR;
-						vehicle = "SOR_OPFor_PKP_VDV_AI";
-						rank = CORPORAL;
-						position[] = {0, -2, 0};
-					};
-					class Unit2
-					{
-						side = OPFOR;
-						vehicle = "SOR_Opfor_Grenadier_VDV_AI";
-						rank = PRIVATE;
-						position[] = {0, -4, 0};
-					};
-					class Unit3
-					{
-						side = OPFOR;
-						vehicle = "SOR_OPFor_Rifleman_VDV_AI";
 						rank = PRIVATE;
 						position[] = {0, -6, 0};
 					};

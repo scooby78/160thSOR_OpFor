@@ -57,10 +57,10 @@ class SOR_OPFor_Teamleader_VDV_AI : SOR_OPFor_Base_VDV_AI
 	displayName = "Team Leader";
 	accuracy = 3.5;		
 	backpack = "";
-	weapons[] = {"arifle_AKS_F","rhs_weap_rpg26","Throw","Put","rhs_pdu4"};
-	respawnWeapons[] = {"arifle_AKS_F","rhs_weap_rpg26","Throw","Put","rhs_pdu4"};
-	magazines[] = {SL_Mags};
-	respawnMagazines[] = {SL_Mags};
+	weapons[] = {"arifle_AKS_F","launch_RPG7_F","Throw","Put","rhs_pdu4"};
+	respawnWeapons[] = {"arifle_AKS_F","launch_RPG7_F","Throw","Put","rhs_pdu4"};
+	magazines[] = {SL_Mags,"RPG7_F"};
+	respawnMagazines[] = {SL_Mags"RPG7_F"};
 	Items[] = {};
 	RespawnItems[] = {};
 	linkedItems[] = 
@@ -191,8 +191,8 @@ class SOR_OPFor_Grenadier_VDV_AI : SOR_OPFor_Base_VDV_AI
 	scopeCurator = 2;
 	displayName = "Grenadier";
 	backpack = "";
-	weapons[] = {"arifle_AK12_GL_F","Throw","Put"};
-	respawnWeapons[] = {"arifle_AK12_GL_F","Throw","Put"};
+	weapons[] = {"160_Opfor_AI_GL","Throw","Put"};
+	respawnWeapons[] = {"160_Opfor_AI_GL","Throw","Put"};
 	magazines[] = 
 	{
 		AI_GL_Mags
@@ -208,7 +208,7 @@ class SOR_OPFor_Rifleman_VDV_AI : SOR_OPFor_Base_VDV_AI
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "Rifleman";
-	backpack = "SOR_OPFor_Rifleman_Pack_VDV_AI";
+	backpack = "";
 };					
 	
 //Heli Pilot & CO-Pilot
@@ -364,12 +364,12 @@ class SOR_OPFor_ReconLeader_VDV_AI : SOR_OPFor_Base_VDV_AI
 	cost = 500000;
 	camouflage = 0.6;
 	threat[] = {1.2,0.2,0.2};
-	weapons[] = {"160_rhs_weap_ak74m_camo","rhs_weap_rpg26","Throw","Put","Laserdesignator_02"};
-	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","rhs_weap_rpg26","Throw","Put","Laserdesignator_02"};
+	weapons[] = {"160_rhs_weap_ak74m_camo","launch_RPG7_F","Throw","Put","Laserdesignator_02"};
+	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","launch_RPG7_F","Throw","Put","Laserdesignator_02"};
 	Items[] = {Recon_Equip,Recon_Meds};                
 	RespawnItems[] = {Recon_Equip,Recon_Meds};   
-	magazines[] = {Recon_Mags,"Laserbatteries"};
-	respawnMagazines[] = {Recon_Mags,"Laserbatteries"};
+	magazines[] = {Recon_Mags,"Laserbatteries","RPG7_F"};
+	respawnMagazines[] = {Recon_Mags,"Laserbatteries","RPG7_F"};
 	linkedItems[] = 
 	{	
 		"rhs_6b23_digi_6sh92_radio", 
@@ -492,7 +492,7 @@ class SOR_OPFor_MechCrewCommander_VDV_AI : SOR_OPFor_MechOperator_VDV_AI
 class SOR_OPFor_MechDriver_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 {
 	displayName = "Mechanised Driver";
-	backpack = "SOR_OPFor_Repair_Pack_VDV_AI";
+	backpack = "SOR_OPFor_Repair_Pack_VDV";
 };	
 
 //HMG Team
@@ -522,7 +522,7 @@ class SOR_OPFor_HMGRFL_VDV_AI : SOR_OPFor_Grenadier_VDV_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Rifleman M320";
-	backpack = "SOR_OPFor_GD_Pack_VDV_AI";
+	backpack = "SOR_OPFor_GD_Pack_VDV";
 };	
 
 //Mortar Team
@@ -551,7 +551,7 @@ class SOR_OPFor_MORRFL_VDV_AI : SOR_OPFor_Grenadier_VDV_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Rifleman M320";
-	backpack = "SOR_OPFor_GD_Pack_VDV_AI";
+	backpack = "SOR_OPFor_GD_Pack_VDV";
 };		
 
 
@@ -560,7 +560,7 @@ class SOR_OPFor_Engineer_VDV_AI : SOR_OPFor_Base_VDV_AI
 {
 	editorSubcategory = "SOR_OPFor_SubCat_Infantry_Support";
 	vehicleclass = "SOR_OPFor_Infantry_Support";
-	backpack = "SOR_OPFor_Repair_Pack_VDV_AI";
+	backpack = "SOR_OPFor_Repair_Pack_VDV";
 	weapons[] = {"Throw", "Put"};
 	respawnWeapons[] = {"Throw", "Put"};
 	Items[] = {Standard_Meds};

@@ -14,6 +14,7 @@ class cfgWeapons
 	class rhs_weap_ak74m_gp25_dtk;
 	class rhs_weap_ak74m_camo;
 	class rhs_weap_M590_8RD;
+	class arifle_AK12_GL_F;
 	
 	class 160_rhs_weap_M590_8RD: rhs_weap_M590_8RD 
 	{
@@ -73,8 +74,21 @@ class cfgWeapons
 		};
 	};	
 
-/*	
 	
+// AI only Weapons
+
+	class 160_Opfor_AI_GL: arifle_AK12_GL_F 
+	{
+		class LinkedItems 
+		{
+			class LinkedItemsAcc 
+			{
+				item = "acc_flashlight";
+				slot = "PointerSlot";
+			};
+		};
+	};
+/*
 	class 160_rhs_weap_sr25: rhs_weap_sr25_ec 
 	{
 		class LinkedItems 
