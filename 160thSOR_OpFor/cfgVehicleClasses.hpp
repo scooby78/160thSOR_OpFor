@@ -62,7 +62,7 @@ class CfgVehicleClasses
 		displayName = "160th Aircraft";
 		priority = 6; 
 	};
-		class SOR_Aircraft_Captured
+	class SOR_Aircraft_Captured
 	{
 		displayName = "160th Captured Aircraft";
 		priority = 6; 

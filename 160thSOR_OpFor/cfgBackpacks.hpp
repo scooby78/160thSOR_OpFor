@@ -219,10 +219,20 @@ class SOR_OPFor_CombatPack_VDV : rhs_assault_umbts
 		item_xx(rhsusf_acc_ACOG,1)			
 	};		
 };
-
+////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////
 // AI ONLY BACKPACKS //
 ///////////////////////
+
+// Template Backpacks
+class SOR_OpFor_XXXX_Pack_XXX_AI : rhs_assault_umbts
+{
+	displayName = "Pack XXX XXXX";
+	class TransportMagazines
+	{
+		mag_xx(rhs_100Rnd_762x54mmR_green,2);
+	};
+};
 
 // Custom PKM Pack
 class SOR_OpFor_AR_Pack_VDV_AI : rhs_assault_umbts
@@ -233,7 +243,6 @@ class SOR_OpFor_AR_Pack_VDV_AI : rhs_assault_umbts
 		mag_xx(rhs_100Rnd_762x54mmR_green,2);
 	};
 };
-
 
 //Custom Rilfeman Ammobearer Pack
 

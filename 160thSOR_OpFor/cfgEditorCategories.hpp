@@ -27,23 +27,17 @@ class CfgEditorCategories
 	class SOR_OPFor_Cat_Objects_Scripted
 	{
 		displayName = "160th Objects Opfor (Scripted)";
-	};	
-	class SOR_militia_Cat_Faction
-	{
-		displayName = "160th militia";
 	};
-	class SOR_militia_Cat_Supplies
+// New faction template//////////////////////////////
+	class SOR_OPFor_Cat_Faction_XXX
 	{
-		displayName = "160th militia Supplies";
+		displayName = "160th XXX";
 	};
-	class SOR_militia_Cat_Objects
+	class SOR_OPFor_Cat_Faction_XXX_AI
 	{
-		displayName = "160th militia Objects";
+		displayName = "160th AI XXX";
 	};	
-	class SOR_militia_Cat_Objects_Scripted
-	{
-		displayName = "160th militia Objects (Scripted)";
-	};	
+////////////////////////////////////////////////////	
 };
 
 // 3DEN Sub Catagories
@@ -100,58 +94,5 @@ class CfgEditorSubcategories
 	class SOR_OPFor_SubCat_Aircraft_Captured
 	{
 		displayName = "Captured Aircraft";
-	};
-
-	class SOR_militia_SubCat_SupplyBoxes 
-	{
-		displayName = "Boxes"; 
-	};
-	class SOR_militia_SubCat_SupplyBoxes_Static 
-	{
-		displayName = "Boxes (Static)"; 
-	};
-	class SOR_militia_SubCat_SupplyCrates
-	{
-		displayName = "Crates";
-	};
-	class SOR_militia_SubCat_SupplyContainers
-	{
-		displayName = "Containers";
-	};	
-	class SOR_militia_SubCat_Infantry
-	{
-		displayName = "Men (Infantry)";
-	};	
-	class SOR_militia_SubCat_Infantry_AIR
-	{
-		displayName = "Men (Airborne)";
-	};	
-	class SOR_militia_SubCat_Infantry_MECH
-	{
-		displayName = "Men (Mechanised)";
 	};		
-	class SOR_militia_SubCat_Infantry_Support
-	{
-		displayName = "Men (Support)";
-	};	
-	class SOR_militia_SubCat_Infantry_Recon
-	{
-		displayName = "Men (Recon)";
-	};	
-	class SOR_militia_SubCat_Objects
-	{
-		displayName = "Objects";
-	};	
-	class SOR_militia_SubCat_Vehicles
-	{
-		displayName = "Armour";
-	};		
-	class SOR_militia_SubCat_Aircraft
-	{
-		displayName = "Aircraft";
-	};
-	class SOR_militia_SubCat_Aircraft_Captured
-	{
-		displayName = "Captured Aircraft";
-	};			
 };

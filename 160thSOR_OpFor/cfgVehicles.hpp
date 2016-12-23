@@ -10,7 +10,12 @@ class cfgVehicles
 #include "cfgBackpacks.hpp"
 #include "cfgOpForVdv.hpp"
 #include "cfgAiOpForVdv.hpp"
-#include "cfgmilitia.hpp"
+
+// Template
+/*
+#include "cfgAiOpForXXX.hpp"
+*/
+
 #include "cfgCrates.hpp"
 #include "cfgAircraft.hpp"
 #include "cfgArmour.hpp"
