@@ -139,7 +139,7 @@ class CfgPatches
 			"160_rhs_weap_ak74m_camo",
 			"160_rhs_weap_ak74m_1p63"
 		};
-		version="1.0.0";
+		version="1.0.1";
 		requiredAddons[] = 
 		{
 			"160th_SOR_Loadouts"

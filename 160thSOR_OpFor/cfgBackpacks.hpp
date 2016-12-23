@@ -234,8 +234,10 @@ class SOR_OpFor_AR_Pack_VDV_AI : rhs_assault_umbts
 	};
 };
 
+
 //Custom Rilfeman Ammobearer Pack
-class SOR_OPFor_Rifleman_Ammo_Pack_VDV_AI : rhs_assault_umbts
+
+class SOR_OPFor_Rifleman_Pack_VDV_AI : rhs_assault_umbts
 {
 	displayName = "Pack VDV Rifleman";
 	class TransportMagazines

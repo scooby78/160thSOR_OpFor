@@ -27,6 +27,7 @@ class SOR_OpFor_rhs_Mi24P_AT_vdv : RHS_Mi24P_AT_vdv
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";
 	class UserActions
 	{
 		class SOR_AutoDrop
@@ -80,6 +81,7 @@ class SOR_OpFor_rhs_Mi24P_CAS_vdv : RHS_Mi24P_CAS_vdv
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";
 	class UserActions
 	{
 		class SOR_AutoDrop
@@ -133,6 +135,7 @@ class SOR_OpFor_rhs_Mi24P_vdv : RHS_Mi24P_vdv
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";
 	class UserActions
 	{
 		class SOR_AutoDrop
@@ -186,6 +189,7 @@ class SOR_OpFor_rhs_Mi24V_UPK23_vdv : RHS_Mi24V_UPK23_vdv
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";
 	class UserActions
 	{
 		class SOR_AutoDrop
@@ -242,6 +246,7 @@ class SOR_OpFor_rhs_Mi8AMT_vdv : RHS_Mi8AMT_vdv
 	displayName = "Mi-8AMT (Refuel)";
 	transportFuel = 30000;
 	supplyRadius = 30;
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";
 	class UserActions
 	{
 		class SOR_AutoDrop
@@ -318,6 +323,7 @@ class SOR_Opfor_Heli_Transport_04_F : O_Heli_Transport_04_F
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
 	displayName = "MI-290 Taru (C3/POD)";
+	crew = "SOR_OPFor_HeliPilot_VDV_AI";	
 	class eventHandlers
 	{
 		init="_this call SLX_XEH_EH_Init;";
