@@ -10,16 +10,40 @@
 ////////////////////////////////
 
 ////// Base Classes DO NOT EDIT //////////////////////////////
-class SOR_Soldier_base_AI	: O_Soldier_base_F				
+// OpFor
+class SOR_Soldier_base_AI : O_Soldier_base_F				
 {															
 	scope = 0;		
 	scopeCurator = 0;
-	displayName = "SOR Base AI Soldier";
+	displayName = "SOR Base AI Opfor Soldier";
 	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
 	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
 	vehicleclass = "SOR_OPFor_Infantry";
 	faction = SOR_OPFor_Faction_VDV_AI;
 	aiBrainType = "SORSoldierBrain";
+};
+// IndFor
+class SOR_Soldier_base_IND_AI : I_Soldier_base_F				
+{															
+	scope = 0;		
+	scopeCurator = 0;
+	displayName = "SOR Base AI Ind Soldier";
+	editorCategory = "SOR_OPFor_Cat_Faction_TAK_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
+	vehicleclass = "SOR_OPFor_Infantry";
+	faction = SOR_IndFor_Faction_VDV_AI;
+	aiBrainType = "SORSoldierBrain";
+};
+// CivFor
+class SOR_Soldier_base_CIV_AI : C_man_1				
+{															
+	scope = 0;		
+	scopeCurator = 0;
+	displayName = "SOR Base AI Civilian";
+	editorCategory = "SOR_OPFor_Cat_Faction_CIV_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
+	vehicleclass = "SOR_OPFor_Infantry";
+	faction = SOR_Civ_Faction_VDV_AI;
 };
 //////////////////////////////////////////////////////////////
 

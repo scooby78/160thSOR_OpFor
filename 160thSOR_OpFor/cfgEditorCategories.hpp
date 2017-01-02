@@ -19,6 +19,14 @@ class CfgEditorCategories
 	class SOR_OPFor_Cat_Faction_PMC_AI
 	{
 		displayName = "160th AI Private Military (PMC)";
+	};
+	class SOR_OPFor_Cat_Faction_TAK_AI
+	{
+		displayName = "160th AI Takistan Military (TAK)";
+	};	
+	class SOR_OPFor_Cat_Faction_CIV_AI
+	{
+		displayName = "160th AI Civilian (CIV)";
 	};		
 	class SOR_OPFor_Cat_Supplies
 	{
