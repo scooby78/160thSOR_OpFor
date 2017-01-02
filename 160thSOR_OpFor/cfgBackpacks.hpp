@@ -9,6 +9,7 @@
 class tf_mr3000_rhs;
 class rhs_assault_umbts;
 class rhs_assault_umbts_medic;
+class B_AssaultPack_blk;
 
 //Custom Medic Pack	
 class SOR_OPFor_Medic_Pack_VDV : rhs_assault_umbts_medic
@@ -245,12 +246,20 @@ class SOR_OpFor_AR_Pack_VDV_AI : rhs_assault_umbts
 };
 
 //Custom Rilfeman Ammobearer Pack
-
 class SOR_OPFor_Rifleman_Pack_VDV_AI : rhs_assault_umbts
 {
 	displayName = "Pack VDV Rifleman";
 	class TransportMagazines
 	{
 		mag_xx(rhs_100Rnd_762x54mmR_green,2);
+	};
+};
+
+class SOR_OpFor_AR_Pack_PMC_AI : rhs_assault_umbts
+{
+	displayName = "Pack VDV Rifleman";
+	class TransportMagazines
+	{
+		mag_xx(100Rnd_580x42_Mag_Tracer_F,2);
 	};
 };

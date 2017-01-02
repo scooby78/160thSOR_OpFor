@@ -21,6 +21,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 0;
 	};
+	class SOR_OPFor_Faction_PMC_AI 
+	{
+		displayName = "160th AI PMC";
+		icon = "160thSOR_OpFor\data\160th.paa";
+		priority = 1;
+		side = 0;
+	};	
 // New Faction template/////////////////////////
 	class SOR_OPFor_Faction_XXX 
 	{

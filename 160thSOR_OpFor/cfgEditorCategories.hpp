@@ -15,7 +15,11 @@ class CfgEditorCategories
 	class SOR_OPFor_Cat_Faction_VDV_AI
 	{
 		displayName = "160th AI Russian (VDV)";
-	};	
+	};		
+	class SOR_OPFor_Cat_Faction_PMC_AI
+	{
+		displayName = "160th AI Private Military (PMC)";
+	};		
 	class SOR_OPFor_Cat_Supplies
 	{
 		displayName = "160th Supplies Opfor";
