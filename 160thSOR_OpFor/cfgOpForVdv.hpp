@@ -10,6 +10,8 @@
 //////////////////////
 
 class O_Soldier_base_F;
+class I_Soldier_base_F;
+class C_man_1;
 
 ////////////////////////////		    
 //SOR Enemy Faction Units//
