@@ -645,10 +645,12 @@ class CfgGroups
 				};
 			};
 		};
+	
 ///////////////////////////////////////////////////////////////////////
 ///////////////		
 // AI Groups //
 ///////////////
+
 		class SOR_Opfor_Groups_VDV_AI
 		{
 			name = "160th AI Russian  (VDV)";
@@ -1042,7 +1044,7 @@ class CfgGroups
 				};
 			};
 		};
-		
+	};
 // Template////////////////////////////////////////////////////////////////////////////////
 /*		
 		class SOR_Opfor_Groups_VDV_AI
@@ -1439,6 +1441,333 @@ class CfgGroups
 			};
 		};		
 *////////////////////////////////////////////////////////////////////////////////	
+	class Indep
+	{
+		class SOR_Opfor_Groups_Taki_AI
+			{
+			name = "160th AI Takistan  (Taki)";
+			class SOR_Opfor_InfGroups_Taki_AI 
+			{
+				name = "Infantry";
+				aliveCategory = "Infantry";
+				class SOR_Opfor_INFSquadA_Taki_AI
+				{
+					name = "10 Man Squad";
+					faction = "SOR_OPFor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Grenadier_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, -0, 0};
+					};					
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Medic_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -2, 0};
+					};					
+					class Unit2 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Grenadier_Taki_AI";
+						rank = CORPORAL;
+						position[] = {0, -6, 0};
+					};
+					class Unit3 
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_PKM_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -8, 0};
+					};
+					class Unit4 
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_Rifleman_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -10, 0};
+					};
+					class Unit5 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Teamleader_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -12, 0 };
+					};
+					class Unit6 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Grenadier_Taki_AI";
+						rank = CORPORAL;
+						position[] = {0, -16, 0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_PKP_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -18, 0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_Rifleman_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -20, 0};
+					};
+					class Unit9
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Teamleader_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -22, 0};
+					};
+				};
+				class SOR_Opfor_FireTeam_Taki_AI
+				{
+					name = "Fire Team";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					
+					class Unit0
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Grenadier_Taki_AI"; 
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_PKM_Taki_AI";
+						rank = CORPORAL;
+						position[] = {0, -2, 0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "SOR_OPFor_Rifleman_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -4, 0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_Teamleader_Taki_AI";
+						rank = PRIVATE;
+						position[] = {0, -6, 0};
+					};
+				};					
+			};
+			class SOR_Opfor_InfGroups_Support_Taki_AI 
+			{
+				name = "Infantry (Support)";
+				aliveCategory = "Infantry";
+				class SOR_Opfor_Recon_Taki_AI
+				{
+					name = "Viper Team";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_ReconLeader_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_ReconJTAC_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, -2, 0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_ReconRifleman_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, -4, 0};
+					};						
+					class Unit3
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_ReconRifleman_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, -6, 0};
+					};
+				};	
+				class SOR_Opfor_SupGroup2_Taki_AI
+				{
+					name = "HMG Team";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;	
+					
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_HMGActual_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};						
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_HMGGunner_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};						
+					class Unit2 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_HMGCarrier_Taki_AI";
+						rank = PRIVATE;
+						position[] = {-4, 0, 0};
+					};
+					class Unit3 						
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_HMGRFL_Taki_AI";
+						rank = PRIVATE;
+						position[] = {-6, 0, 0};
+					};		
+				};
+				class SOR_Opfor_SupGroup3_Taki_AI
+				{
+					name = "Mortar Team";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;	
+					
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MORActual_Taki_AI";
+						rank = SERGEANT;
+						position[] = {0, 0, 0};
+					};							
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MORGunner_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};							
+					class Unit2 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MORCarrier_Taki_AI";
+						rank = PRIVATE;
+						position[] = {-4, 0, 0};
+					};
+					class Unit3 							
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MORRFL_Taki_AI";
+						rank = PRIVATE;
+						position[] = {-6, 0, 0};
+					};	
+				};				
+			};
+			class SOR_Opfor_InfGroups_Mech_Taki_AI 
+			{
+				name = "Infantry (Mech)";
+				aliveCategory = "Infantry";
+				class SOR_Opfor_SabGroup2_Taki_AI 
+				{
+					name = "Saber Crew";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechCrewCommander_Taki_AI";
+						rank = LIEUTENANT;
+						position[] = {0, 0, 0};
+					};						
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechCrew_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};						
+					class Unit2 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechOperator_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-4, 0, 0};
+					};
+					class Unit3 						
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechDriver_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-6, 0, 0};
+					};		
+				};
+				class SOR_Opfor_RhinoGroup_Taki_AI 
+				{
+					name = "Rhino Crew";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechCrewCommander_Taki_AI";
+						rank = LIEUTENANT;
+						position[] = {0, 0, 0};
+					};						
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechDriver_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};						
+					class Unit2 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechCrew_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-4, 0, 0};
+					};
+				};
+				class SOR_Opfor_OutlawGroup_Taki_AI 
+				{
+					name = "Outlaw Crew";
+					faction = "SOR_Opfor_Faction_Taki_AI";
+					side = 2;
+					rarityGroup = 0.75;
+					
+					class Unit0 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechCrewCommander_Taki_AI";
+						rank = LIEUTENANT;
+						position[] = {0, 0, 0};
+					};						
+					class Unit1 
+					{
+						side = 2;
+						vehicle = "SOR_Opfor_MechDriver_Taki_AI";
+						rank = CORPORAL;
+						position[] = {-2, 0, 0};
+					};						
+				};				
+			};
+		};		
 	};
 };
 

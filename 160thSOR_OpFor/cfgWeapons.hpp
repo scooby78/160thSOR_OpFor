@@ -18,6 +18,8 @@ class cfgWeapons
 	class arifle_CTAR_blk_F;
 	class arifle_CTARS_blk_F;	
 	class arifle_CTAR_GL_blk_F;	
+	class arifle_AK12_F;
+	class rhs_weap_svdp_wd;
 	
 	class 160_rhs_weap_M590_8RD: rhs_weap_M590_8RD 
 	{
@@ -91,7 +93,17 @@ class cfgWeapons
 			};
 		};
 	};
-	
+	class 160_Opfor_AI_TL_Taki: arifle_AK12_F 
+	{
+		class LinkedItems 
+		{
+			class LinkedItemsAcc 
+			{
+				item = "acc_flashlight";
+				slot = "PointerSlot";
+			};
+		};
+	};
 	class 160_Opfor_AI_TL_PMC: arifle_CTAR_blk_F 
 	{
 		class LinkedItems 
@@ -125,6 +137,17 @@ class cfgWeapons
 			};
 		};
 	};		
+	class 160_Opfor_AI_SP_Taki: rhs_weap_svdp_wd
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = "rhs_acc_pso1m21";
+				slot = "CowsSlot";
+			};
+		};
+	};
 
 	
 /*

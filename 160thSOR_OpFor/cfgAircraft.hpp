@@ -19,6 +19,7 @@ class O_Heli_Transport_04_bench_F;
 class O_Heli_Transport_04_covered_F;
 class I_Plane_Fighter_03_AA_F;
 class I_Plane_Fighter_03_CAS_F;
+class RHS_AN2;
 
 // Transport Helos	
 class SOR_OpFor_rhs_Mi24P_AT_vdv : RHS_Mi24P_AT_vdv
@@ -425,3 +426,16 @@ class SOR_Opfor_Fighter_CAS : I_Plane_Fighter_03_CAS_F
 	class TransportMagazines{};
 	class TransportBackpacks{};
 };	
+
+class SOR_OpFor_RHS_AN2 : RHS_AN2
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_Pilot_Taki_AI";
+	class TransportItems {item_xx(ACE_FieldDressing,10)};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
+};

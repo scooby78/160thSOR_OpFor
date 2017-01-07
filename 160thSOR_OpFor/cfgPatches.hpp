@@ -130,14 +130,49 @@ class CfgPatches
 			"SOR_OPFor_MORGunner_VDV_AI",
 			"SOR_OPFor_MORCarrier_VDV_AI",
 			"SOR_OPFor_MORRFL_VDV_AI",
-			"SOR_OPFor_Engineer_VDV_AI"
+			"SOR_OPFor_Engineer_VDV_AI",
+			
+			"SOR_OPFor_Teamleader_Taki_AI",
+			"SOR_OPFor_Medic_Taki_AI",
+			"SOR_OPFor_PKM_Taki_AI",
+			"SOR_OPFor_PKP_Taki_AI",
+			"SOR_OPFor_Grenadier_Taki_AI",
+			"SOR_OPFor_Rifleman_Taki_AI",
+			"SOR_OPFor_HeliPilot_Taki_AI",
+			"SOR_OPFor_HeliCrew_Taki_AI",
+			"SOR_OPFor_JetPilot_Taki_AI",
+			"SOR_OPFor_MEVPilot_Taki_AI",
+			"SOR_OPFor_ParaJumper_Taki_AI",
+			"SOR_OPFor_ReconLeader_Taki_AI",
+			"SOR_OPFor_ReconJTAC_Taki_AI",
+			"SOR_OPFor_ReconRifleman_Taki_AI",
+			"SOR_OPFor_MechCrew_Taki_AI",
+			"SOR_OPFor_MechOperator_Taki_AI",
+			"SOR_OPFor_MechCrewCommander_Taki_AI",
+			"SOR_OPFor_MechDriver_Taki_AI",
+			"SOR_OPFor_HMGActual_Taki_AI",
+			"SOR_OPFor_HMGGunner_Taki_AI",
+			"SOR_OPFor_HMGCarrier_Taki_AI",
+			"SOR_OPFor_HMGRFL_Taki_AI",
+			"SOR_OPFor_MORActual_Taki_AI",
+			"SOR_OPFor_MORGunner_Taki_AI",
+			"SOR_OPFor_MORCarrier_Taki_AI",
+			"SOR_OPFor_MORRFL_Taki_AI",
+			"SOR_OPFor_Engineer_Taki_AI"
+			
 		};
 		weapons[] = 
 		{
 			"160_rhs_weap_ak74m_pkas",
 			"160_rhs_weap_ak74m_gp25_dtk",
 			"160_rhs_weap_ak74m_camo",
-			"160_rhs_weap_ak74m_1p63"
+			"160_rhs_weap_ak74m_1p63",
+			"160_Opfor_AI_GL",
+			"160_Opfor_AI_TL_Taki",
+			"160_Opfor_AI_TL_PMC",
+			"160_Opfor_AI_LMG_PMC",
+			"160_Opfor_AI_GL_PMC",
+			"160_Opfor_AI_SP_Taki",
 		};
 		version="1.0.1";
 		requiredAddons[] = 

@@ -10,7 +10,7 @@ class cfgVehicles
 #include "cfgBackpacks.hpp"
 #include "cfgOpForVdv.hpp"
 #include "cfgAiOpForVdv.hpp"
-
+#include "cfgAiOpForTaki.hpp"
 // Template
 /*
 #include "cfgAiOpForXXX.hpp"

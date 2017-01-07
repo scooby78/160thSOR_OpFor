@@ -167,5 +167,32 @@
 								"SmokeShell",\
 								"1Rnd_HE_Grenade_shell",\
 								"1Rnd_HE_Grenade_shell"
+								
+							
+#define SL_Mags_Taki	"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"30Rnd_762x39_Mag_Tracer_Green_F",\
+						"rhs_mag_rgo",\
+						"rhs_mag_rgo",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white"				
+							
+#define SP_Mags_Taki 	"rhs_10Rnd_762x54mmR_7N1",\
+						"rhs_10Rnd_762x54mmR_7N1",\
+						"rhs_10Rnd_762x54mmR_7N1",\
+						"rhs_10Rnd_762x54mmR_7N1",\
+						"rhs_10Rnd_762x54mmR_7N1",\
+						"rhs_mag_rgo",\
+						"rhs_mag_rgo",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white",\
+						"rhs_mag_rdg2_white"
 
 							

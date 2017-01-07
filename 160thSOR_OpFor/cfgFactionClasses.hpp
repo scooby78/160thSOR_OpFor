@@ -42,7 +42,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 0;
 	};	
-	
+	class SOR_OPFor_Faction_Taki_AI 
+	{
+		displayName = "160th AI Takistan";
+		icon = "160thSOR_OpFor\data\160th.paa";
+		priority = 1;
+		side = 2;
+	};
 // New Faction template/////////////////////////
 	class SOR_OPFor_Faction_XXX 
 	{
