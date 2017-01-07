@@ -138,20 +138,16 @@ class SOR_OPFor_PKM_VDV_AI : SOR_OPFor_Base_VDV_AI
 	respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
 	magazines[] =
 	{
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",		
-		"rhs_mag_rdg2_white",
+		"HandGrenade",
+		"HandGrenade",
+		"SmokeShell",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	respawnMagazines[] =
 	{
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",		
-		"rhs_mag_rdg2_white",
+		"HandGrenade",
+		"HandGrenade",
+		"SmokeShell",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	linkedItems[] = 
@@ -179,18 +175,16 @@ class SOR_OPFor_PKP_VDV_AI : SOR_OPFor_Base_VDV_AI
 	respawnWeapons[] = {"rhs_weap_pkp","Throw","Put"};
 	magazines[] =
 	{
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",		
-		"rhs_mag_rdg2_white",
+		"HandGrenade",
+		"HandGrenade",
+		"SmokeShell",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	respawnMagazines[] =
 	{
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",
-		"rhs_mag_rgo",		
-		"rhs_mag_rdg2_white",
+		"HandGrenade",
+		"HandGrenade",
+		"SmokeShell",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	linkedItems[] = 
