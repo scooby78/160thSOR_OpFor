@@ -20,6 +20,9 @@ class O_Heli_Transport_04_covered_F;
 class I_Plane_Fighter_03_AA_F;
 class I_Plane_Fighter_03_CAS_F;
 class RHS_AN2;
+class RHS_MELB_AH6M_L;
+class I_C_Heli_Light_01_civil_F;
+class I_Heli_light_03_unarmed_F;
 
 // Transport Helos	
 class SOR_OpFor_rhs_Mi24P_AT_vdv : RHS_Mi24P_AT_vdv
@@ -316,6 +319,56 @@ class SOR_OpFor_rhs_Mi8AMT_vdv : RHS_Mi8AMT_vdv
 	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
 };
 
+class SOR_MELB_H6M_Taki : I_C_Heli_Light_01_civil_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	vehicleclass = "SOR_Aircraft";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	displayName = "MH-6 (Civilain)";
+	armorStructural = 4; // Was 50
+	fuelCapacity = 110; //was fuelCapacity = 242;
+	fuelConsumptionRate = 0.0555; //was 0.0368;
+	crew = "SOR_OPFor_Pilot_Taki_AI";
+	class TransportItems 
+	{
+		item_xx(ACE_FieldDressing,10);
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(SOR_Repair_Pack_veh_D,1)
+	};
+};	
+
+
+// Attack Helos	
+class SOR_MELB_AH6M_L_Taki : RHS_MELB_AH6M_L
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	vehicleclass = "SOR_Aircraft";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	side = 2;
+	displayName = "AH-6M_L (C2/P1)";
+	armorStructural = 4; // Was 50		
+	fuelCapacity = 200; //was fuelCapacity = 242;
+	fuelConsumptionRate = 0.0555; //was 0.0368;
+	crew = "SOR_OPFor_Pilot_Taki_AI";
+	class TransportItems 
+	{
+		item_xx(ACE_FieldDressing,10);
+		item_xx(V_RebreatherB,2);			
+	};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(SOR_Repair_Pack_veh_D,1)
+	};
+};	
+
 //Transport (This is the only one that can attach and drop pods)
 class SOR_Opfor_Heli_Transport_04_F : O_Heli_Transport_04_F
 {
@@ -367,6 +420,37 @@ class SOR_OpFor_rhs_ka60_grey : rhs_ka60_grey
 	class TransportMagazines {mag_xx(30Rnd_556x45_Stanag_Tracer_Red,6)};
 	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
 };
+
+
+class SOR_Wildcat_Taki : I_Heli_light_03_unarmed_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Aircraft";
+	displayName = "Wildcat (Unarmed)";
+	side = 2;
+	driverCanEject = 1; // was 0, Allows pilot to exit heli with engine running
+	ejectDeadCargo = 1; //test dead eject
+	crewCrashProtection = 0.20; /// Was 0.25, multiplier of damage to crew of the vehicle => low number means better protection //test
+	getInRadius = 4;
+	crew = "SOR_OPFor_Pilot_Taki_AI";
+	class TransportItems
+	{
+		item_xx(ACE_Fielddressing,24)
+		item_xx(ACE_morphine,16)
+		item_xx(ACE_epinephrine,16)
+		item_xx(G_O_Diving,3)
+		item_xx(U_O_Wetsuit,3)
+		item_xx(V_RebreatherIR,3)
+	};		
+	class TransportWeapons {weap_xx(arifle_AKS_F,2)};
+	class TransportMagazines {mag_xx(rhs_30Rnd_545x39_AK_green,6)};
+	class TransportBackpacks {pack_xx(SOR_Repair_Pack_D,1)};
+};
+
+
+
 	
 ////////////	
 // Planes //
@@ -427,13 +511,15 @@ class SOR_Opfor_Fighter_CAS : I_Plane_Fighter_03_CAS_F
 	class TransportBackpacks{};
 };	
 
-class SOR_OpFor_RHS_AN2 : RHS_AN2
+class SOR_RHS_AN2_Taki : RHS_AN2
 {
 	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_Taki_AI;
 	vehicleclass = "SOR_Aircraft";
 	crew = "SOR_OPFor_Pilot_Taki_AI";
+	side = 2;
+	displayName = "Antonov AN-2 (Unarmed)";
 	class TransportItems {item_xx(ACE_FieldDressing,10)};
 	class TransportWeapons{};
 	class TransportMagazines{};

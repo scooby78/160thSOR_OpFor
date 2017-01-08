@@ -138,10 +138,7 @@ class CfgPatches
 			"SOR_OPFor_PKP_Taki_AI",
 			"SOR_OPFor_Grenadier_Taki_AI",
 			"SOR_OPFor_Rifleman_Taki_AI",
-			"SOR_OPFor_HeliPilot_Taki_AI",
-			"SOR_OPFor_HeliCrew_Taki_AI",
-			"SOR_OPFor_JetPilot_Taki_AI",
-			"SOR_OPFor_MEVPilot_Taki_AI",
+			"SOR_OPFor_Pilot_Taki_AI",
 			"SOR_OPFor_ParaJumper_Taki_AI",
 			"SOR_OPFor_ReconLeader_Taki_AI",
 			"SOR_OPFor_ReconJTAC_Taki_AI",
@@ -158,7 +155,12 @@ class CfgPatches
 			"SOR_OPFor_MORGunner_Taki_AI",
 			"SOR_OPFor_MORCarrier_Taki_AI",
 			"SOR_OPFor_MORRFL_Taki_AI",
-			"SOR_OPFor_Engineer_Taki_AI"
+			"SOR_OPFor_Engineer_Taki_AI",
+			"SOR_MELB_H6M_Taki",
+			"SOR_MELB_AH6M_L_Taki",
+			"SOR_Wildcat_Taki",
+			"SOR_RHS_AN2_Taki",
+			
 			
 		};
 		weapons[] = 
