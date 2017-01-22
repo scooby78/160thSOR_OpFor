@@ -645,10 +645,14 @@ class CfgGroups
 				};
 			};
 		};
+<<<<<<< HEAD
 ///////////////////////////////////////////////////////////////////////
 ///////////////		
 // AI Groups //
 ///////////////
+=======
+// AI Groups
+>>>>>>> refs/remotes/origin/master
 		class SOR_Opfor_Groups_VDV_AI
 		{
 			name = "160th AI Russian  (VDV)";
