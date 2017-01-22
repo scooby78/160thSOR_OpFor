@@ -1,58 +1,25 @@
 /*
-	Name: 160th OpFor AI Russian Mod
-	Author: Scooby
-	Date: 25/03/16
-	Description: cfgAiOpForVdv.hpp.  These unit are designed for AI spawns only, they are not suitable as playable units
+	Name: 160th OpFor AI XXXX Mod
+	Author: XXXXX
+	Date: XX/XX/XX
+	Description: cfgAiOpForXXX.hpp 
+	
+	This is a template for new AI loadouts.
+	
+	These unit are designed for AI spawns only, they are not suitable as playable units
 */
 
 ////////////////////////////////		    
 // SOR Enemy AI Faction Units //
 ////////////////////////////////
-//////////////////////////////////////////////////////////////
-////// Base Classes DO NOT EDIT //////////////////////////////
-//////////////////////////////////////////////////////////////
-// OpFor
-class SOR_Soldier_base_AI : O_Soldier_base_F				
-{															
-	scope = 0;		
-	scopeCurator = 0;
-	displayName = "SOR Base AI Opfor Soldier";
-	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
-	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
-	vehicleclass = "SOR_OPFor_Infantry";
-	faction = SOR_OPFor_Faction_VDV_AI;
-	aiBrainType = "SORSoldierBrain";
-};
-// IndFor
-class SOR_Soldier_base_IND_AI : I_Soldier_base_F				
-{															
-	scope = 0;		
-	scopeCurator = 0;
-	displayName = "SOR Base AI Ind Soldier";
-	editorCategory = "SOR_OPFor_Cat_Faction_TAK_AI";
-	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
-	vehicleclass = "SOR_OPFor_Infantry";
-	faction = SOR_IndFor_Faction_VDV_AI;
-	aiBrainType = "SORSoldierBrain";
-};
-// CivFor
-class SOR_Soldier_base_CIV_AI : C_man_1				
-{															
-	scope = 0;		
-	scopeCurator = 0;
-	displayName = "SOR Base AI Civilian";
-	editorCategory = "SOR_OPFor_Cat_Faction_CIV_AI";
-	editorSubcategory = "SOR_OPFor_SubCat_Infantry";
-	vehicleclass = "SOR_OPFor_Infantry";
-	faction = SOR_Civ_Faction_VDV_AI;
-};
-//////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////
-class SOR_OPFor_Base_VDV_AI	: SOR_Soldier_base_AI	
+class SOR_OPFor_Base_XXX_AI	: SOR_Soldier_base_AI	
 {
+	scope = 0;
+	scopeCurator = 0;
+	editorCategory = "SOR_OPFor_Cat_Faction_XXX_AI";
+	faction = SOR_OPFor_Faction_XXX_AI;
 	uniformClass = "rhs_uniform_vdv_emr";		
-	displayName = "SOR_OPFor_Base_VDV_AI";
+	displayName = "SOR_OPFor_Base_XXX_AI";
 	weapons[] = {"arifle_AKS_F","Throw","Put"};
 	respawnWeapons[] = {"arifle_AKS_F","Throw","Put"};
 	Items[] = {Standard_Meds};
@@ -74,7 +41,7 @@ class SOR_OPFor_Base_VDV_AI	: SOR_Soldier_base_AI
 };
 
 //Teamleader	
-class SOR_OPFor_Teamleader_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_Teamleader_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -104,7 +71,7 @@ class SOR_OPFor_Teamleader_VDV_AI : SOR_OPFor_Base_VDV_AI
 };
 
 //Combat Medics
-class SOR_OPFor_Medic_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_Medic_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -129,27 +96,33 @@ class SOR_OPFor_Medic_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};
 };
 
-class SOR_OPFor_PKM_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_PKM_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "AutoRifleman PKM";
 	icon = "iconManMG";	
+//Ammo should still work ///////////////
 	backpack = "SOR_OpFor_AR_Pack_VDV_AI";
+/////////////////////////////////////////
 	weapons[] = {"rhs_weap_pkm","Throw","Put"};
 	respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
 	magazines[] =
 	{
-		"HandGrenade",
-		"HandGrenade",
-		"SmokeShell",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",		
+		"rhs_mag_rdg2_white",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	respawnMagazines[] =
 	{
-		"HandGrenade",
-		"HandGrenade",
-		"SmokeShell",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",		
+		"rhs_mag_rdg2_white",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	linkedItems[] = 
@@ -166,27 +139,31 @@ class SOR_OPFor_PKM_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};
 };
 
-class SOR_OPFor_PKP_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_PKP_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
 	displayName = "AutoRifleman PKP";
 	icon = "iconManMG";	
+//Ammo should still work ///////////////
 	backpack = "SOR_OpFor_AR_Pack_VDV_AI";
+/////////////////////////////////////////
 	weapons[] = {"rhs_weap_pkp","Throw","Put"};
 	respawnWeapons[] = {"rhs_weap_pkp","Throw","Put"};
 	magazines[] =
 	{
-		"HandGrenade",
-		"HandGrenade",
-		"SmokeShell",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",		
+		"rhs_mag_rdg2_white",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	respawnMagazines[] =
 	{
-		"HandGrenade",
-		"HandGrenade",
-		"SmokeShell",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",
+		"rhs_mag_rgo",		
+		"rhs_mag_rdg2_white",
 		"rhs_100Rnd_762x54mmR_green"
 	};
 	linkedItems[] = 
@@ -203,7 +180,7 @@ class SOR_OPFor_PKP_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};
 };
 
-class SOR_OPFor_Grenadier_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_Grenadier_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -221,7 +198,7 @@ class SOR_OPFor_Grenadier_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};
 };
 
-class SOR_OPFor_Rifleman_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_Rifleman_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -230,7 +207,7 @@ class SOR_OPFor_Rifleman_VDV_AI : SOR_OPFor_Base_VDV_AI
 };					
 	
 //Heli Pilot & CO-Pilot
-class SOR_OPFor_HeliPilot_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_HeliPilot_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -274,7 +251,7 @@ class SOR_OPFor_HeliPilot_VDV_AI : SOR_OPFor_Base_VDV_AI
 };
 
 //Heli Crew Engineers
-class SOR_OPFor_HeliCrew_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
+class SOR_OPFor_HeliCrew_XXX_AI : SOR_OPFor_HeliPilot_XXX_AI
 {
 	displayName = "Heli Crew";
 	backpack = "";
@@ -315,7 +292,7 @@ class SOR_OPFor_HeliCrew_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 };
 
 //Jet Pilots
-class SOR_OPFor_JetPilot_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
+class SOR_OPFor_JetPilot_XXX_AI : SOR_OPFor_HeliPilot_XXX_AI
 {
 	displayName = "Jet Pilot";		
 	backpack = "B_Parachute";
@@ -336,43 +313,13 @@ class SOR_OPFor_JetPilot_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 };
 
 // MEV Pilot & CO-Pilot
-class SOR_OPFor_MEVPilot_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
+class SOR_OPFor_MEVPilot_XXX_AI : SOR_OPFor_HeliPilot_XXX_AI
 {
 	displayName = "MEV Pilot";
 };
 
-class SOR_OPFor_ParaJumper_VDV_AI : SOR_OPFor_Medic_VDV_AI
-{
-	editorSubcategory = "SOR_OPFor_SubCat_Infantry_AIR";
-	vehicleclass = "SOR_OPFor_Infantry_AIR";
-	displayName = "Para Jumper";
-	backpack = "SOR_OPFor_PJMedicPack_VDV_AI";
-	uavHacker = 1; // allows UAV control
-	engineer = 1; // allows unit to repair 		
-	weapons[] = {"arifle_AKS_F","Throw","Put","Laserdesignator_02"};
-	respawnWeapons[] = {"arifle_AKS_F","Throw","Put","Laserdesignator_02"};
-	magazines[] = {AI_Standard_Mags,"Laserbatteries"};
-	respawnMagazines[] = {AI_Standard_Mags,"Laserbatteries"};
-	Items[] = {};  
-	RespawnItems[] = {};  
-	linkedItems[] = 
-	{	
-		"rhs_6b28_green",
-		"rhs_6b23_digi_medic",
-		"rhs_acc_1p78",
-		Airborne_Equipment
-	};
-	respawnLinkedItems[] = 
-	{	
-		"rhs_6b28_green",
-		"rhs_6b23_digi_medic",
-		"rhs_acc_1p78",
-		Airborne_Equipment
-	};
-};
-
 //Recon Units
-class SOR_OPFor_ReconLeader_VDV_AI : SOR_OPFor_Base_VDV_AI	
+class SOR_OPFor_ReconLeader_XXX_AI : SOR_OPFor_Base_XXX_AI	
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -402,7 +349,7 @@ class SOR_OPFor_ReconLeader_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};	
 };
 
-class SOR_OPFor_ReconJTAC_VDV_AI : SOR_OPFor_ReconLeader_VDV_AI	
+class SOR_OPFor_ReconJTAC_XXX_AI : SOR_OPFor_ReconLeader_XXX_AI	
 {
 	icon =  "iconMan";
 	backpack = "tf_mr3000_rhs";
@@ -411,7 +358,7 @@ class SOR_OPFor_ReconJTAC_VDV_AI : SOR_OPFor_ReconLeader_VDV_AI
 	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","Throw","Put","rhs_pdu4"};		
 };
 
-class SOR_OPFor_ReconRifleman_VDV_AI : SOR_OPFor_ReconLeader_VDV_AI	
+class SOR_OPFor_ReconRifleman_XXX_AI : SOR_OPFor_ReconLeader_XXX_AI	
 {
 	icon =  "iconMan";
 	displayName = "Recon Rifleman";
@@ -422,7 +369,7 @@ class SOR_OPFor_ReconRifleman_VDV_AI : SOR_OPFor_ReconLeader_VDV_AI
 };
 
 //Mechanised Crew/Driver/Gunner Engineers
-class SOR_OPFor_MechCrew_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_MechCrew_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -454,7 +401,7 @@ class SOR_OPFor_MechCrew_VDV_AI : SOR_OPFor_Base_VDV_AI
 	};
 };
 
-class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
+class SOR_OPFor_MechOperator_XXX_AI : SOR_OPFor_MechCrew_XXX_AI
 {
 	displayName = "Mechanised Operator";
 	backpack = "SOR_OPFor_Mech_Radio";
@@ -500,21 +447,23 @@ class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 	};
 };
 
-class SOR_OPFor_MechCrewCommander_VDV_AI : SOR_OPFor_MechOperator_VDV_AI
+class SOR_OPFor_MechCrewCommander_XXX_AI : SOR_OPFor_MechOperator_XXX_AI
 {
 	displayName = "Mechanised Crew Commander";
 	backpack = "SOR_OPFor_Mech_Radio";
 	cost = 100000;
 };	
 
-class SOR_OPFor_MechDriver_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
+class SOR_OPFor_MechDriver_XXX_AI : SOR_OPFor_MechCrew_XXX_AI
 {
 	displayName = "Mechanised Driver";
+// Standard backpack///////////////////////	
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
+///////////////////////////////////////////	
 };	
 
 //HMG Team
-class SOR_OPFor_HMGActual_VDV_AI : SOR_OPFor_Teamleader_VDV_AI
+class SOR_OPFor_HMGActual_XXX_AI : SOR_OPFor_Teamleader_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Actual";
@@ -522,63 +471,69 @@ class SOR_OPFor_HMGActual_VDV_AI : SOR_OPFor_Teamleader_VDV_AI
 	backpack = "tf_mr3000_rhs";
 };
 
-class SOR_OPFor_HMGGunner_VDV_AI : SOR_OPFor_Rifleman_VDV_AI
+class SOR_OPFor_HMGGunner_XXX_AI : SOR_OPFor_Rifleman_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Gunner";
 	backpack = "RHS_DShkM_Gun_Bag";
 };	
 
-class SOR_OPFor_HMGCarrier_VDV_AI : SOR_OPFor_Rifleman_VDV_AI
+class SOR_OPFor_HMGCarrier_XXX_AI : SOR_OPFor_Rifleman_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Carrier";
 	backpack = "RHS_DShkM_TripodLow_Bag";
 };
 
-class SOR_OPFor_HMGRFL_VDV_AI : SOR_OPFor_Grenadier_VDV_AI
+class SOR_OPFor_HMGRFL_XXX_AI : SOR_OPFor_Grenadier_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "HMG Rifleman M320";
+// Same ammo should be used////////////////////////	
 	backpack = "SOR_OPFor_GD_Pack_VDV";
+//////////////////////////////////////////////////	
 };	
 
 //Mortar Team
-class SOR_OPFor_MORActual_VDV_AI : SOR_OPFor_Teamleader_VDV_AI
+class SOR_OPFor_MORActual_XXX_AI : SOR_OPFor_Teamleader_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Actual";
 	backpack = "tf_mr3000_rhs";
 };
 
-class SOR_OPFor_MORGunner_VDV_AI : SOR_OPFor_Rifleman_VDV_AI
+class SOR_OPFor_MORGunner_XXX_AI : SOR_OPFor_Rifleman_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Gunner";
 	backpack = "RHS_Podnos_Gun_Bag";
 };	
 
-class SOR_OPFor_MORCarrier_VDV_AI : SOR_OPFor_Rifleman_VDV_AI
+class SOR_OPFor_MORCarrier_XXX_AI : SOR_OPFor_Rifleman_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Carrier";
 	backpack = "RHS_Podnos_Bipod_Bag";
 };
 
-class SOR_OPFor_MORRFL_VDV_AI : SOR_OPFor_Grenadier_VDV_AI
+class SOR_OPFor_MORRFL_XXX_AI : SOR_OPFor_Grenadier_XXX_AI
 {
 	vehicleclass = "SOR_OPFor_Infantry_Support";
 	displayName = "Mortar Rifleman M320";
+// Same ammo should be used////////////////////////	
 	backpack = "SOR_OPFor_GD_Pack_VDV";
+//////////////////////////////////////////////////	
 };		
 
 
 //Repair Team
-class SOR_OPFor_Engineer_VDV_AI : SOR_OPFor_Base_VDV_AI
+class SOR_OPFor_Engineer_XXX_AI : SOR_OPFor_Base_XXX_AI
 {
 	editorSubcategory = "SOR_OPFor_SubCat_Infantry_Support";
 	vehicleclass = "SOR_OPFor_Infantry_Support";
+// Same backpack should be used/////////////	
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
+////////////////////////////////////////////	
 	weapons[] = {"Throw", "Put"};
 	respawnWeapons[] = {"Throw", "Put"};
 	Items[] = {Standard_Meds};
