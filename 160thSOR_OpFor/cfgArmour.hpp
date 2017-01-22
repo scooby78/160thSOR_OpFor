@@ -26,6 +26,8 @@ class rhs_tigr_m_vdv;
 class rhs_tigr_sts_vdv;
 class RHS_Ural_VDV_01;
 class B_SDV_01_F;
+class I_G_Offroad_01_armed_F;
+class rhs_t72ba_tv;
 
 
 //////////////////////
@@ -515,6 +517,482 @@ class SOR_OpFor_rhs_tigr_sts_vdv : rhs_tigr_sts_vdv
 	vehicleclass = "SOR_Vehicles";
 	displayName = "GAZ (HMG/GL)";
 	crew = "SOR_OPFor_Rifleman_VDV_AI";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+	
+//Taki AI vehicles
+
+//////////////////////
+//Artillery Vehicles//
+//////////////////////
+class SOR_OpFor_rhs_typhoon_Taki : rhs_typhoon_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+//		armor = 500;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+class SOR_OpFor_RHS_BM21_Taki_01 : RHS_BM21_VDV_01
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+/////////////////////
+//Armoured Vehicles//
+/////////////////////
+
+// BTR-60
+class SOR_OpFor_rhs_btr60_Taki : rhs_btr60_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+// BTR-70
+class SOR_OpFor_rhs_btr70_Taki: rhs_btr70_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+// BTR-80
+class SOR_OpFor_rhs_btr80_Taki: rhs_btr80_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+// BTR-80 (A)
+class SOR_OpFor_rhs_btr80a_Taki: rhs_btr80a_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+//BMP-2 (E)	
+class SOR_OpFor_rhs_bmp2e_Taki : rhs_bmp2e_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//BMD-4M (A)	
+class SOR_OpFor_rhs_bmd4ma_Taki : rhs_bmd4ma_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+//PRP-3	
+class SOR_OpFor_rhs_prp3_Taki : rhs_prp3_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//S225	
+class SOR_OpFor_rhs_sprut_Taki : rhs_sprut_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+
+	
+//T-80UM
+class SOR_OpFor_rhs_t72ba_Taki : rhs_t72ba_tv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+//2S3M1
+class SOR_OpFor_rhs_2s3_tv_Taki : rhs_2s3_tv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_MechDriver_Taki_AI";
+//		armor = 500;
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,10)
+		mag_xx(rhs_100Rnd_762x54mmR_green,8)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+
+////////////////////
+//Support Vehicles//
+////////////////////
+
+//GAZ-66 (Engineer / Ammo)
+class SOR_OpFor_rhs_gaz66_ammo_Taki : rhs_gaz66_ammo_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+//		armor = 500;
+	displayName = "GAZ-66 (Engineer / Ammo)";
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_ak74m_folded_dtk,4)
+		weap_xx(rhs_weap_rpg26,2)
+	};
+	class TransportMagazines{};
+	class TransportBackpacks
+	{
+		pack_xx(SOR_OPFor_Repair_Pack_VDV,1)
+		pack_xx(SOR_CombatPack_D,4)
+		pack_xx(SOR_OrdanancePack_D,1)	
+		pack_xx(RHS_Podnos_Gun_Bag,1)	
+		pack_xx(RHS_Podnos_Bipod_Bag,1)				
+	};
+};
+
+// Ural-4320 (Engineer / Fuel)
+class SOR_OpFor_rhs_Ural_Fuel_Taki_01: RHS_Ural_Fuel_VDV_01
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+//		armor = 500;
+	displayName = "Ural-4320 (Engineer / Fuel)";
+	class TransportItems {item_xx(ACE_FieldDressing,20)};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_30Rnd_545x39_AK_green,20)
+		mag_xx(rhs_100Rnd_762x54mmR_green,4)
+		mag_xx(rhsusf_100Rnd_762x51,4)
+	};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//GAZ-66-AP-2 (Medical)
+class SOR_OpFor_rhs_gaz66_ap2_Taki : rhs_gaz66_ap2_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+//		armor = 500;
+ 	displayName = "GAZ-66-AP-2 (Medical)";
+	class TransportItems 
+	{
+		item_xx(ACE_Fielddressing,24)
+		item_xx(ACE_morphine,16)
+		item_xx(ACE_epinephrine,16)
+	};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_rpg26,2)
+		weap_xx(rhs_weap_ak74m_folded_dtk,2)
+	};
+	class TransportMagazines {mag_xx(rhs_30Rnd_545x39_AK_green,6)};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};	
+	
+
+//Troop transport
+class SOR_OpFor_rhs_Ural_Taki_01 : RHS_Ural_VDV_01
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+	displayName = "Ural (Troop)";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//Engineer transport truck	
+class SOR_OpFor_rhs_Ural_Taki_01_eng : RHS_Ural_VDV_01
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+	displayName = "Ural (Engineer)";
+	class TransportItems
+	{
+		item_xx(ToolKit,1)			
+	};
+	class TransportWeapons
+	{
+		weap_xx(rhs_weap_ak74m_folded_dtk,4)
+	};
+	class TransportMagazines
+	{
+		mag_xx(rhs_100Rnd_762x54mmR_green,2)
+		mag_xx(rhsusf_100Rnd_762x51,2)
+	};
+	class TransportBackpacks
+	{
+		pack_xx(SOR_CombatPack_D,4)
+		pack_xx(SOR_OrdanancePack_D,1)	
+		pack_xx(SOR_Eng_Repair_Pack_D,1)	
+	};
+};	
+	
+//Troop unarmed transport
+class SOR_OpFor_rhs_tigr_Taki : rhs_tigr_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+	displayName = "GAZ (Unarmed)";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//Troop armed transport
+class SOR_OpFor_rhs_tigr_m_Taki : rhs_tigr_m_vdv
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+//	editorSubcategory = "SOR_OPFor_SubCat_Vehicles";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
+	displayName = "GAZ";
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks {pack_xx(SOR_OPFor_Repair_Pack_VDV,1)};
+};
+	
+//Troop armed transport MG
+class SOR_OpFor_Offroad_Armed_Taki : I_G_Offroad_01_armed_F
+{
+	editorCategory = "SOR_OPFor_Cat_Faction_Taki_AI";
+	faction = SOR_OPFor_Faction_Taki_AI;
+	vehicleclass = "SOR_Vehicles";
+	side = 2;
+	displayName = "Offroad (Armed)";
+	crew = "SOR_OPFor_Rifleman_Taki_AI";
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
