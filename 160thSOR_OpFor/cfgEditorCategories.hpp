@@ -40,7 +40,7 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
-// New faction template//////////////////////////////
+/* New faction template//////////////////////////////
 	class SOR_OPFor_Cat_Faction_XXX
 	{
 		displayName = "160th XXX";
@@ -49,7 +49,7 @@ class CfgEditorCategories
 	{
 		displayName = "160th AI XXX";
 	};	
-////////////////////////////////////////////////////	
+*///////////////////////////////////////////////////	
 };
 
 // 3DEN Sub Catagories
