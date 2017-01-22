@@ -15,7 +15,19 @@ class CfgEditorCategories
 	class SOR_OPFor_Cat_Faction_VDV_AI
 	{
 		displayName = "160th AI Russian (VDV)";
+	};		
+	class SOR_OPFor_Cat_Faction_PMC_AI
+	{
+		displayName = "160th AI Private Military (PMC)";
+	};
+	class SOR_OPFor_Cat_Faction_TAK_AI
+	{
+		displayName = "160th AI Takistan Military (TAK)";
 	};	
+	class SOR_OPFor_Cat_Faction_CIV_AI
+	{
+		displayName = "160th AI Civilian (CIV)";
+	};		
 	class SOR_OPFor_Cat_Supplies
 	{
 		displayName = "160th Supplies Opfor";
@@ -28,7 +40,7 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
-// New faction template//////////////////////////////
+/* New faction template//////////////////////////////
 	class SOR_OPFor_Cat_Faction_XXX
 	{
 		displayName = "160th XXX";
@@ -37,7 +49,7 @@ class CfgEditorCategories
 	{
 		displayName = "160th AI XXX";
 	};	
-////////////////////////////////////////////////////	
+*///////////////////////////////////////////////////	
 };
 
 // 3DEN Sub Catagories
