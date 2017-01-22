@@ -15,12 +15,9 @@ class cfgWeapons
 	class rhs_weap_ak74m_camo;
 	class rhs_weap_M590_8RD;
 	class arifle_AK12_GL_F;
-<<<<<<< HEAD
 	class arifle_CTAR_blk_F;
 	class arifle_CTARS_blk_F;	
 	class arifle_CTAR_GL_blk_F;	
-=======
->>>>>>> refs/remotes/origin/master
 	
 	class 160_rhs_weap_M590_8RD: rhs_weap_M590_8RD 
 	{
@@ -94,7 +91,6 @@ class cfgWeapons
 			};
 		};
 	};
-<<<<<<< HEAD
 	
 	class 160_Opfor_AI_TL_PMC: arifle_CTAR_blk_F 
 	{
@@ -131,8 +127,6 @@ class cfgWeapons
 	};		
 
 	
-=======
->>>>>>> refs/remotes/origin/master
 /*
 	class 160_rhs_weap_sr25: rhs_weap_sr25_ec 
 	{
