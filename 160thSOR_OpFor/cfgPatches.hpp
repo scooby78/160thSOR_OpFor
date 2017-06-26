@@ -103,6 +103,8 @@ class CfgPatches
 			"SOR_OpFor_rhs_Su25SM_KH29_vvsc",
 			"SOR_Opfor_Fighter_AA",
 			"SOR_Opfor_Fighter_CAS",
+			"SOR_Ind_Fighter_AA",
+			"SOR_Ind_Fighter_CAS",
 			
 			"SOR_OPFor_Teamleader_VDV_AI",
 			"SOR_OPFor_Medic_VDV_AI",
