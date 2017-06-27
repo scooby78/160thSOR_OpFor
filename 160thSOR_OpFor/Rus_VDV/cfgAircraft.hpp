@@ -374,21 +374,43 @@ class SOR_OpFor_rhs_ka60_grey : rhs_ka60_grey
 ////////////
 class SOR_OPFOR_FIGHTER_BASE: O_Plane_Fighter_02_F
 {
+	scope = 0;
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_VDV_AI;
+	vehicleclass = "SOR_Aircraft";
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_02_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 	class Components;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks{};	
 };
 
 class SOR_IND_FIGHTER_BASE: I_Plane_Fighter_04_F
 {
+	scope = 0;
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = SOR_OPFor_Faction_VDV_AI;
+	vehicleclass = "SOR_Aircraft";	
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	class Components;
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks{};		
 };
 
 class SOR_Opfor_Fighter_AA : SOR_OPFOR_FIGHTER_BASE
 {
+	scope = 2;
 	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
 	displayName = "To-201 Shikra (AA)";
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_02_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -555,11 +577,13 @@ class SOR_Opfor_Fighter_AA : SOR_OPFOR_FIGHTER_BASE
 
 class SOR_Opfor_Fighter_CAS : SOR_OPFOR_FIGHTER_BASE
 {
+	scope = 2;
 	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
 	displayName = "To-201 Shikra (CAS)";
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_02_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -726,12 +750,14 @@ class SOR_Opfor_Fighter_CAS : SOR_OPFOR_FIGHTER_BASE
 
 class SOR_Ind_Fighter_AA : SOR_IND_FIGHTER_BASE
 {
+	scope = 2;
 	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
 	displayName = "A-149 Gryphon (AA)";	
 	side = 0;
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -817,12 +843,14 @@ class SOR_Ind_Fighter_AA : SOR_IND_FIGHTER_BASE
 
 class SOR_Ind_Fighter_CAS : SOR_IND_FIGHTER_BASE
 {
+	scope = 2;
 	editorCategory = "SOR_OPFor_Cat_Faction_VDV";
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV;
 	vehicleclass = "SOR_Aircraft";
 	displayName = "A-149 Gryphon (CAS)";
 	side = 0;	
+	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};
