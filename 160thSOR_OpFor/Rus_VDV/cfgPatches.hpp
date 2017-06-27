@@ -125,3 +125,7 @@
 "SOR_OPFor_MORCarrier_VDV_AI",
 "SOR_OPFor_MORRFL_VDV_AI",
 "SOR_OPFor_Engineer_VDV_AI",
+"SOR_Opfor_Fighter_AA_AI",
+"SOR_Opfor_Fighter_CAS_AI",
+"SOR_Ind_Fighter_AA_AI",
+"SOR_Ind_Fighter_CAS_AI",

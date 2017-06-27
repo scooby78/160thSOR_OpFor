@@ -11,6 +11,7 @@ class cfgVehicles
 	#include "Rus_VDV\cfgUnits.hpp"
 	#include "Rus_VDV\cfgAiUnits.hpp"
 	#include "Rus_VDV\cfgAircraft.hpp"	
+	#include "Rus_VDV\cfgAiAircraft.hpp"		
 	#include "Rus_VDV\cfgArmour.hpp"	
 	#include "Rus_VDV\cfgCrates.hpp"
 	
