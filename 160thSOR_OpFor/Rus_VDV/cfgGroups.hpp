@@ -972,44 +972,142 @@ class SOR_Opfor_Groups_VDV_AI
 	{
 		name = "Airborne";
 		aliveCategory = "Airborne";
-		class SOR_Opfor_FighterWing_VDV_AI 
+		class SOR_Opfor_FighterWing1_VDV_AI 
 		{
-			name = "Fighter Wing";
+			name = "SU-35 Wing x4 (AA)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
 			class Unit0 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA_AI";
 				rank = LIEUTENANT;
 				position[] = {0, 0, 0};
 			};
 			class Unit1 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA_AI";
 				rank = LIEUTENANT;
-				position[] = {-40, 0, 0};
+				position[] = {-80, -40, 0};
 			};
 			class Unit2 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA_AI";
 				rank = LIEUTENANT;
-				position[] = {-80, 0, 0};
+				position[] = {-160, -80, 0};
 			};
 			class Unit3 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA_AI";
 				rank = LIEUTENANT;
-				position[] = {-120, 0, 0};
+				position[] = {-320, -120, 0};
 			};
 		};
-		class SOR_Opfor_CASWing_VDV_AI 
+		class SOR_Opfor_FighterWing2_VDV_AI 
 		{
-			name = "CAS Wing";
+			name = "JAS 39 Gripen Wing x4 (AA)";
+			faction = "SOR_Opfor_Faction_VDV_AI";
+			side = OPFOR;
+			rarityGroup = 0.75;
+			class Unit0 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_AA_AI";
+				rank = LIEUTENANT;
+				position[] = {0, 0, 0};
+			};
+			class Unit1 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_AA_AI";
+				rank = LIEUTENANT;
+				position[] = {-80, -40, 0};
+			};
+			class Unit2 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_AA_AI";
+				rank = LIEUTENANT;
+				position[] = {-160, -80, 0};
+			};
+			class Unit3 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_AA_AI";
+				rank = LIEUTENANT;
+				position[] = {-320, -120, 0};
+			};
+		};
+		class SOR_Opfor_CASWing1_VDV_AI 
+		{
+			name = "SU-35 Wing x4 (CAS)";
+			faction = "SOR_Opfor_Faction_VDV_AI";
+			side = OPFOR;
+			rarityGroup = 0.75;
+			class Unit0 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {0, 0, 0};
+			};
+			class Unit1 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {-80, -40, 0};
+			};
+			class Unit2 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {-160, -80, 0};
+			};
+			class Unit3 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {-320, -120, 0};
+			};
+		};
+		class SOR_Opfor_CASWing2_VDV_AI 
+		{
+			name = "JAS 39 Gripen Wing (CAS)";
+			faction = "SOR_Opfor_Faction_VDV_AI";
+			side = OPFOR;
+			rarityGroup = 0.75;
+			class Unit0 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {0, 0, 0};
+			};
+			class Unit1 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {80, -40, 0};
+			};
+			class Unit2 
+			{
+				side = OPFOR;
+				vehicle = "SOR_Ind_Fighter_CAS_AI";
+				rank = LIEUTENANT;
+				position[] = {-80, -40, 0};
+			};
+		};
+		class SOR_Opfor_CASWing3_VDV_AI 
+		{
+			name = "SU-25 Wing (CAS)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
@@ -1025,14 +1123,14 @@ class SOR_Opfor_Groups_VDV_AI
 				side = OPFOR;
 				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
 				rank = LIEUTENANT;
-				position[] = {40, -40, 0};
+				position[] = {80, -40, 0};
 			};
 			class Unit2 
 			{
 				side = OPFOR;
 				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
 				rank = LIEUTENANT;
-				position[] = {-40, -40, 0};
+				position[] = {-80, -40, 0};
 			};
 		};
 	};
