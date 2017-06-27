@@ -16,6 +16,7 @@ class Reich_Commander: O_Soldier_GL_F
 	displayName = "Reich Commander"; 
 	identityTypes[] = {"Head_NATO", "G_NATO_default"}; 
 	genericNames = "NATOMen"; 
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	uniformClass = "Smill_OLIU"; 
@@ -58,6 +59,7 @@ class Reich_Commander_W: O_Soldier_GL_F
 	displayName = "Reich Commander woodland"; 
 	identityTypes[] = {"Head_NATO", "G_NATO_default"}; 
 	genericNames = "NATOMen"; 
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
     uniformClass = "Smill_GERWU"; 
@@ -100,6 +102,7 @@ class Reich_Commander_S: O_Soldier_GL_F
 	displayName = "Reich Commander Snow"; 
 	identityTypes[] = {"Head_NATO", "G_NATO_default"}; 
 	genericNames = "NATOMen"; 
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
     uniformClass = "Smill_GERWU"; 
@@ -341,6 +344,7 @@ class SS_Commander: O_recon_JTAC_F  {
 	displayName = "SS Commander"; 
 	identityTypes[] = {"Head_NATO", "G_NATO_default"}; 
 	genericNames = "NATOMen"; 
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	backpack = ""; // backpack
 	uniformClass = "SS_Uniform"; 
