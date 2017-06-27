@@ -6,7 +6,7 @@
 */
 class reich_groups
 {
-	name = "The Fourth Reich";
+	name = "160th AI 4th Reich";
 	class Infantry
 	{
 		name = "Infantry";
