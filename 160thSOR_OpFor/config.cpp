@@ -8,11 +8,10 @@
 #include "define_macros.hpp"
 #include "cfgPatches.hpp"
 #include "cfgFactionClasses.hpp"
+#include "UniformSlotInfo.hpp"
 #include "cfgVehicles.hpp"
 #include "cfgVehicleClasses.hpp"
 #include "cfgGroups.hpp"
 #include "cfgWeapons.hpp"
 #include "cfgEditorCategories.hpp"
 #include "cfgBrains.hpp"
-
-

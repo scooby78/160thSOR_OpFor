@@ -55,21 +55,21 @@ class SOR_OPFor_Base_VDV_AI	: SOR_Soldier_base_AI
 	displayName = "SOR_OPFor_Base_VDV_AI";
 	weapons[] = {"arifle_AKS_F","Throw","Put"};
 	respawnWeapons[] = {"arifle_AKS_F","Throw","Put"};
-	Items[] = {Standard_Meds};
-	RespawnItems[] = {Standard_Meds};
-	magazines[] = {AI_Standard_Mags};
-	respawnMagazines[] = {AI_Standard_Mags};
+	Items[] = {RUS_VDV_Standard_Meds};
+	RespawnItems[] = {RUS_VDV_Standard_Meds};
+	magazines[] = {RUS_VDV_AI_Standard_Mags};
+	respawnMagazines[] = {RUS_VDV_AI_Standard_Mags};
 	linkedItems[] = 
 	{
 		"rhs_6b28_green",
 		"rhs_6b23_digi_6sh92",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{
 		"rhs_6b28_green",
 		"rhs_6b23_digi_6sh92",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -83,8 +83,8 @@ class SOR_OPFor_Teamleader_VDV_AI : SOR_OPFor_Base_VDV_AI
 	backpack = "";
 	weapons[] = {"arifle_AKS_F","launch_RPG7_F","Throw","Put","rhs_pdu4"};
 	respawnWeapons[] = {"arifle_AKS_F","launch_RPG7_F","Throw","Put","rhs_pdu4"};
-	magazines[] = {SL_Mags,"RPG7_F"};
-	respawnMagazines[] = {SL_Mags"RPG7_F"};
+	magazines[] = {RUS_VDV_SL_Mags,"RPG7_F"};
+	respawnMagazines[] = {RUS_VDV_SL_Mags"RPG7_F"};
 	Items[] = {};
 	RespawnItems[] = {};
 	linkedItems[] = 
@@ -92,14 +92,14 @@ class SOR_OPFor_Teamleader_VDV_AI : SOR_OPFor_Base_VDV_AI
 		"rhs_6b23_digi_6sh92_vog_headset",
 		"rhs_6b28", 
 		"ItemGPS", 
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
 		"rhs_6b23_digi_6sh92_vog_headset",
 		"rhs_6b28", 
 		"ItemGPS", 
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};			
 };
 
@@ -118,14 +118,14 @@ class SOR_OPFor_Medic_VDV_AI : SOR_OPFor_Base_VDV_AI
 		"rhs_6b28_green",
 		"rhs_6b23_digi_medic",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
 		"rhs_6b28_green",
 		"rhs_6b23_digi_medic",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -156,13 +156,13 @@ class SOR_OPFor_PKM_VDV_AI : SOR_OPFor_Base_VDV_AI
 	{
 		"rhs_6b28_green_ess",
 		"rhs_6b23_digi",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{
 		"rhs_6b28_green_ess",
 		"rhs_6b23_digi",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -193,13 +193,13 @@ class SOR_OPFor_PKP_VDV_AI : SOR_OPFor_Base_VDV_AI
 	{
 		"rhs_6b28_green_ess",
 		"rhs_6b23_digi",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{
 		"rhs_6b28_green_ess",
 		"rhs_6b23_digi",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -213,11 +213,11 @@ class SOR_OPFor_Grenadier_VDV_AI : SOR_OPFor_Base_VDV_AI
 	respawnWeapons[] = {"160_Opfor_AI_GL","Throw","Put"};
 	magazines[] = 
 	{
-		AI_GL_Mags
+		RUS_VDV_AI_GL_Mags
 	};
 	respawnMagazines[] = 
 	{
-		AI_GL_Mags
+		RUS_VDV_AI_GL_Mags
 	};
 };
 
@@ -247,13 +247,13 @@ class SOR_OPFor_HeliPilot_VDV_AI : SOR_OPFor_Base_VDV_AI
 	RespawnItems[] = {}; 
 	magazines[] = 
 	{
-		AI_Std_Pistol,
+		RUS_VDV_AI_Std_Pistol,
 		"rhs_mag_rdg2_white",
 		"rhs_mag_rdg2_white"
 	};
 	respawnMagazines[] =
 	{
-		AI_Std_Pistol,
+		RUS_VDV_AI_Std_Pistol,
 		"rhs_mag_rdg2_white",
 		"rhs_mag_rdg2_white"
 	};	
@@ -262,14 +262,14 @@ class SOR_OPFor_HeliPilot_VDV_AI : SOR_OPFor_Base_VDV_AI
 		"rhs_vest_pistol_holster", 
 		"rhs_zsh7a_mike",
 		"G_Aviator",
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};              
 	respawnLinkedItems[] = 
 	{	
 		"rhs_vest_pistol_holster", 
 		"rhs_zsh7a_mike",
 		"G_Aviator",
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 };
 
@@ -282,7 +282,7 @@ class SOR_OPFor_HeliCrew_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 	respawnWeapons[] = {"rhs_weap_ak74m_folded_dtk","rhsusf_weap_m9","Throw","Put","Laserdesignator_02"};
 	magazines[] = 
 	{
-		AI_Std_Pistol,
+		RUS_VDV_AI_Std_Pistol,
 		"rhs_30Rnd_545x39_AK_green",
 		"rhs_30Rnd_545x39_AK_green",
 		"rhs_30Rnd_545x39_AK_green",
@@ -292,7 +292,7 @@ class SOR_OPFor_HeliCrew_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 	};
 	respawnMagazines[] =
 	{
-		AI_Std_Pistol,
+		RUS_VDV_AI_Std_Pistol,
 		"rhs_30Rnd_545x39_AK_green",
 		"rhs_30Rnd_545x39_AK_green",
 		"rhs_30Rnd_545x39_AK_green",
@@ -304,13 +304,13 @@ class SOR_OPFor_HeliCrew_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 	{	
 		"rhs_vest_commander", 
 		"rhs_zsh7a_mike", 
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};              
 	respawnLinkedItems[] = 
 	{	
 		"rhs_vest_commander", 
 		"rhs_zsh7a_mike", 
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 };
 
@@ -324,14 +324,14 @@ class SOR_OPFor_JetPilot_VDV_AI : SOR_OPFor_HeliPilot_VDV_AI
 		"rhs_vest_pistol_holster",
 		"rhs_zsh7a",
 		"G_Aviator",		
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
 		"rhs_vest_pistol_holster", 
 		"rhs_zsh7a",
 		"G_Aviator",		
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 };
 
@@ -351,8 +351,8 @@ class SOR_OPFor_ParaJumper_VDV_AI : SOR_OPFor_Medic_VDV_AI
 	engineer = 1; // allows unit to repair 		
 	weapons[] = {"arifle_AKS_F","Throw","Put","Laserdesignator_02"};
 	respawnWeapons[] = {"arifle_AKS_F","Throw","Put","Laserdesignator_02"};
-	magazines[] = {AI_Standard_Mags,"Laserbatteries"};
-	respawnMagazines[] = {AI_Standard_Mags,"Laserbatteries"};
+	magazines[] = {RUS_VDV_AI_Standard_Mags,"Laserbatteries"};
+	respawnMagazines[] = {RUS_VDV_AI_Standard_Mags,"Laserbatteries"};
 	Items[] = {};  
 	RespawnItems[] = {};  
 	linkedItems[] = 
@@ -360,14 +360,14 @@ class SOR_OPFor_ParaJumper_VDV_AI : SOR_OPFor_Medic_VDV_AI
 		"rhs_6b28_green",
 		"rhs_6b23_digi_medic",
 		"rhs_acc_1p78",
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
 		"rhs_6b28_green",
 		"rhs_6b23_digi_medic",
 		"rhs_acc_1p78",
-		Airborne_Equipment
+		RUS_VDV_Airborne_Equipment
 	};
 };
 
@@ -386,19 +386,19 @@ class SOR_OPFor_ReconLeader_VDV_AI : SOR_OPFor_Base_VDV_AI
 	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","launch_RPG7_F","Throw","Put","Laserdesignator_02"};
 	Items[] = {Recon_Equip,Recon_Meds};                
 	RespawnItems[] = {Recon_Equip,Recon_Meds};   
-	magazines[] = {Recon_Mags,"Laserbatteries","RPG7_F"};
-	respawnMagazines[] = {Recon_Mags,"Laserbatteries","RPG7_F"};
+	magazines[] = {RUS_VDV_Recon_Mags,"Laserbatteries","RPG7_F"};
+	respawnMagazines[] = {RUS_VDV_Recon_Mags,"Laserbatteries","RPG7_F"};
 	linkedItems[] = 
 	{	
 		"rhs_6b23_digi_6sh92_radio", 
 		"rhs_6b28_green_ess_bala", 
-		Recon_Equipment
+		RUS_VDV_Recon_Equipment
 	};              
 	respawnLinkedItems[] = 
 	{	
 		"rhs_6b23_digi_6sh92_radio", 
 		"rhs_6b28_green_ess_bala", 
-		Recon_Equipment
+		RUS_VDV_Recon_Equipment
 	};	
 };
 
@@ -417,8 +417,8 @@ class SOR_OPFor_ReconRifleman_VDV_AI : SOR_OPFor_ReconLeader_VDV_AI
 	displayName = "Recon Rifleman";
 	weapons[] = {"160_rhs_weap_ak74m_camo","Throw","Put","rhs_pdu4"};
 	respawnWeapons[] = {"160_rhs_weap_ak74m_camo","Throw","Put","rhs_pdu4"};
-	magazines[] = {Recon_Mags};						
-	respawnMagazines[] = {Recon_Mags};	
+	magazines[] = {RUS_VDV_Recon_Mags};						
+	respawnMagazines[] = {RUS_VDV_Recon_Mags};	
 };
 
 //Mechanised Crew/Driver/Gunner Engineers
@@ -432,17 +432,17 @@ class SOR_OPFor_MechCrew_VDV_AI : SOR_OPFor_Base_VDV_AI
 	backpack = "";
 	weapons[] = {"rhs_weap_makarov_pmm","Throw", "Put"};
 	respawnWeapons[] = {"rhs_weap_makarov_pmm","Throw", "Put"};
-	magazines[] = {AI_Std_Pistol};
-	respawnMagazines[] = {AI_Std_Pistol};
-	Items[] = {Standard_Meds};  
-	RespawnItems[] = {Standard_Meds};  
+	magazines[] = {RUS_VDV_AI_Std_Pistol};
+	respawnMagazines[] = {RUS_VDV_AI_Std_Pistol};
+	Items[] = {RUS_VDV_Standard_Meds};  
+	RespawnItems[] = {RUS_VDV_Standard_Meds};  
 	linkedItems[] = 
 	{	
 		"rhs_vest_pistol_holster",
 		"rhs_tsh4",
 		"G_Balaclava_blk",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
@@ -450,7 +450,7 @@ class SOR_OPFor_MechCrew_VDV_AI : SOR_OPFor_Base_VDV_AI
 		"rhs_tsh4",
 		"G_Balaclava_blk",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -469,7 +469,7 @@ class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 		"rhs_mag_rdg2_white",
 		"rhs_mag_rdg2_white",
 		"Laserbatteries",
-		AI_Std_Pistol
+		RUS_VDV_AI_Std_Pistol
 	};						
 	respawnMagazines[] =
 	{
@@ -480,7 +480,7 @@ class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 		"rhs_mag_rdg2_white",
 		"rhs_mag_rdg2_white",
 		"Laserbatteries",
-		AI_Std_Pistol
+		RUS_VDV_AI_Std_Pistol
 	};
 	linkedItems[] = 
 	{	
@@ -488,7 +488,7 @@ class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 		"rhs_tsh4_ess", 
 		"G_Balaclava_blk",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
@@ -496,7 +496,7 @@ class SOR_OPFor_MechOperator_VDV_AI : SOR_OPFor_MechCrew_VDV_AI
 		"rhs_tsh4_ess", 
 		"G_Balaclava_blk",
 		"ItemGPS",
-		Standard_Equipment
+		RUS_VDV_Standard_Equipment
 	};
 };
 
@@ -581,8 +581,8 @@ class SOR_OPFor_Engineer_VDV_AI : SOR_OPFor_Base_VDV_AI
 	backpack = "SOR_OPFor_Repair_Pack_VDV";
 	weapons[] = {"Throw", "Put"};
 	respawnWeapons[] = {"Throw", "Put"};
-	Items[] = {Standard_Meds};
-	RespawnItems[] = {Standard_Meds};
+	Items[] = {RUS_VDV_Standard_Meds};
+	RespawnItems[] = {RUS_VDV_Standard_Meds};
 	magazines[] = {};
 	respawnMagazines[] = {};	
 };	
