@@ -974,7 +974,7 @@ class SOR_Opfor_Groups_VDV_AI
 		aliveCategory = "Airborne";
 		class SOR_Opfor_FighterWing1_VDV_AI 
 		{
-			name = "SU-35 Wing x4 (AA)";
+			name = "SU-35 Wing x3 (AA)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
@@ -1002,7 +1002,7 @@ class SOR_Opfor_Groups_VDV_AI
 		};
 		class SOR_Opfor_FighterWing2_VDV_AI 
 		{
-			name = "JAS 39 Gripen Wing x4 (AA)";
+			name = "JAS 39 Gripen Wing x3 (AA)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
@@ -1030,7 +1030,7 @@ class SOR_Opfor_Groups_VDV_AI
 		};
 		class SOR_Opfor_CASWing1_VDV_AI 
 		{
-			name = "SU-35 Wing x4 (CAS)";
+			name = "SU-35 Wing x3 (CAS)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
@@ -1058,7 +1058,7 @@ class SOR_Opfor_Groups_VDV_AI
 		};
 		class SOR_Opfor_CASWing2_VDV_AI 
 		{
-			name = "JAS 39 Gripen Wing (CAS)";
+			name = "JAS 39 Gripen Wing x3 (CAS)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
@@ -1086,7 +1086,7 @@ class SOR_Opfor_Groups_VDV_AI
 		};
 		class SOR_Opfor_CASWing3_VDV_AI 
 		{
-			name = "SU-25 Wing (CAS)";
+			name = "SU-25 Wing x3 (CAS)";
 			faction = "SOR_Opfor_Faction_VDV_AI";
 			side = OPFOR;
 			rarityGroup = 0.75;
