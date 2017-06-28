@@ -141,7 +141,8 @@ class Reich_Commander_S: O_Soldier_GL_F
 };
 
 
-class Reich_Grenadier: Reich_Commander {
+class Reich_Grenadier: Reich_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -150,10 +151,10 @@ class Reich_Grenadier: Reich_Commander {
 	respawnWeapons[] = {"EN_arifle_MX_GL_Black_F_holo","Throw","Put"}; ///match weapons[]
 	magazines[] = {Reich_GL_Mags, Reich_SL_Mags};
 	respawnMagazines[] = {Reich_GL_Mags, Reich_SL_Mags}; // match
-
 };
 
-class Reich_Grenadier_w: Reich_Commander_W {
+class Reich_Grenadier_w: Reich_Commander_W 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -162,10 +163,10 @@ class Reich_Grenadier_w: Reich_Commander_W {
 	respawnWeapons[] = {"EN_arifle_MX_GL_Black_F_holo","Throw","Put"}; ///match weapons[]
 	magazines[] = {Reich_GL_Mags, Reich_SL_Mags};
 	respawnMagazines[] = {Reich_GL_Mags, Reich_SL_Mags}; // match
-
 };
 
-class Reich_Grenadier_S: Reich_Commander_S {
+class Reich_Grenadier_S: Reich_Commander_S 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -176,7 +177,8 @@ class Reich_Grenadier_S: Reich_Commander_S {
 	respawnMagazines[] = {Reich_GL_Mags, Reich_SL_Mags}; // match
 };
 
-class Reich_Gunner: Reich_Grenadier {
+class Reich_Gunner: Reich_Grenadier 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -188,7 +190,8 @@ class Reich_Gunner: Reich_Grenadier {
 	respawnMagazines[] = {"200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box"}; // match
 };
 
-class Reich_Gunner_W: Reich_Grenadier_w {
+class Reich_Gunner_W: Reich_Grenadier_w 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -200,7 +203,8 @@ class Reich_Gunner_W: Reich_Grenadier_w {
 	respawnMagazines[] = {"200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box"}; // match
 };
 
-class Reich_Gunner_S: Reich_Grenadier_S {
+class Reich_Gunner_S: Reich_Grenadier_S 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -212,7 +216,8 @@ class Reich_Gunner_S: Reich_Grenadier_S {
 	respawnMagazines[] = {"200Rnd_65x39_cased_Box","200Rnd_65x39_cased_Box"}; // match
 };
 
-class Reich_AT_Rifleman: Reich_Grenadier {
+class Reich_AT_Rifleman: Reich_Grenadier 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -224,7 +229,8 @@ class Reich_AT_Rifleman: Reich_Grenadier {
 
 };
 
-class Reich_AT_Rifleman_w: Reich_Grenadier_w {
+class Reich_AT_Rifleman_w: Reich_Grenadier_w 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -234,7 +240,8 @@ class Reich_AT_Rifleman_w: Reich_Grenadier_w {
 	magazines[] = {Reich_SL_Mags};
 	respawnMagazines[] = {Reich_SL_Mags}; // match magazines[]
 };
-class Reich_AT_Rifleman_S: Reich_Grenadier_S {
+class Reich_AT_Rifleman_S: Reich_Grenadier_S 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -245,7 +252,8 @@ class Reich_AT_Rifleman_S: Reich_Grenadier_S {
 	respawnMagazines[] = {Reich_SL_Mags}; // match magazines[]
 };
 
-class Reich_Heavy_MG: Reich_Grenadier {
+class Reich_Heavy_MG: Reich_Grenadier 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -255,9 +263,10 @@ class Reich_Heavy_MG: Reich_Grenadier {
 	respawnWeapons[] = {"MMG_02_sand_F","Throw","Put"}; ///match weapons[]
 	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
-
 };
-class Reich_Heavy_MG_w: Reich_Grenadier_w {
+
+class Reich_Heavy_MG_w: Reich_Grenadier_w 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2;
@@ -268,7 +277,9 @@ class Reich_Heavy_MG_w: Reich_Grenadier_w {
 	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
 };
-class Reich_Heavy_MG_S: Reich_Grenadier_S {
+
+class Reich_Heavy_MG_S: Reich_Grenadier_S 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -279,7 +290,9 @@ class Reich_Heavy_MG_S: Reich_Grenadier_S {
 	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
 };
-class Reich_MM: Reich_Grenadier {
+
+class Reich_MM: Reich_Grenadier 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -288,10 +301,10 @@ class Reich_MM: Reich_Grenadier {
 	respawnWeapons[] = {"EN_arifle_MXM_Black_MM","Throw","Put"}; ///match weapons[]
 	magazines[] = {Reich_SL_Mags};
 	respawnMagazines[] = {Reich_SL_Mags}; // match magazines[]
-
 };
 
-class Reich_MM_w: Reich_Grenadier_w {
+class Reich_MM_w: Reich_Grenadier_w 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -300,9 +313,10 @@ class Reich_MM_w: Reich_Grenadier_w {
 	respawnWeapons[] = {"EN_arifle_MXM_Black_MM","Throw","Put"}; ///match weapons[]
 	magazines[] = {Reich_SL_Mags};
 	respawnMagazines[] = {Reich_SL_Mags}; // match magazines[]
-
 };
-class Reich_MM_S: Reich_Grenadier_S {
+
+class Reich_MM_S: Reich_Grenadier_S 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -313,7 +327,8 @@ class Reich_MM_S: Reich_Grenadier_S {
 	respawnMagazines[] = {Reich_SL_Mags}; // match magazines[]
 };
 
-class Reich_Crew_Black: Reich_Grenadier {
+class Reich_Crew_Black: Reich_Grenadier 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -330,14 +345,17 @@ class Reich_Crew_Black: Reich_Grenadier {
 	linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","V_Chestrig_blk","Trp_helm","G_Balaclava_TI_G_blk_F"};
 	respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","V_Chestrig_blk","Trp_helm","G_Balaclava_TI_G_blk_F"};
 };
-class Reich_Commander_Black: Reich_Crew_Black {
+
+class Reich_Commander_Black: Reich_Crew_Black 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
 	displayName = "Vehicle Commander"; 
 };
 
-class SS_Commander: O_recon_JTAC_F  {
+class SS_Commander: O_recon_JTAC_F  
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -359,7 +377,8 @@ class SS_Commander: O_recon_JTAC_F  {
 	respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","V_PlateCarrier2_blk","SS_helmet","rhs_ess_black"};	
 };
 
-class SS_Trooper_MG: SS_Commander {
+class SS_Trooper_MG: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -368,10 +387,10 @@ class SS_Trooper_MG: SS_Commander {
 	respawnWeapons[] = {"MMG_02_black_RCO_BI_F","hgun_Rook40_F","Throw","Put"}; ///match weapons[]
 	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag","ACE_M84","ACE_M84"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag","ACE_M84","ACE_M84"}; // match magazines[]
-
 };
 
-   class SS_Trooper_EXP: SS_Commander {
+class SS_Trooper_EXP: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -382,7 +401,9 @@ class SS_Trooper_MG: SS_Commander {
 	respawnMagazines[] = {"30Rnd_9x21_Mag_SMG_02_Tracer_Green","30Rnd_9x21_Mag_SMG_02_Tracer_Green","30Rnd_9x21_Mag_SMG_02_Tracer_Green","30Rnd_9x21_Mag_SMG_02_Tracer_Green","30Rnd_9x21_Mag_SMG_02_Tracer_Green","30Rnd_9x21_Mag_SMG_02_Tracer_Green","ClaymoreDirectionalMine_Remote_Mag","ATMine_Range_Mag","rhsusf_m112_mag","rhsusf_m112_mag","ACE_M84","ACE_M84"}; // match magazines[]
 
 };
-class SS_Trooper_MM: SS_Commander {
+
+class SS_Trooper_MM: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -392,7 +413,9 @@ class SS_Trooper_MM: SS_Commander {
 	magazines[] = {"5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","SmokeShell","SmokeShell","SmokeShell","ACE_M84","ACE_M84"};
 	respawnMagazines[] = {"5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","SmokeShell","SmokeShell","SmokeShell","ACE_M84","ACE_M84"}; // match magazines[]
 };
-	class SS_Trooper_BR: SS_Commander {
+
+class SS_Trooper_BR: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -402,7 +425,9 @@ class SS_Trooper_MM: SS_Commander {
 	magazines[] = {"rhsusf_8Rnd_00Buck","rhsusf_8Rnd_00Buck","rhsusf_8Rnd_00Buck","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","ACE_M84","ACE_M84","ACE_M84","ACE_M84"};
 	respawnMagazines[] = {"rhsusf_8Rnd_00Buck","rhsusf_8Rnd_00Buck","rhsusf_8Rnd_00Buck","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","rhsusf_8Rnd_Slug","ACE_M84","ACE_M84","ACE_M84","ACE_M84"}; // match magazines[]
 };
-	class SS_Trooper_GD: SS_Commander {
+
+class SS_Trooper_GD: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -413,7 +438,8 @@ class SS_Trooper_MM: SS_Commander {
 	respawnMagazines[] = {"rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE"};// match magazines[]
 };
 
-	class Reich_Pilot: Reich_Crew_Black {
+class Reich_Pilot: Reich_Crew_Black 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -424,9 +450,10 @@ class SS_Trooper_MM: SS_Commander {
 	respawnMagazines[] = {"rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20"};// match magazines[]
 	linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","V_Chestrig_blk","H_CrewHelmetHeli_B"};
 	respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","V_Chestrig_blk","SS_helmet","H_CrewHelmetHeli_B"};	
-	};
+};
 	
-	class Reich_Shock_trp_leader: SS_Commander {
+class Reich_Shock_trp_leader: SS_Commander 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -467,7 +494,9 @@ class SS_Trooper_MM: SS_Commander {
 		"G_Balaclava_TI_G_blk_F"
 	};
 };
-	class Reich_Shock_trp_AA: Reich_Shock_trp_leader {
+
+class Reich_Shock_trp_AA: Reich_Shock_trp_leader 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -477,9 +506,10 @@ class SS_Trooper_MM: SS_Commander {
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","rhs_weap_fim92","hgun_Rook40_F","Throw","Put"};
 	magazines[] = {Reich_SL_Mags,"rhs_fim92_mag", "rhs_fim92_mag"};
 	respawnMagazines[] = {Reich_SL_Mags, "rhs_fim92_mag","rhs_fim92_mag"};
-	};
+};
 	
-	class Reich_Shock_trp_AT: Reich_Shock_trp_leader {
+class Reich_Shock_trp_AT: Reich_Shock_trp_leader 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -489,9 +519,10 @@ class SS_Trooper_MM: SS_Commander {
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","rhs_weap_smaw","hgun_Rook40_F","Throw","Put"};
 	magazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEAA","rhs_mag_smaw_HEDP"};
 	respawnMagazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEAA","rhs_mag_smaw_HEDP"};
-	};	
+};	
 	
-	class Reich_Shock_trp: Reich_Shock_trp_leader {
+class Reich_Shock_trp: Reich_Shock_trp_leader 
+{
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
@@ -500,4 +531,4 @@ class SS_Trooper_MM: SS_Commander {
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Throw","Put"};
 	magazines[] = {Reich_SL_Mags};
 	respawnMagazines[] = {Reich_SL_Mags};
-	};
+};

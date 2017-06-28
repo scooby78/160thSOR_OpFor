@@ -53,6 +53,7 @@ class Nazi_MBT_Kuma: I_MBT_03_BASE_F
 	class TransportMagazines{};
 	class TransportBackpacks{};		
 };
+
 class Nazi_AAA: B_APC_Tracked_01_AA_F
 {
 	scope=2;
@@ -101,6 +102,7 @@ class SS_Blitz: I_MRAP_03_F
 	class TransportMagazines{};
 	class TransportBackpacks{};	
 };
+
 class SS_Blitz_HMG: I_MRAP_03_hmg_F
 {
 	scope=2;
@@ -122,6 +124,7 @@ class SS_Blitz_HMG: I_MRAP_03_hmg_F
 	class TransportMagazines{};
 	class TransportBackpacks{};	
 };
+
 class Nazi_AA_Truck1: DEST_gunTruck_truck_SAM
 {
 	author="Phantom hawk";
@@ -152,7 +155,7 @@ class Nazi_AA_Truck1: DEST_gunTruck_truck_SAM
 	class TransportBackpacks{};		
 };
 	
-	class Nazi_AA_Truck2: DEST_gunTruck_truck_AAA
+class Nazi_AA_Truck2: DEST_gunTruck_truck_AAA
 {
 	author="Phantom hawk";
 	_generalMacro="";
