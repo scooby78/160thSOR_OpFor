@@ -5,8 +5,5 @@
 	Description: UniformSlotInfo.hpp
 */
 
-class UniformSlotInfo 
-{ 
-    slotType = 0; 
-    linkProxy = "-"; 
-}; 
+slotType = 0; 
+linkProxy = "-"; 
