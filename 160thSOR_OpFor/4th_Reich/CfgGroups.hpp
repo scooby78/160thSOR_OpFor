@@ -372,4 +372,37 @@ class reich_groups
 			};
 		};
 	};
+	class the_fourth_reich_Squadron 
+	{
+		name = "Airborne";
+		aliveCategory = "Airborne";
+		class the_fourth_reich_FighterWing1 
+		{
+			name = "SU-35 Wing x3 (AA)";
+			faction = "Nazi_Fighter";
+			side = OPFOR;
+			rarityGroup = 0.75;
+			class Unit0 
+			{
+				side = OPFOR;
+				vehicle = "Nazi_Fighter";
+				rank = LIEUTENANT;
+				position[] = {0, 0, 0};
+			};
+			class Unit1 
+			{
+				side = OPFOR;
+				vehicle = "Nazi_Fighter";
+				rank = LIEUTENANT;
+				position[] = {-80, -40, 0};
+			};
+			class Unit2 
+			{
+				side = OPFOR;
+				vehicle = "Nazi_Fighter";
+				rank = LIEUTENANT;
+				position[] = {80, -40, 0};
+			};
+		};
+	};	
 };
