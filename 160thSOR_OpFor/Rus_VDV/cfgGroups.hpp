@@ -997,14 +997,7 @@ class SOR_Opfor_Groups_VDV_AI
 				side = OPFOR;
 				vehicle = "SOR_Opfor_Fighter_AA_AI";
 				rank = LIEUTENANT;
-				position[] = {-160, -80, 0};
-			};
-			class Unit3 
-			{
-				side = OPFOR;
-				vehicle = "SOR_Opfor_Fighter_AA_AI";
-				rank = LIEUTENANT;
-				position[] = {-320, -120, 0};
+				position[] = {80, -40, 0};
 			};
 		};
 		class SOR_Opfor_FighterWing2_VDV_AI 
@@ -1032,14 +1025,7 @@ class SOR_Opfor_Groups_VDV_AI
 				side = OPFOR;
 				vehicle = "SOR_Ind_Fighter_AA_AI";
 				rank = LIEUTENANT;
-				position[] = {-160, -80, 0};
-			};
-			class Unit3 
-			{
-				side = OPFOR;
-				vehicle = "SOR_Ind_Fighter_AA_AI";
-				rank = LIEUTENANT;
-				position[] = {-320, -120, 0};
+				position[] = {80, -40, 0};
 			};
 		};
 		class SOR_Opfor_CASWing1_VDV_AI 
@@ -1067,14 +1053,7 @@ class SOR_Opfor_Groups_VDV_AI
 				side = OPFOR;
 				vehicle = "SOR_Opfor_Fighter_CAS_AI";
 				rank = LIEUTENANT;
-				position[] = {-160, -80, 0};
-			};
-			class Unit3 
-			{
-				side = OPFOR;
-				vehicle = "SOR_Opfor_Fighter_CAS_AI";
-				rank = LIEUTENANT;
-				position[] = {-320, -120, 0};
+				position[] = {80, -40, 0};
 			};
 		};
 		class SOR_Opfor_CASWing2_VDV_AI 
