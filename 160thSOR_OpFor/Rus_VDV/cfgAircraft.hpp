@@ -379,6 +379,7 @@ class SOR_OPFOR_FIGHTER_BASE: O_Plane_Fighter_02_F
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV_AI;
 	vehicleclass = "SOR_Aircraft";
+	crew = "SOR_OPFor_JetPilot_VDV_AI";
 	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_02_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 	class Components;
 	class TransportItems{};
@@ -394,6 +395,7 @@ class SOR_IND_FIGHTER_BASE: I_Plane_Fighter_04_F
 	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
 	faction = SOR_OPFor_Faction_VDV_AI;
 	vehicleclass = "SOR_Aircraft";	
+	crew = "SOR_OPFor_JetPilot_VDV_AI";
 	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_co.paa","a3\air_f_jets\plane_fighter_04\data\Fighter_04_misc_01_co.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa","a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa"};
 	class Components;
 	class TransportItems{};
