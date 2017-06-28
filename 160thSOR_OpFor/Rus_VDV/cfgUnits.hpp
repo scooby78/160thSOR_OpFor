@@ -575,14 +575,14 @@ class SOR_OPFor_ParaJumper_VDV : SOR_OPFor_Medic_VDV
 		{
 			displayName = "<t color='#FF0000'>HALO</t>";
 			displayNameDefault = "<t color='#FF0000'>HALO</t>";
-			condition = "((getPosATL player) select 2 > 50) && SOR_ParaJump_Active && !((surfaceIsWater getPos player) && ((getPosASL player) select 2 < 1))";
+			condition = "((getPosATL player) select 2 > 50) && SOR_ParaJump_Active && !((surfaceIsWater getPos player) && ((getPosASL player) select 2 < 1)) && (player isKindOf 'SOR_OPFor_ParaJumper_VDV')";
 			priority = 8;
 			showWindow = 1;
 			hideOnUse = 1;
 			radius= 8;
 			position = "";
 			onlyForPlayer = 1;
-			statement = "[this] spawn SOR_Opfor_fnc_parajump; SOR_ParaJump_Active = false;";
+			statement = "[this] spawn SOR_fnc_parajump; SOR_ParaJump_Active = false;";
 		};
 	};
 };
@@ -622,14 +622,14 @@ class SOR_OPFor_ReconLeader_VDV : SOR_OPFor_Base_VDV
 		{
 			displayName = "<t color='#FF0000'>HALO</t>";
 			displayNameDefault = "<t color='#FF0000'>HALO</t>";
-			condition = "((getPosATL player) select 2 > 50) && SOR_ParaJump_Active && !((surfaceIsWater getPos player) && ((getPosASL player) select 2 < 1))";
+			condition = "((getPosATL player) select 2 > 50) && SOR_ParaJump_Active && !((surfaceIsWater getPos player) && ((getPosASL player) select 2 < 1)) && (player isKindOf 'SOR_OPFor_ReconLeader_VDV')";
 			priority = 8;
 			showWindow = 1;
 			hideOnUse = 1;
 			radius= 8;
 			position = "";
 			onlyForPlayer = 1;
-			statement = "[this] spawn SOR_Opfor_fnc_parajump; SOR_ParaJump_Active = false;";
+			statement = "[this] spawn SOR_fnc_parajump; SOR_ParaJump_Active = false;";
 		};
 	};		
 };

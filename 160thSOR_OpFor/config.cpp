@@ -61,21 +61,6 @@ class CfgPatches
 	};
 };
 
-class CfgFunctions 
-{
-	class SOR_Opfor
-	{
-		tag = "SOR_Opfor";
-		class functions
-		{
-			file = "160thSOR_OpFor\functions";
-			class autoparadrop;
-			class chute;
-			class parajump;
-		};
-	};
-};
-
 class cfgVehicles 
 {	 
 	#include "Rus_VDV\cfgVehicles.hpp"
