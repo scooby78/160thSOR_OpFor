@@ -8,7 +8,7 @@
 
 class sfp_bo105_pah1;
 class sfp_bo105_rmp;
-class O_Plane_Fighter_02_Stealth_F;
+//class O_Plane_Fighter_02_Stealth_F; // defined already in 160thSOR_OpFor\Rus_VDV\CfgAircraft.hpp
 class B_T_VTOL_01_armed_F;
 class B_T_VTOL_01_vehicle_F;
 class B_T_VTOL_01_infantry_F;

@@ -11,6 +11,8 @@
 class SOR_Opfor_Fighter_AA_AI : SOR_OPFOR_FIGHTER_BASE
 {
 	scope = 2;
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	faction = SOR_OPFor_Faction_VDV_AI;
 	displayName = "Sukhoi Su-35 (AA)";
 	class Components: Components //inherits 4 parameters from bin\config.bin/CfgVehicles/Plane_Fighter_01_Base_F/Components, sources - ["A3_Air_F_Jets_Plane_Fighter_02"]
 	{
@@ -175,6 +177,8 @@ class SOR_Opfor_Fighter_AA_AI : SOR_OPFOR_FIGHTER_BASE
 class SOR_Opfor_Fighter_CAS_AI : SOR_OPFOR_FIGHTER_BASE
 {
 	scope = 2;
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	faction = SOR_OPFor_Faction_VDV_AI;
 	displayName = "Sukhoi Su-35 (CAS)";
 	hiddenSelectionsTextures[] = {"a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_02_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Fighter_02_fuselage_01_Blue_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_02_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_00_co.paa", "a3\air_f_jets\plane_fighter_02\data\Numbers\Fighter_02_number_01_co.paa","a3\data_f\clear_empty.paa"};
 	class Components: Components //inherits 4 parameters from bin\config.bin/CfgVehicles/Plane_Fighter_01_Base_F/Components, sources - ["A3_Air_F_Jets_Plane_Fighter_02"]
@@ -340,7 +344,8 @@ class SOR_Opfor_Fighter_CAS_AI : SOR_OPFOR_FIGHTER_BASE
 class SOR_Ind_Fighter_AA_AI : SOR_IND_FIGHTER_BASE
 {
 	scope = 2;
-	side = 0;
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	faction = SOR_OPFor_Faction_VDV_AI;
 	displayName = "JAS 39 Gripen (AA)";		
 	class Components: Components //inherits 4 parameters from bin\config.bin/CfgVehicles/Plane_Fighter_01_Base_F/Components, sources - ["A3_Air_F_Jets_Plane_Fighter_02"]
 	{
@@ -424,7 +429,8 @@ class SOR_Ind_Fighter_AA_AI : SOR_IND_FIGHTER_BASE
 class SOR_Ind_Fighter_CAS_AI : SOR_IND_FIGHTER_BASE
 {
 	scope = 2;
-	side = 0;	
+	editorCategory = "SOR_OPFor_Cat_Faction_VDV_AI";
+	faction = SOR_OPFor_Faction_VDV_AI;
 	displayName = "JAS 39 Gripen (CAS)";
 	class Components: Components //inherits 4 parameters from bin\config.bin/CfgVehicles/Plane_Fighter_01_Base_F/Components, sources - ["A3_Air_F_Jets_Plane_Fighter_02"]
 	{

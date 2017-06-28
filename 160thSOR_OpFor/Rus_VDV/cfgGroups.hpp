@@ -584,28 +584,28 @@ class SOR_Opfor_Groups_VDV
 			class Unit0 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA";
 				rank = LIEUTENANT;
 				position[] = {0, 0, 0};
 			};
 			class Unit1 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA";
 				rank = LIEUTENANT;
 				position[] = {-40, 0, 0};
 			};
 			class Unit2 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA";
 				rank = LIEUTENANT;
 				position[] = {-80, 0, 0};
 			};
 			class Unit3 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_T50_vvs_generic";
+				vehicle = "SOR_Opfor_Fighter_AA";
 				rank = LIEUTENANT;
 				position[] = {-120, 0, 0};
 			};
@@ -619,21 +619,21 @@ class SOR_Opfor_Groups_VDV
 			class Unit0 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS";
 				rank = LIEUTENANT;
 				position[] = {0, 0, 0};
 			};
 			class Unit1 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS";
 				rank = LIEUTENANT;
 				position[] = {40, -40, 0};
 			};
 			class Unit2 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS";
 				rank = LIEUTENANT;
 				position[] = {-40, -40, 0};
 			};
@@ -1093,21 +1093,21 @@ class SOR_Opfor_Groups_VDV_AI
 			class Unit0 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS2";
 				rank = LIEUTENANT;
 				position[] = {0, 0, 0};
 			};
 			class Unit1 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS2";
 				rank = LIEUTENANT;
 				position[] = {80, -40, 0};
 			};
 			class Unit2 
 			{
 				side = OPFOR;
-				vehicle = "SOR_OpFor_rhs_Su25SM_KH29_vvsc";
+				vehicle = "SOR_Opfor_Fighter_CAS2";
 				rank = LIEUTENANT;
 				position[] = {-80, -40, 0};
 			};
