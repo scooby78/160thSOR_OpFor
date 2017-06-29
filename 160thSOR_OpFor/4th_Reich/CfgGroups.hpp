@@ -379,7 +379,7 @@ class reich_groups
 		class the_fourth_reich_FighterWing1 
 		{
 			name = "SU-35 Wing x3 (AA)";
-			faction = "Nazi_Fighter";
+			faction = "the_fourth_reich";
 			side = OPFOR;
 			rarityGroup = 0.75;
 			class Unit0 
