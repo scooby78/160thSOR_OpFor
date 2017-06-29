@@ -10,7 +10,7 @@ class B_Carryall_khk;
 class Smill_3COFP;
 class Smill_GERWFP;
 class Smill_GERWINFP;
-class B_AssaultPack_blk;
+
 
 class reich_AT_Pack1 : B_Carryall_khk
 {
