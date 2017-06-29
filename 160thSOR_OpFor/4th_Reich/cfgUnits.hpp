@@ -501,11 +501,11 @@ class Reich_Shock_trp_AA: Reich_Shock_trp_leader
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
 	displayName = "Reich Shock Trooper AA"; 
-	backpack = "B_Carryall_khk"; // backpack
+	backpack = "reich_AA_Pack1"; // backpack
 	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","Throw","rhs_weap_fim92","hgun_Rook40_F","Put"}; 
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","rhs_weap_fim92","hgun_Rook40_F","Throw","Put"};
-	magazines[] = {Reich_SL_Mags,"rhs_fim92_mag", "rhs_fim92_mag"};
-	respawnMagazines[] = {Reich_SL_Mags, "rhs_fim92_mag","rhs_fim92_mag"};
+	magazines[] = {Reich_SL_Mags,"rhs_fim92_mag"};
+	respawnMagazines[] = {Reich_SL_Mags,"rhs_fim92_mag"};
 };
 	
 class Reich_Shock_trp_AT: Reich_Shock_trp_leader 
@@ -514,11 +514,11 @@ class Reich_Shock_trp_AT: Reich_Shock_trp_leader
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
 	displayName = "Reich Shock Trooper AT"; 
-	backpack = "B_Carryall_khk"; // backpack
+	backpack = "reich_AT_Pack1"; // backpack
 	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","Throw","rhs_weap_smaw","hgun_Rook40_F","Put"}; 
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","rhs_weap_smaw","hgun_Rook40_F","Throw","Put"};
-	magazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEAA","rhs_mag_smaw_HEDP"};
-	respawnMagazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEAA","rhs_mag_smaw_HEDP"};
+	magazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEDP"};
+	respawnMagazines[] = {Reich_SL_Mags,"rhs_mag_smaw_HEDP"};
 };	
 	
 class Reich_Shock_trp: Reich_Shock_trp_leader 

@@ -5,6 +5,7 @@
 	Description: cfgVehicles.hpp
 */
 
+#include "cfgBackpacks.hpp"
 #include "cfgUnits.hpp"
 #include "cfgAircraft.hpp"
 #include "cfgArmour.hpp"
