@@ -182,7 +182,7 @@ class Reich_Gunner: Reich_Grenadier
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	backpack = "Smill_3COFP";
+	backpack = "reich_Desert_LMG_Pack";
 	displayName = "Reich Gunner"; 
 	weapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; 
 	respawnWeapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; ///match weapons[]
@@ -195,7 +195,7 @@ class Reich_Gunner_W: Reich_Grenadier_w
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	backpack = "Smill_GERWFP";
+	backpack = "reich_woodland_LMG_Pack";
 	displayName = "Reich Gunner woodland"; 
 	weapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; 
 	respawnWeapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; ///match weapons[]
@@ -208,7 +208,7 @@ class Reich_Gunner_S: Reich_Grenadier_S
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	backpack = "Smill_GERWINFP";
+	backpack = "reich_snow_LMG_Pack";
 	displayName = "Reich Gunner Snow"; 
 	weapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; 
 	respawnWeapons[] = {"LMG_Mk200_MRCO_F","Throw","Put"}; ///match weapons[]
@@ -257,12 +257,12 @@ class Reich_Heavy_MG: Reich_Grenadier
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	backpack = "Smill_3COFP";
+	backpack = "reich_Desert_MMG_Pack";
 	displayName = "Reich HMG"; 
 	weapons[] = {"MMG_02_sand_F","Throw","Put"}; 
 	respawnWeapons[] = {"MMG_02_sand_F","Throw","Put"}; ///match weapons[]
-	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
-	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
+	magazines[] = {"130Rnd_338_Mag"};
+	respawnMagazines[] = {"130Rnd_338_Mag"}; // match magazines[]
 };
 
 class Reich_Heavy_MG_w: Reich_Grenadier_w 
@@ -270,11 +270,11 @@ class Reich_Heavy_MG_w: Reich_Grenadier_w
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2;
-	backpack = "Smill_GERWFP"; // backpack
+	backpack = "reich_woodland_MMG_Pack"; // backpack
 	displayName = "Reich HMG woodland"; 
 	weapons[] = {"MMG_02_black_F","Throw","Put"}; 
 	respawnWeapons[] = {"MMG_02_black_F","Throw","Put"}; ///match weapons[]
-	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
+	magazines[] = {"130Rnd_338_Mag"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
 };
 
@@ -283,11 +283,11 @@ class Reich_Heavy_MG_S: Reich_Grenadier_S
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	backpack = "Smill_GERWINFP";
+	backpack = "reich_Snow_MMG_Pack";
 	displayName = "Reich HMG Snow"; 
 	weapons[] = {"MMG_02_black_F","Throw","Put"}; 
 	respawnWeapons[] = {"MMG_02_black_F","Throw","Put"}; ///match weapons[]
-	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"};
+	magazines[] = {"130Rnd_338_Mag"};
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag"}; // match magazines[]
 };
 
@@ -383,6 +383,7 @@ class SS_Trooper_MG: SS_Commander
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
 	displayName = "SS Trooper MG"; 
+	backpack = "reich_SS_MMG_Pack"; // backpack
 	weapons[] = {"MMG_02_black_RCO_BI_F","hgun_Rook40_F","Throw","Put"}; 
 	respawnWeapons[] = {"MMG_02_black_RCO_BI_F","hgun_Rook40_F","Throw","Put"}; ///match weapons[]
 	magazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag","ACE_M84","ACE_M84"};
