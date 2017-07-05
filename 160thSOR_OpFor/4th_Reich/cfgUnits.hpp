@@ -8,6 +8,7 @@
 class O_Soldier_GL_F; 
 class O_recon_JTAC_F; 
 
+
 class Reich_Commander: O_Soldier_GL_F
 {
 	author = "Yettie"; 
@@ -19,6 +20,7 @@ class Reich_Commander: O_Soldier_GL_F
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
+	modelSides[] = {0,1,2, 3};
 	uniformClass = "Smill_OLIU"; 
 	hiddenSelections[] = {"Camo", "Insignia", "clan"};
     hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_3CO_UC.paa"}; 
@@ -62,6 +64,7 @@ class Reich_Commander_W: O_Soldier_GL_F
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
+	modelSides[] = {0,1,2, 3};
     uniformClass = "Smill_GERWU"; 
     hiddenSelections[] = {"Camo", "Insignia", "clan"};
     hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_GERW_UC.paa"};
@@ -105,6 +108,7 @@ class Reich_Commander_S: O_Soldier_GL_F
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
+	modelSides[] = {0,1,2, 3};
     uniformClass = "Smill_GERWU"; 
     hiddenSelections[] = {"Camo", "Insignia", "clan"};
     hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_GERWIN_UC.paa"};
