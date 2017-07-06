@@ -55,8 +55,7 @@ class CfgPatches
 			"rhsusf_infantry2",
 			"rhsgref_infantry",
 			"rhsgref_c_weapons",
-			"sfp_bo105",
-			"Smillbrit_mod"			
+			"sfp_bo105"		
 		};
 	};
 };

@@ -21,9 +21,9 @@ class Reich_Commander: O_Soldier_GL_F
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	modelSides[] = {0,1,2, 3};
-	uniformClass = "Smill_OLIU"; 
+	uniformClass = "3COU"; 
 	hiddenSelections[] = {"Camo", "Insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_3CO_UC.paa"}; 
+    hiddenSelectionsTextures[] = {"\160thSOR_OpFor\4th_Reich\data\S_3CO_UC.paa"}; 
 	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; 
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; ///match weapons[]
 	Items[] = {Reich_Standard_Meds,Reich_SL_Equip};  //define_macros.hpp
@@ -43,16 +43,17 @@ class Reich_Commander: O_Soldier_GL_F
 	linkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_3COV",
-		"Smill_3COH"
+		"3COV",
+		"3COH"
 	};
 	respawnLinkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_3COV",
-		"Smill_3COH"
+		"3COV",
+		"3COH"
 	};
 };
+
 class Reich_Commander_W: O_Soldier_GL_F
 {
 	author = "Yettie"; 
@@ -65,9 +66,9 @@ class Reich_Commander_W: O_Soldier_GL_F
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 	modelSides[] = {0,1,2, 3};
-    uniformClass = "Smill_GERWU"; 
+    uniformClass = "GERWU"; 
     hiddenSelections[] = {"Camo", "Insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_GERW_UC.paa"};
+    hiddenSelectionsTextures[] = {"\160thSOR_OpFor\4th_Reich\Data\S_GERW_UC.paa"};
 	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; 
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; ///match weapons[]
 	Items[] = {Reich_Standard_Meds,Reich_SL_Equip};  //define_macros.hpp
@@ -87,14 +88,14 @@ class Reich_Commander_W: O_Soldier_GL_F
 	linkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_GERWV",
-		"Smill_GERH"
+		"GERWV",
+		"GERH"
 	};
 	respawnLinkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_GERWV",
-		"Smill_GERH"
+		"GERWV",
+		"GERH"
 	};
 };
 class Reich_Commander_S: O_Soldier_GL_F
@@ -108,10 +109,10 @@ class Reich_Commander_S: O_Soldier_GL_F
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
 	faction = "the_fourth_reich";
 	model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
-	modelSides[] = {0,1,2, 3};
-    uniformClass = "Smill_GERWU"; 
+	modelSides[] = {0,1,2,3};
+    uniformClass = "GERWINU"; 
     hiddenSelections[] = {"Camo", "Insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\SmillBrit_Mod\Data\S_GERWIN_UC.paa"};
+    hiddenSelectionsTextures[] = {"\160thSOR_OpFor\4th_Reich\Data\S_GERWIN_UC.paa"};
 	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; 
 	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","hgun_Rook40_F","Binocular","Throw","Put"}; ///match weapons[]
 	Items[] = {Reich_Standard_Meds,Reich_SL_Equip};  //define_macros.hpp
@@ -131,15 +132,15 @@ class Reich_Commander_S: O_Soldier_GL_F
 	linkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_WIN2H",
-		"Smill_GERWINV",
+		"WIN2H",
+		"GERWINV",
 		"G_Balaclava_blk"
 	};
 	respawnLinkedItems[] = 
 	{
 		Reich_Standard_Equipment,	//define_macros.hpp
-		"Smill_WIN2H",
-		"Smill_GERWINV",
+		"WIN2H",
+		"GERWINV",
 		"G_Balaclava_blk"
 	};
 };
