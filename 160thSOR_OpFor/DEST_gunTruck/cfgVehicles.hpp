@@ -6,7 +6,9 @@
 */
 
 class B_SAM_System_01_F;
-class B_AAA_System_01_F;
+class B_AAA_System_01_F; 
+class O_Truck_03_transport_F;
+
 class DEST_gunTruck_SAM: B_SAM_System_01_F
 {
 	faction = "OPF_F";
@@ -23,8 +25,6 @@ class DEST_gunTruck_AAA: B_AAA_System_01_F
 	side = 0;
 	hiddenSelectionTextures[] = {"a3\soft_f_epc\truck_03\data\truck_03_ext01_co.paa"};
 };
-
-class O_Truck_03_transport_F;
 class DEST_gunTruck_truck_SAM: O_Truck_03_transport_F
 {
 	displayName = "Tempest SAM";
