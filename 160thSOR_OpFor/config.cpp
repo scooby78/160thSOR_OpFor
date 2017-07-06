@@ -65,9 +65,9 @@ class CfgPatches
 
 class cfgVehicles 
 {	 
+	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
-	#include "DEST_gunTruck\cfgVehicles.hpp"
 };
 
 class cfgWeapons 
