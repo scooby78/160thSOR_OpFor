@@ -4,8 +4,8 @@
 	Date: 25/04/17
 	Description: CfgVehicles.hpp
 */
-class B_SAM_System_01_F;
-class B_AAA_System_01_F;
+// class B_SAM_System_01_F; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
+// class B_AAA_System_01_F; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 class B_SAM_System_02_F;
 class B_HMG_01_high_F;
 class B_HMG_01_A_F;
