@@ -25,6 +25,7 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
+			#include "DEST_gunTruck\cfgPatches.hpp"
 		};
 		weapons[] = 
 		{
@@ -55,7 +56,9 @@ class CfgPatches
 			"rhsusf_infantry2",
 			"rhsgref_infantry",
 			"rhsgref_c_weapons",
-			"sfp_bo105"		
+			"sfp_bo105",
+			"A3_Soft_F_epc",
+			"A3_Static_F_Jets"			
 		};
 	};
 };
@@ -64,6 +67,7 @@ class cfgVehicles
 {	 
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
+	#include "DEST_gunTruck\cfgVehicles.hpp"
 };
 
 class cfgWeapons 
