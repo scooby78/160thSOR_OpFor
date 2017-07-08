@@ -25,6 +25,7 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
+			#include "DEST_gunTruck\cfgPatches.hpp"
 		};
 		weapons[] = 
 		{
@@ -33,7 +34,7 @@ class CfgPatches
 			"160_rhs_weap_ak74m_camo",
 			"160_rhs_weap_ak74m_1p63"
 		};
-		version="2.0.0";
+		version="2.0.1";
 		requiredAddons[] = 
 		{
 			"160th_SOR_Loadouts",
@@ -55,13 +56,16 @@ class CfgPatches
 			"rhsusf_infantry2",
 			"rhsgref_infantry",
 			"rhsgref_c_weapons",
-			"sfp_bo105"		
+			"sfp_bo105",
+			"A3_Soft_F_epc",
+			"A3_Static_F_Jets"			
 		};
 	};
 };
 
 class cfgVehicles 
 {	 
+	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
 };

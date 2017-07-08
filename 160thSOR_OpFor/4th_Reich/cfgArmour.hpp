@@ -10,11 +10,11 @@ class B_APC_Tracked_01_AA_F;
 class MRAP_03_base_F;
 class I_MRAP_03_F;
 class I_MRAP_03_hmg_F;
-class O_Truck_03_transport_F;
-class DEST_gunTruck_truck_SAM;
-class DEST_gunTruck_truck_AAA;
 class B_LSV_01_unarmed_F;
 class B_T_LSV_01_armed_F;
+// class O_Truck_03_transport_F;  // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
+// class DEST_gunTruck_truck_SAM; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
+// class DEST_gunTruck_truck_AAA; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 
 class Nazi_MBT_Kuma: I_MBT_03_BASE_F 
 {
