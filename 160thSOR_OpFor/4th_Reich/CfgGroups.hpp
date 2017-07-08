@@ -378,7 +378,7 @@ class reich_groups
 		aliveCategory = "Airborne";
 		class the_fourth_reich_FighterWing1 
 		{
-			name = "SU-35 Wing x3 (AA)";
+			name = "PAK FA Wing x3 (AA)";
 			faction = "the_fourth_reich";
 			side = OPFOR;
 			rarityGroup = 0.75;
