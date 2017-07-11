@@ -25,7 +25,7 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
-			#include "DEST_gunTruck\cfgPatches.hpp"
+//			#include "DEST_gunTruck\cfgPatches.hpp"
 		};
 		weapons[] = 
 		{
@@ -63,9 +63,21 @@ class CfgPatches
 	};
 };
 
+class CfgFunctions 
+{
+	class SOR_OPFOR
+	{
+		tag = "SOPFOR";
+		class functions
+		{
+			file = "160thSOR_OpFor\functions";
+			class gunSpawn;
+		};
+	};
+};
 class cfgVehicles 
 {	 
-	#include "DEST_gunTruck\cfgVehicles.hpp"	
+//	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
 };

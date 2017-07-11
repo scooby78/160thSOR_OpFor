@@ -7,6 +7,6 @@
 
 #include "cfgBackpacks.hpp"
 #include "cfgUnits.hpp"
+#include "cfgstatic.hpp"
 #include "cfgAircraft.hpp"
 #include "cfgArmour.hpp"
-#include "cfgstatic.hpp"
