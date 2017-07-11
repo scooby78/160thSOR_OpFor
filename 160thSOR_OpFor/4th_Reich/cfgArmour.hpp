@@ -12,7 +12,8 @@ class I_MRAP_03_F;
 class I_MRAP_03_hmg_F;
 class B_LSV_01_unarmed_F;
 class B_T_LSV_01_armed_F;
-// class O_Truck_03_transport_F;  // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
+class O_Truck_03_transport_F;
+
 // class DEST_gunTruck_truck_SAM; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 // class DEST_gunTruck_truck_AAA; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 
@@ -125,18 +126,24 @@ class SS_Blitz_HMG: I_MRAP_03_hmg_F
 	class TransportBackpacks{};	
 };
 
-class Nazi_AA_Truck1: DEST_gunTruck_truck_SAM
+class Nazi_AA_Truck1: O_Truck_03_transport_F
 {
 	author="Phantom hawk";
 	_generalMacro="";
 	side=0;
 	scope=2;	
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
+	editorSubcategory = "EdSubcat_AAs";
 	faction = "the_fourth_reich";
 	forceInGarage=1;
 	crew="Reich_Crew_Black";
 	displayName="Reich SAM Truck";
 	textureList[]={"",1};
+	class EventHandlers
+	{
+//		init = "if (isServer) then {_vic = (_this select 0); _vicPos = [(getpos _vic select 0),(getpos _vic select 1),((getpos _vic select 2) + 10)]; _sam = [_vicPos,(getdir _vic),'DEST_gunTruck_SAM',EAST] call BIS_fnc_spawnVehicle; _sam = (_sam select 0); _sam attachto [_vic,[0.04,-2.85,1.5]]; _sam setVehicleRadar 1; _sam setVehicleReportRemoteTargets true; _sam setVehicleReceiveRemoteTargets true;};";
+		init = "(_this select 0) spawn SOPFOR_fnc_gunSpawn;";
+	};
 	hiddenSelections[]=
 	{
 		"camo1",
@@ -155,18 +162,23 @@ class Nazi_AA_Truck1: DEST_gunTruck_truck_SAM
 	class TransportBackpacks{};		
 };
 	
-class Nazi_AA_Truck2: DEST_gunTruck_truck_AAA
+class Nazi_AA_Truck2: O_Truck_03_transport_F
 {
 	author="Phantom hawk";
 	_generalMacro="";
 	side=0;
 	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
+	editorSubcategory = "EdSubcat_AAs";
 	faction = "the_fourth_reich";
 	forceInGarage=1;
 	crew="Reich_Crew_Black";
 	scope=2;
 	displayName="Reich AAA Truck";
 	textureList[]={"",1};
+	class EventHandlers
+	{
+		init = "(_this select 0) spawn SOPFOR_fnc_gunSpawn;";
+	};
 	hiddenSelections[]=
 	{
 		"camo1",
