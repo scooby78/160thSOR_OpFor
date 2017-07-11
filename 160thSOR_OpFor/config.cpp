@@ -25,7 +25,6 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
-//			#include "DEST_gunTruck\cfgPatches.hpp"
 		};
 		weapons[] = 
 		{
@@ -77,7 +76,6 @@ class CfgFunctions
 };
 class cfgVehicles 
 {	 
-//	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
 };
@@ -144,20 +142,6 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
-/*	
-	class SOR_OPFor_Cat_Faction_PMC_AI
-	{
-		displayName = "160th AI Private Military (PMC)";
-	};
-	class SOR_OPFor_Cat_Faction_TAK_AI
-	{
-		displayName = "160th AI Takistan Military (TAK)";
-	};	
-	class SOR_OPFor_Cat_Faction_CIV_AI
-	{
-		displayName = "160th AI Civilian (CIV)";
-	};	
-*/	
 };
 
 class CfgEditorSubcategories
