@@ -25,6 +25,7 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
+			#include "sites\cfgPatches.hpp"	
 		};
 		weapons[] = 
 		{
@@ -71,6 +72,7 @@ class CfgFunctions
 		{
 			file = "160thSOR_OpFor\functions";
 			class gunSpawn;
+			class NoFlySite;
 		};
 	};
 };
@@ -78,6 +80,7 @@ class cfgVehicles
 {	 
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
+	#include "sites\cfgVehicles.hpp"	
 };
 
 class cfgWeapons 
