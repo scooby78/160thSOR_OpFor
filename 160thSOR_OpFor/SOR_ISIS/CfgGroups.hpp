@@ -5,10 +5,6 @@
 	Description: CfgGroups.hpp
 */
 
-class CfgGroups
-{
-	class East
-	{
 		class SOR_ISIS_Groups
 		{
 			name="ISIS Groups";
@@ -503,5 +499,3 @@ class CfgGroups
 				};
 			};
 		};	
-	};
-};
