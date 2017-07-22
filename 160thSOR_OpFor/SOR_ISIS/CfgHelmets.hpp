@@ -12,7 +12,6 @@
 
 	class LOP_H_Shemag_BLK: H_Shemag_khk
 	{
-";
 		scope=2;
 		scopeCurator=2;
 		displayName="[PO]Shemag (Black)";

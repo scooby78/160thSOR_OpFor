@@ -4,16 +4,6 @@
 	Date: 25/04/17
 	Description: CfgPatches.hpp
 */
-
-class CfgPatches 
-{ 
-    class SOR_ISIS
-    { 
-		author="Yettie";
-		url="http://www.160th.net";
-		version="0.0.3";
-		units[] = 
-		{
 			"SOR_ISIS_Infantry_TL",
 			"SOR_ISIS_Infantry_SL",
 			"SOR_ISIS_Infantry_Corpsman",
@@ -61,32 +51,6 @@ class CfgPatches
 			"SOR_ISIS_OPF_Static_ZU23",
 			"SOR_ISIS_OPF_Static_AT4",
 			"SOR_ISIS_OPF_Static_M2",
-			"SOR_ISIS_OPF_Static_M2_MiniTripod"
-		}; 
-        weapons[] = 
-		{
-			
-		}; 
-		requiredAddons[] = 
-		{
-			"a3_characters_F",
-			"a3_characters_F_beta",
-			"A3_Characters_F_Common",
-			"task_force_radio_items",
-			"a3_characters_f_beta",
-			"a3_characters_f_gamma",
-			"rhs_weapons",
-			"rhs_weapons2",
-			"rhs_weapons3",
-			"rhsusf_weapons",
-			"rhsusf_weapons2",
-			"rhsusf_weapons3",
-			"rhs_infantry",
-			"rhs_infantry2",
-			"rhsusf_infantry",
-			"rhsusf_infantry2",
-			"rhsgref_infantry",
-			"rhsgref_c_weapons",
-		};
-    }; 
-}; 
+			"SOR_ISIS_OPF_Static_M2_MiniTripod",
+	
+
