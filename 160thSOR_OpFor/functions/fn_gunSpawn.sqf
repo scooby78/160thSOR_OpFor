@@ -8,9 +8,9 @@
 */
 // Check if units is local, if not exit
 if (!local _this) exitwith {};
-
+_obj = _this;
 // Check what truck option is required and make appropriate adjustments
-if (_this isKindOf "Nazi_AA_Truck1") then 
+if (_obj isKindOf "Nazi_AA_Truck1") then 
 {
 	SOPFOR_TURRET_TYPE = "Nazi_SAM";
 	SOPFOR_TURRET_OFFSET = [0.045,-2.15,1.5];
@@ -22,13 +22,13 @@ else
 };
 
 // Action attachments
-if (local _this) then 
+if (local _obj) then 
 {
-	_thisPos = [(getpos _this select 0),(getpos _this select 1),((getpos _this select 2) + 10)];
-	_aaa = createVehicle [SOPFOR_TURRET_TYPE, _thisPos, [], 0, 'NONE'];
-	_aaa setDir (getdir _this);
-	_aaa disableCollisionWith _this;
-	_aaa attachto [_this,SOPFOR_TURRET_OFFSET];
+	_objPos = [(getpos _obj select 0),(getpos _obj select 1),((getpos _obj select 2) + 10)];
+	_aaa = createVehicle [SOPFOR_TURRET_TYPE, _objPos, [], 0, 'NONE'];
+	_aaa setDir (getdir _obj);
+	_aaa disableCollisionWith _obj;
+	_aaa attachto [_obj,SOPFOR_TURRET_OFFSET];
 	createVehicleCrew _aaa;
 	_aaa setVehicleRadar 1;
 	_aaa setVehicleReportRemoteTargets true;

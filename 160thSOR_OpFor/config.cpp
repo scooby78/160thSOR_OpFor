@@ -72,7 +72,8 @@ class CfgFunctions
 		{
 			file = "160thSOR_OpFor\functions";
 			class gunSpawn;
-			class NoFlySite;
+			class NoFlySite4km;
+			class NoFlySite3km;
 		};
 	};
 };
@@ -145,6 +146,10 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
+	class SOR_OPFor_Cat_Sites
+	{
+		displayName = "160th Sites";
+	};	
 };
 
 class CfgEditorSubcategories
@@ -200,6 +205,10 @@ class CfgEditorSubcategories
 	class SOR_OPFor_SubCat_Aircraft_Captured
 	{
 		displayName = "Captured Aircraft";
+	};
+	class SOR_OPFor_SubCat_NoFlyZone
+	{
+		displayName = "No Fly Zones";
 	};
 };
 
