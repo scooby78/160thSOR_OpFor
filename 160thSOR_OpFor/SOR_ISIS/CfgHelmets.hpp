@@ -1,6 +1,6 @@
 /*
 	Name: SOR_ISIS
-	Author: Yettie
+	Author: SOR OPS
 	Date: 25/04/17
 	Description: CfgHelmets.hpp
 */
@@ -12,10 +12,8 @@
 
 	class LOP_H_Shemag_BLK: H_Shemag_khk
 	{
-		author="$STR_LOP_FULL_NAME";
-		_generalMacro="LOP_H_Shemag_BLK";
+";
 		scope=2;
-		dlc="LOP_LeightsOPFOR";
 		scopeCurator=2;
 		displayName="[PO]Shemag (Black)";
 		allowedFacewear[]=
@@ -26,7 +24,7 @@
 		picture="\A3\characters_F_Gamma\Guerrilla\Data\ui\icon_H_Shemag_olive_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\shemag_blk_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\shemag_blk_co.paa"
 		};
 	};
 	
@@ -37,7 +35,7 @@
 	picture = "\A3\characters_f_gamma\Guerrilla\Data\UI\icon_H_Shemag_basic_CA.paa";
 	model = "\A3\Characters_F_Gamma\Guerrilla\headgear_shemagmask";
 	hiddenSelections[] = {"Camo"};
-	hiddenSelectionsTextures[] = {"SOR_ISIS\data\h_shemag_olive_co.paa"};
+	hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\h_shemag_olive_co.paa"};
 		
 		class ItemInfo: HeadgearItem
 		{
@@ -57,6 +55,6 @@
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_bandana_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Bandana_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"SOR_ISIS\data\ISIS_bandanna_blk_co.paa"};
+		hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_bandanna_blk_co.paa"};
 		mass = 4;
 	};

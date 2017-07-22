@@ -149,7 +149,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_tan.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_tan.paa"
 		};
 		weapons[]=
 		{
@@ -221,7 +221,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_marpat.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_marpat.paa"
 		};
 		linkedItems[]=
 		{
@@ -269,7 +269,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_acu_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_acu_co.paa"
 		};
 		weapons[]=
 		{
@@ -346,7 +346,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_acu_m81_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_acu_m81_co.paa"
 		};
 		weapons[]=
 		{
@@ -402,7 +402,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_acu_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_acu_tan_co.paa"
 		};
 		weapons[]=
 		{
@@ -479,7 +479,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_dmar_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_dmar_co.paa"
 		};
 		weapons[]=
 		{
@@ -549,7 +549,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_dmar_m81_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_dmar_m81_co.paa"
 		};
 		linkedItems[]=
 		{
@@ -596,7 +596,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_dmar_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_dmar_tan_co.paa"
 		};
 		weapons[]=
 		{
@@ -670,7 +670,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_dmar_wdl_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_dmar_wdl_co.paa"
 		};
 		weapons[]=
 		{
@@ -734,7 +734,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_m07arid_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m07arid_co.paa"
 		};
 		linkedItems[]=
 		{
@@ -766,7 +766,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_m07arid_khk_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m07arid_khk_co.paa"
 		};
 		weapons[]=
 		{
@@ -839,7 +839,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_m07arid_m81l_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m07arid_m81l_co.paa"
 		};
 		weapons[]=
 		{
@@ -913,7 +913,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_m07arid_wdl_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m07arid_wdl_co.paa"
 		};
 		weapons[]=
 		{
@@ -985,7 +985,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		uniformClass="ISIS_EXEC_02";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelections[] = {"Camo"};
-        hiddenSelectionsTextures[] = {"SOR_ISIS\data\ISIS_clothing2_co.paa"};
+        hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_clothing2_co.paa"};
 
 		weapons[]=
 		{
@@ -1044,7 +1044,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_m81_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m81_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_Multicam: SOR_ISIS_Infantry_Base
@@ -1059,7 +1059,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_mcm_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_mcm_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_Multicam_m81: SOR_ISIS_Infantry_Base
@@ -1074,7 +1074,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_mcm_m81_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_mcm_m81_tan_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_Multicam_tan: SOR_ISIS_Infantry_Base
@@ -1089,7 +1089,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_mcm_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_mcm_tan_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_3CD: SOR_ISIS_Infantry_Base
@@ -1104,7 +1104,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_tri_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_tri_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_3CD_M81: SOR_ISIS_Infantry_Base
@@ -1119,7 +1119,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_tri_m81_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_tri_m81_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_3CD_tan: SOR_ISIS_Infantry_Base
@@ -1134,7 +1134,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_tri_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_tri_tan_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_3CD_wdl: SOR_ISIS_Infantry_Base
@@ -1149,7 +1149,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_tri_wdl_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_tri_wdl_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_wmar: SOR_ISIS_Infantry_Base
@@ -1164,7 +1164,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_wmar_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_wmar_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_wmar_tan: SOR_ISIS_Infantry_Base
@@ -1179,7 +1179,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_wmar_tan_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_wmar_tan_co.paa"
 		};
 	};
 	class SOR_ISIS_Infantry_model_wmar_wdl: SOR_ISIS_Infantry_Base
@@ -1194,7 +1194,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\isis_soldier_01_clothing_wmar_wdl_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_wmar_wdl_co.paa"
 		};
 	};
 

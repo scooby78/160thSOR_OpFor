@@ -32,15 +32,15 @@ class rhsusf_m1025_d_m2;
 		};
 		HiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\m998_exterior_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_exterior_b_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-			"SOR_ISIS\data\A2_parts_b_co.paa",
-			"SOR_ISIS\data\wheel_wranglermt_b_co.paa",
-			"SOR_ISIS\data\m998_mainbody_b_co.paa",
-			"SOR_ISIS\data\gratting_b_co.paa",
-			"SOR_ISIS\data\tile_exmetal_b_co.paa",
-			"SOR_ISIS\data\m1025_b_co.paa",
-			"SOR_ISIS\data\mk64mount_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\gratting_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\mk64mount_b_co.paa",
 			"",
 			""
 		};
@@ -59,14 +59,14 @@ class rhsusf_m1025_d_m2;
 		};
 		HiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\m998_exterior_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_exterior_b_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-			"SOR_ISIS\data\A2_parts_b_co.paa",
-			"SOR_ISIS\data\wheel_wranglermt_b_co.paa",
-			"SOR_ISIS\data\m998_mainbody_b_co.paa",
-			"SOR_ISIS\data\gratting_b_co.paa",
-			"SOR_ISIS\data\tile_exmetal_b_co.paa",
-			"SOR_ISIS\data\m1025_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
+			"S160thSOR_OpFor\OR_ISIS\data\gratting_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
 			"",
 			""
 		};
@@ -80,7 +80,7 @@ class rhsusf_m1025_d_m2;
 		editorCategory = "SOR_ISIS_Cat_Faction";
 		crew="SOR_ISIS_Infantry_TL";
 		hiddenSelections[] = {"Camo","Camo2"};
-		hiddenSelectionsTextures[] = {"SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa","SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa"};
+		hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa","SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa"};
 		typicalCargo[]=
 		{
 			"SOR_ISIS_Infantry_TL"
@@ -100,7 +100,7 @@ class rhsusf_m1025_d_m2;
 		crew="SOR_ISIS_Infantry_TL";
 		model = "\A3\soft_f_gamma\Offroad_01\Offroad_01_hmg_F.p3d";
 		hiddenSelections[] = {"Camo","Camo2"};
-		hiddenSelectionsTextures[] = {"SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa","SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa"};
+		hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa","160thSOR_OpFor\SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa"};
 		typicalCargo[]=
 		{
 			"SOR_ISIS_Infantry_TL"
@@ -125,14 +125,14 @@ class rhsusf_m1025_d_m2;
 		};
 		HiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\m998_exterior_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_exterior_b_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-			"SOR_ISIS\data\A2_parts_b_co.paa",
-			"SOR_ISIS\data\wheel_wranglermt_b_co.paa",
-			"SOR_ISIS\data\m998_mainbody_b_co.paa",
-			"SOR_ISIS\data\gratting_b_co.paa",
-			"SOR_ISIS\data\tile_exmetal_b_co.paa",
-			"SOR_ISIS\data\m1025_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\gratting_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
 			"",
 			""
 		};
@@ -163,12 +163,12 @@ class rhsusf_m1025_d_m2;
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\bmp_1_ia_co.paa",
-			"SOR_ISIS\data\bmp_2_ia_co.paa",
-			"SOR_ISIS\data\bmp_3_ia_co.paa",
-			"SOR_ISIS\data\bmp_4_ia_co.paa",
-			"SOR_ISIS\data\bmp_5_ia_co.paa",
-			"SOR_ISIS\data\bmp_6_ia_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_1_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_2_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_3_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_4_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_5_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_6_ia_co.paa"
 		};
 		rhs_decalParameters[]=
 		{
@@ -190,12 +190,12 @@ class rhsusf_m1025_d_m2;
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\bmp_1_ia_co.paa",
-			"SOR_ISIS\data\bmp_2_ia_co.paa",
-			"SOR_ISIS\data\bmp_3_ia_co.paa",
-			"SOR_ISIS\data\bmp_4_ia_co.paa",
-			"SOR_ISIS\data\bmp_5_ia_co.paa",
-			"SOR_ISIS\data\bmp_6_ia_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_1_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_2_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_3_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_4_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_5_ia_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\bmp_6_ia_co.paa"
 		};
 		rhs_decalParameters[]=
 		{
@@ -217,9 +217,9 @@ class rhsusf_m1025_d_m2;
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\zsu_01_aa_co.paa",
-			"SOR_ISIS\data\zsu_02_ists_co.paa",
-			"SOR_ISIS\data\zsu_03_aa_co.paa"
+			"160thSOR_OpFor\SOR_ISIS\data\zsu_01_aa_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\zsu_02_ists_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\zsu_03_aa_co.paa"
 		};
 	};
 	class SOR_ISIS_BTR60: rhs_btr60_msv
@@ -235,7 +235,7 @@ class rhsusf_m1025_d_m2;
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"SOR_ISIS\data\btr60_body_ists_co.paa",
+			"160thSOR_OpFor\SOR_ISIS\data\btr60_body_ists_co.paa",
 			"\rhsafrf\addons\rhs_a2port_armor\data\btr60_details_co.paa"
 		};
 	};
