@@ -4,6 +4,7 @@
 	Date: 25/04/17
 	Description: CfgPatches.hpp
 */
+
 "SOR_ISIS_Infantry_TL",
 "SOR_ISIS_Infantry_SL",
 "SOR_ISIS_Infantry_Corpsman",

@@ -5,8 +5,7 @@
 	Description: CfgVehicles.hpp
 */
 
-	#include "CfgUnits.hpp"
-	#include "cfgArmour.hpp"
-	#include "cfgGroups.hpp"
-	#include "cfgStatic.hpp"
+#include "CfgUnits.hpp"
+#include "cfgArmour.hpp"
+//#include "cfgStatic.hpp"
 

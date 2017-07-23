@@ -4,8 +4,7 @@
 	Date: 25/04/17
 	Description: CfgUnits.hpp
 */
-class I_Soldier_base_F;
-
+// class I_Soldier_base_F; // Already defined
 
 class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 	{
