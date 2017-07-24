@@ -9,13 +9,10 @@ class rhs_Igla_AA_pod_vdv;
 class rhs_KORD_high_VDV;
 class rhs_SPG9_INS;
 class rhs_DSHKM_ins;
-class RHS_ZU23_VDV;
-class rhs_Metis_9k115_1_ins;
+class rhs_Metis_9k115_2_vmf;
 class RHS_M2StaticMG_D;
 class RHS_M2StaticMG_MiniTripod_D;
-class Turrets;
-class MainTurret;
-class CargoTurret_01;
+
 
 class SOR_ISIS_OPF_Igla_AA_pod: rhs_Igla_AA_pod_vdv
 {
@@ -80,29 +77,8 @@ class SOR_ISIS_OPF_Static_DSHKM: rhs_DSHKM_ins
 		"SOR_ISIS_Infantry_SL"
 	};
 };
-class SOR_ISIS_OPF_Static_ZU23: RHS_ZU23_VDV
-{
-	scope=2;
-	side=0;
-	editorCategory = "SOR_ISIS_Cat_Faction";
-	faction="SOR_FACTION_ISIS";
-	crew="SOR_ISIS_Infantry_SL";
-	typicalCargo[]=
-	{
-		"SOR_ISIS_Infantry_SL"
-	};
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-		};
-		class CargoTurret_01: CargoTurret_01
-		{
-			gunnerType="SOR_ISIS_Infantry_SL";
-		};
-	};
-};
-class SOR_ISIS_OPF_Static_AT4: rhs_Metis_9k115_1_ins
+
+class SOR_ISIS_OPF_Static_AT4: rhs_Metis_9k115_2_vmf
 {
 	scope=2;
 	side=0;

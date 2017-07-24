@@ -4,8 +4,9 @@
 	Date: 25/04/17
 	Description: CfgWeapons.hpp
 */
+#include "CfgHelmets.hpp"
+#include "CfgUniforms.hpp"
 
-	#include "CfgUniforms.hpp"
-	#include "CfgHelmets.hpp"
+
 
 

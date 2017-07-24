@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 /*
 	Name: 160th SOR Mod
 	Author: Scooby
@@ -88,6 +89,7 @@ class cfgWeapons
 {
 	#include "Rus_VDV\CfgWeapons.hpp"
 	#include "4th_Reich\CfgWeapons.hpp"
+	#include "SOR_ISIS\CfgWeapons.hpp"
 };
 
 class CfgBrains

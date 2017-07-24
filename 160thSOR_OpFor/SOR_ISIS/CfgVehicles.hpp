@@ -6,6 +6,7 @@
 */
 
 #include "CfgUnits.hpp"
+#include "CfgBackpacks.hpp"
 #include "cfgArmour.hpp"
-//#include "cfgStatic.hpp"
+#include "cfgStatic.hpp"
 

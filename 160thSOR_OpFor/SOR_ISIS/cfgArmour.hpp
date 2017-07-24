@@ -7,7 +7,6 @@
 
 class rhsusf_m1025_w_m2;
 class rhsusf_m1025_w;
-class Offroad_01_civil_base_F;
 class I_G_Offroad_01_armed_F;
 class rhsusf_m998_d_2dr;
 class rhs_bmp2e_msv;
@@ -16,33 +15,21 @@ class rhsgref_ins_zsu234;
 class rhs_btr60_msv;
 class rhs_t72ba_tv;
 class rhsusf_m1025_d_m2;
+class rhs_gaz66o_flat_msv;
 
 
-class SOR_ISIS_M1025_W_M2: rhsusf_m1025_w_m2
+
+class SOR_ISIS_M1025_D1_M2: rhsusf_m1025_d_m2
 {
 	scope=2;
 	side=0;
-	displayName="Painted M1025 M2";
+	displayName="M1025 M2";
 	faction="SOR_FACTION_ISIS";
 	editorCategory = "SOR_ISIS_Cat_Faction";
 	crew="SOR_ISIS_Infantry_TL";
 	typicalCargo[]=
 	{
 		"SOR_ISIS_Infantry_TL"
-	};
-	HiddenSelectionsTextures[]=
-	{
-		"160thSOR_OpFor\SOR_ISIS\data\m998_exterior_b_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\gratting_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\mk64mount_b_co.paa",
-		"",
-		""
 	};
 };
 class SOR_ISIS_M1025_D: rhsusf_m1025_w
@@ -64,7 +51,7 @@ class SOR_ISIS_M1025_D: rhsusf_m1025_w
 		"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
 		"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
 		"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
-		"S160thSOR_OpFor\OR_ISIS\data\gratting_b_co.paa",
+		"160thSOR_OpFor\SOR_ISIS\data\gratting_b_co.paa",
 		"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
 		"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
 		"",
@@ -72,25 +59,7 @@ class SOR_ISIS_M1025_D: rhsusf_m1025_w
 	};
 };
 
-class SOR_ISIS_Offroad: Offroad_01_civil_base_F
-{
-	scope=2;
-	side=0;
-	faction="SOR_FACTION_ISIS";
-	editorCategory = "SOR_ISIS_Cat_Faction";
-	crew="SOR_ISIS_Infantry_TL";
-	hiddenSelections[] = {"Camo","Camo2"};
-	hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa","SOR_ISIS\data\ISIS_offroad_01_ext_IG_01_CO.paa"};
-	typicalCargo[]=
-	{
-		"SOR_ISIS_Infantry_TL"
-	};
-	textureList[]=
-	{
-		"LOP_Black",
-		1
-	};
-};
+
 class SOR_ISIS_Offroad_M2: I_G_Offroad_01_armed_F
 {
 	scope=2;
@@ -112,7 +81,7 @@ class SOR_ISIS_Offroad_M2: I_G_Offroad_01_armed_F
 	};
 };
 
-class SOR_ISIS_OPF_M1025_D: rhsusf_m998_d_2dr
+class SOR_ISIS_OPF_M1025_G: rhsusf_m998_d_2dr
 {
 	scope=2;
 	side=0;
@@ -123,27 +92,17 @@ class SOR_ISIS_OPF_M1025_D: rhsusf_m998_d_2dr
 	{
 		"SOR_ISIS_Infantry_TL"
 	};
-	HiddenSelectionsTextures[]=
-	{
-		"160thSOR_OpFor\SOR_ISIS\data\m998_exterior_b_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\A2_parts_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\wheel_wranglermt_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\m998_mainbody_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\gratting_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\tile_exmetal_b_co.paa",
-		"160thSOR_OpFor\SOR_ISIS\data\m1025_b_co.paa",
-		"",
-		""
-	};
+
 };
-class SOR_ISIS_OPF_M1025_G: rhsusf_m998_d_2dr
+class SOR_ISIS_Transport: rhs_gaz66o_flat_msv
 {
 	scope=2;
 	side=0;
 	editorCategory = "SOR_ISIS_Cat_Faction";
 	faction="SOR_FACTION_ISIS";
 	crew="SOR_ISIS_Infantry_TL";
+	hiddenSelections[] = {"camo1","camo2","camo3","camo4","camo5","n1","n2","n3","n4","i1","i2","i3","i4"};
+	hiddenSelectionsTextures[] = {"\rhsafrf\addons\rhs_gaz66_camo\data\gaz66_sand_co.paa","\rhsafrf\addons\rhs_gaz66\data\tent_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_ap2kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_repkung_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
 	typicalCargo[]=
 	{
 		"SOR_ISIS_Infantry_TL"

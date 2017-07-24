@@ -241,7 +241,7 @@ class SOR_ISIS_Groups
 			class Unit1
 			{
 				side = OPFOR;
-				vehicle="SOR_ISIS_Offroad";
+				vehicle="SOR_ISIS_OPF_M1025_G";
 				rank="SERGEANT";
 				position[]={0,-10,0};
 			};
@@ -332,21 +332,21 @@ class SOR_ISIS_Groups
 			class Unit0
 			{
 				side = OPFOR;
-				vehicle="SOR_ISIS_M1025_W_M2";
+				vehicle="SOR_ISIS_M1025_D1_M2";
 				rank="SERGEANT";
 				position[]={0,0,0};
 			};
 			class Unit1
 			{
 				side = OPFOR;
-				vehicle="SOR_ISIS_M1025_W_M2";
+				vehicle="SOR_ISIS_M1025_D1_M2";
 				rank="SERGEANT";
 				position[]={10,-10,0};
 			};
 			class Unit2
 			{
 				side = OPFOR;
-				vehicle="SOR_ISIS_M1025_W_M2";
+				vehicle="SOR_ISIS_M1025_D1_M2";
 				rank="CORPORAL";
 				position[]={-10,-10,0};
 			};

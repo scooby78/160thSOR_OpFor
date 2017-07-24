@@ -395,6 +395,20 @@ class SS_Trooper_MG: SS_Commander
 	respawnMagazines[] = {"130Rnd_338_Mag","130Rnd_338_Mag","ACE_M84","ACE_M84"}; // match magazines[]
 };
 
+class SS_Officer: SS_Commander 
+{
+	author = "Yettie"; 
+	_generalMacro = "O_T_Recon_F"; 
+	scope = 2; 
+	displayName = "SS Office"; 
+	backpack = ""; // backpack
+	weapons[] = {"rhsusf_weap_m9","Throw","Put"}; 
+	respawnWeapons[] = {"rhsusf_weap_m9","Throw","Put"}; ///match weapons[]
+	magazines[] = {"rhsusf_mag_15Rnd_9x19_JHP","rhsusf_mag_15Rnd_9x19_JHP","ACE_M84","ACE_M84"};
+	respawnMagazines[] = {"rhsusf_mag_15Rnd_9x19_JHP","rhsusf_mag_15Rnd_9x19_JHP","ACE_M84","ACE_M84"}; // match magazines[]
+	linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_Beret_blk","G_Aviator"};
+	respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","H_Beret_blk","G_Aviator"};	
+};
 class SS_Trooper_EXP: SS_Commander 
 {
 	author = "Yettie"; 
@@ -442,6 +456,28 @@ class SS_Trooper_GD: SS_Commander
 	respawnWeapons[] = {"rhs_weap_M320","Throw","Put"};
 	magazines[] = {"rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE"};
 	respawnMagazines[] = {"rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE"};// match magazines[]
+};
+
+class SS_Trooper_RM: SS_Commander 
+{
+	author = "Yettie"; 
+	_generalMacro = "O_T_Recon_F"; 
+	scope = 2; 
+	displayName = "SS Trooper Rifleman"; 
+	weapons[] = {"EN_arifle_MXM_Blk_F_ARCO","Throw","Put"}; 
+	respawnWeapons[] = {"EN_arifle_MXM_Blk_F_ARCO","Throw","Put"};
+	magazines[] = 
+	{
+		Reich_SL_Mags,			
+		Reich_Std_Pistol, 		
+		"Laserbatteries"
+	};
+	respawnMagazines[] = 
+	{
+		Reich_SL_Mags,			
+		Reich_Std_Pistol,			
+		"Laserbatteries"
+	};
 };
 
 class Reich_Pilot: Reich_Crew_Black 

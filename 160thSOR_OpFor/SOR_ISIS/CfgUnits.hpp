@@ -62,76 +62,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 			"rhs_mag_rdg2_white",
 			"rhs_mag_rgd5"
 		};
-		headgearList[]=
-		{
-			"LOP_H_Shemag_BLK",
-			0.5,
-			"LOP_H_Turban_mask",
-			0.25,
-			"LOP_H_Turban",
-			0.25,
-			"LOP_H_6B27M_TRI",
-			0.1,
-			"LOP_H_6B27M_ess_TRI",
-			0.1,
-			"LOP_H_6B27M_M81",
-			0.1,
-			"LOP_H_6B27M_ess_M81",
-			0.1,
-			"",
-			0.2
-		};
-		rds_randomCloths[]=
-		{
-			"SOR_ISIS_Fatigue_05",
-			0.25,
-			"SOR_ISIS_Fatigue_06",
-			0.15000001,
-			"SOR_ISIS_Fatigue_07",
-			0.15000001,
-			"SOR_ISIS_Fatigue_08",
-			0.15000001,
-			"SOR_ISIS_Fatigue_09",
-			0.15000001,
-			"SOR_ISIS_Fatigue_10",
-			0.25,
-			"SOR_ISIS_Fatigue_11",
-			0.25,
-			"SOR_ISIS_Fatigue_12",
-			0.25,
-			"SOR_ISIS_Fatigue_13",
-			0.25,
-			"SOR_ISIS_Fatigue_14",
-			0.25,
-			"SOR_ISIS_Fatigue_15",
-			0.25,
-			"SOR_ISIS_Fatigue_16",
-			0.25,
-			"SOR_ISIS_Fatigue_17",
-			0.25,
-			"SOR_ISIS_Fatigue_18",
-			0.25,
-			"SOR_ISIS_Fatigue_19",
-			0.15000001,
-			"SOR_ISIS_Fatigue_20",
-			0.15000001,
-			"SOR_ISIS_Fatigue_21",
-			0.15000001,
-			"SOR_ISIS_Fatigue_22",
-			0.2,
-			"SOR_ISIS_Fatigue_23",
-			0.2,
-			"SOR_ISIS_Fatigue_24",
-			0.2,
-			"SOR_ISIS_Fatigue_25",
-			0.2,
-			"SOR_ISIS_Fatigue_26",
-			0.25,
-			"SOR_ISIS_Fatigue_27",
-			0.25,
-			"SOR_ISIS_Fatigue_28",
-			0.25
-		};
+
 	};
 	class SOR_ISIS_Infantry_TL: SOR_ISIS_Infantry_Base
 	{
@@ -191,14 +122,16 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		linkedItems[]=
 		{
 			"V_Chestrig_khk",
-			"LOP_H_Shemag_BLK",
+			"H_Bandanna_sand",
+			"rhs_googles_black",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_khk",
-			"LOP_H_Shemag_BLK",
+			"H_Bandanna_sand",
+			"rhs_googles_black",
 			"ItemMap",
 			"ItemCompass"
 		};
@@ -314,7 +247,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 			"ItemMap",
 			"ItemCompass"
 		};
-		backpack="SOR_ISIS_Sidor_Med";
+		backpack="";
 	};
 	class SOR_ISIS_Infantry_AR: SOR_ISIS_Infantry_Base
 	{
@@ -385,70 +318,9 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 			"ItemMap",
 			"ItemCompass"
 		};
-		backpack="SOR_ISIS_Fieldpack_PKM";
+		backpack="";
 	};
-	class SOR_ISIS_Infantry_AR_Asst: SOR_ISIS_Infantry_Base
-	{
-		scope=2;
-		editorCategory = "SOR_ISIS_Cat_Faction";
-		displayName="ISIS Gunner Assistant";
-		model="\A3\Characters_F_Beta\INDEP\IA_soldier_01.p3d";
-		uniformClass="SOR_ISIS_Fatigue_09";
-		hiddenSelections[]=
-		{
-			"Camo",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_acu_tan_co.paa"
-		};
-		weapons[]=
-		{
-			"rhs_weap_aks74",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]=
-		{
-			"rhs_weap_aks74",
-			"Throw",
-			"Put"
-		};
-		magazines[]=
-		{
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_mag_rdg2_white",
-			"rhs_mag_rgn"
-		};
-		respawnMagazines[]=
-		{
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_30Rnd_545x39_AK",
-			"rhs_mag_rdg2_white",
-			"rhs_mag_rgn"
-		};
-		linkedItems[]=
-		{
-			"LOP_V_Carrier_OLV",
-			"LOP_H_Turban",
-			"ItemMap",
-			"ItemCompass"
-		};
-		respawnLinkedItems[]=
-		{
-			"LOP_V_Carrier_OLV",
-			"LOP_H_Turban",
-			"ItemMap",
-			"ItemCompass"
-		};
-		backpack="SOR_ISIS_Fieldpack_PKM";
-	};
+
 	class SOR_ISIS_Infantry_AT: SOR_ISIS_Infantry_Base
 	{
 		scope=2;
@@ -521,24 +393,24 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		linkedItems[]=
 		{
 			"rhsusf_iotv_ucp_Rifleman",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Bandanna_blk",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
 			"rhsusf_iotv_ucp_Rifleman",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Bandanna_blk",
 			"ItemMap",
 			"ItemCompass"
 		};
-		backpack="SOR_ISIS_RPG_Pack";
+		backpack="ISIS_AT_Pack1";
 	};
 	class SOR_ISIS_Infantry_AT_Asst: SOR_ISIS_Infantry_Base
 	{
 		scope=2;
 		editorCategory = "SOR_ISIS_Cat_Faction";
-		displayName="Insurgent (Assistant)";
+		displayName="Insurgent (SCAR)";
 		model="\A3\Characters_F_Beta\INDEP\IA_soldier_01.p3d";
 		uniformClass="SOR_ISIS_Fatigue_11";
 		hiddenSelections[]=
@@ -550,21 +422,57 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		{
 			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_dmar_m81_co.paa"
 		};
+				weapons[]=
+		{
+			"SMA_Mk16QCB",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"SMA_Mk16QCB",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_rdg2_white",
+			"rhs_mag_rdg2_black",
+			"rhs_mag_rgd5",
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"rhs_mag_rdg2_white",
+			"rhs_mag_rdg2_black",
+			"rhs_mag_rgd5",
+			"rhs_mag_rgd5"
+		};
 		linkedItems[]=
 		{
-			"LOP_V_Carrier_TAN",
+			"V_TacVest_brn",
 			"G_Balaclava_blk",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
-			"LOP_V_Carrier_TAN",
+			"V_TacVest_brn",
 			"G_Balaclava_blk",
 			"ItemMap",
 			"ItemCompass"
 		};
-		backpack="SOR_ISIS_RPG_Pack";
+		backpack="";
 	};
 	class SOR_ISIS_Infantry_Marksman: SOR_ISIS_Infantry_Base
 	{
@@ -599,25 +507,25 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		weapons[]=
 		{
-			"LOP_Weap_SVDS",
+			"rhs_weap_m40a5_d",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"LOP_Weap_SVDS",
+			"rhs_weap_m40a5_d",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
 			"rhs_mag_rdg2_white",
 			"rhs_mag_rdg2_black",
 			"rhs_mag_rgd5",
@@ -625,13 +533,13 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		respawnMagazines[]=
 		{
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
-			"rhs_10Rnd_762x54mmR_7N1",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
 			"rhs_mag_rdg2_white",
 			"rhs_mag_rdg2_black",
 			"rhs_mag_rgd5",
@@ -639,19 +547,19 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		linkedItems[]=
 		{
-			"LOP_V_CarrierLite_TRI",
-			"LOP_H_Shemag_BLK",
+			"rhsgref_6b23_khaki_officer",
+			"H_ShemagOpen_khk",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
-			"LOP_V_CarrierLite_TRI",
-			"LOP_H_Shemag_BLK",
+			"rhsgref_6b23_khaki_officer",
+			"H_ShemagOpen_khk",
 			"ItemMap",
 			"ItemCompass"
 		};
-		backpack="SOR_ISIS_FalconII_SVD";
+		backpack="";
 	};
 	class SOR_ISIS_Infantry_Engineer: SOR_ISIS_Infantry_Base
 	{
@@ -722,7 +630,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 	class SOR_ISIS_Infantry_Rifleman: SOR_ISIS_Infantry_Base
 	{
 		scope=2;
-		displayName="Insurgent (AKM)";
+		displayName="Insurgent (AUG)";
 		editorCategory = "SOR_ISIS_Cat_Faction";
 		model="\A3\Characters_F_Beta\INDEP\IA_soldier_01.p3d";
 		uniformClass="SOR_ISIS_Fatigue_14";
@@ -735,17 +643,49 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		{
 			"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_m07arid_co.paa"
 		};
+		weapons[]=
+		{
+			"SMA_Steyr_AUG_BLACK_F",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"SMA_Steyr_AUG_BLACK_F",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"rhs_mag_rgd5"
+		};
 		linkedItems[]=
 		{
-			"LOP_V_CarrierLite_TAN",
-			"LOP_H_Shemag_BLK",
+			"V_TacChestrig_cbr_F",
+			"H_ShemagOpen_khk",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
-			"LOP_V_CarrierLite_TAN",
-			"LOP_H_Shemag_BLK",
+			"V_TacChestrig_cbr_F",
+			"H_ShemagOpen_khk",
 			"ItemMap",
 			"ItemCompass"
 		};
@@ -963,14 +903,14 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		linkedItems[]=
 		{
 			"rhs_6sh92_vsr_vog",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Shemag",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
 			"rhs_6sh92_vsr_vog",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Shemag",
 			"ItemMap",
 			"ItemCompass"
 		};
@@ -985,7 +925,6 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_clothing2_co.paa"};
-
 		weapons[]=
 		{
 			"rhsusf_weap_m9",
@@ -1018,14 +957,14 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_blk",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Bandanna_blk",
 			"ItemMap",
 			"ItemCompass"
 		};
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_blk",
-			"LOP_H_Shemag_BLK",
+			"ISIS_Bandanna_blk",
 			"ItemMap",
 			"ItemCompass"
 		};

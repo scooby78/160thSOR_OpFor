@@ -6,26 +6,9 @@
 */
 
 	class H_Shemag_khk;
-	class HeadgearItem;
 	class H_Bandanna_gry;
 	class H_Shemag_olive;
 
-	class LOP_H_Shemag_BLK: H_Shemag_khk
-	{
-		scope=2;
-		scopeCurator=2;
-		displayName="[PO]Shemag (Black)";
-		allowedFacewear[]=
-		{
-			"",
-			1
-		};
-		picture="\A3\characters_F_Gamma\Guerrilla\Data\ui\icon_H_Shemag_olive_ca.paa";
-		hiddenSelectionsTextures[]=
-		{
-			"160thSOR_OpFor\SOR_ISIS\data\shemag_blk_co.paa"
-		};
-	};
 	
 	class ISIS_Shemag: H_Shemag_olive
 	{
