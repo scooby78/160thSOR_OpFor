@@ -6,6 +6,7 @@
 */
 #include "CfgHelmets.hpp"
 #include "CfgUniforms.hpp"
+#include "CfgGuns.hpp"
 
 
 

@@ -436,11 +436,11 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		magazines[]=
 		{
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
 			"rhs_mag_rdg2_white",
 			"rhs_mag_rdg2_black",
 			"rhs_mag_rgd5",
@@ -448,11 +448,11 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		respawnMagazines[]=
 		{
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
+			"SMA_30Rnd_556x45_M855A1",
 			"rhs_mag_rdg2_white",
 			"rhs_mag_rdg2_black",
 			"rhs_mag_rgd5",
@@ -478,22 +478,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 	{
 		scope=2;
 		editorCategory = "SOR_ISIS_Cat_Faction";
-		displayName="Insurgent (SVD)";
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[]=
-				{
-					"veh_infantry_sniper_s"
-				};
-				speechPlural[]=
-				{
-					"veh_infantry_sniper_p"
-				};
-			};
-		};
-
+		displayName="Insurgent (M40)";
 		model="\A3\Characters_F_Beta\INDEP\IA_soldier_01.p3d";
 		uniformClass="SOR_ISIS_Fatigue_12";
 		hiddenSelections[]=
@@ -507,13 +492,13 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 		weapons[]=
 		{
-			"rhs_weap_m40a5_d",
+			"ISIS_weap_m40a5_d",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"rhs_weap_m40a5_d",
+			"ISIS_weap_m40a5_d",
 			"Throw",
 			"Put"
 		};
@@ -565,7 +550,7 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 	{
 		scope=2;
 		editorCategory = "SOR_ISIS_Cat_Faction";
-		displayName="Bomber";
+		displayName="Insurgent (M4)";
 		icon="iconManEngineer";
 		picture="pictureRepair";
 		model="\A3\Characters_F_Beta\INDEP\IA_soldier_01.p3d";
