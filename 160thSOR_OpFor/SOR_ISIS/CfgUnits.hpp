@@ -1121,3 +1121,4 @@ class SOR_ISIS_Infantry_Base: I_Soldier_base_F
 		};
 	};
 
+

@@ -70,22 +70,7 @@ class SOR_ISIS_Fatigue_08: Uniform_Base
 		mass=40;
 	};
 };
-class SOR_ISIS_Fatigue_09: Uniform_Base
-{
-	scope=2;
-	displayName="Guerilla Coveralls (ISTS/UCP + Tan)";
-	picture="\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-	model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-	hiddenSelections[]={"Camo","insignia"};
-	hiddenSelectionsTextures[]={"160thSOR_OpFor\SOR_ISIS\data\isis_soldier_01_clothing_acu_tan_co.paa"};
-	class ItemInfo: UniformItem
-	{
-		uniformModel="-";
-		uniformClass="SOR_ISIS_Infantry_AR_Asst";
-		containerClass="Supply40";
-		mass=40;
-	};
-};
+
 class SOR_ISIS_Fatigue_10: Uniform_Base
 {
 	scope=2;
@@ -395,7 +380,6 @@ class ISIS_EXEC_02: Uniform_Base
 { 
 	scope = 2; 
 	displayName = "ISIS Leaders Uniform"; 
-	picture = "\ISIS\data\ui\icon_u_b_combatuniform_isis_ca.paa"; 
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {"Camo"};
     hiddenSelectionsTextures[] = {"160thSOR_OpFor\SOR_ISIS\data\ISIS_clothing2_co.paa"};
