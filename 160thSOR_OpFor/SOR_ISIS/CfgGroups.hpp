@@ -419,7 +419,7 @@ class SOR_ISIS_Groups
 			class Unit4
 			{
 				side = OPFOR;
-				vehicle="SOR_ISIS_Infantry_AR_Asst";
+				vehicle="SOR_ISIS_Infantry_TL";
 				rank="Private";
 				position[]={9,0,0};
 			};
