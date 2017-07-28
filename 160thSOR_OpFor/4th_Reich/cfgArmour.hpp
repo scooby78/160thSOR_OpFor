@@ -141,7 +141,6 @@ class Nazi_AA_Truck1: O_Truck_03_transport_F
 	textureList[]={"",1};
 	class EventHandlers
 	{
-//		init = "if (isServer) then {_vic = (_this select 0); _vicPos = [(getpos _vic select 0),(getpos _vic select 1),((getpos _vic select 2) + 10)]; _sam = [_vicPos,(getdir _vic),'DEST_gunTruck_SAM',EAST] call BIS_fnc_spawnVehicle; _sam = (_sam select 0); _sam attachto [_vic,[0.04,-2.85,1.5]]; _sam setVehicleRadar 1; _sam setVehicleReportRemoteTargets true; _sam setVehicleReceiveRemoteTargets true;};";
 		init = "(_this select 0) spawn SOPFOR_fnc_gunSpawn;";
 	};
 	hiddenSelections[]=

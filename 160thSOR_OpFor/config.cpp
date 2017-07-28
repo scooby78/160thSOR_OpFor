@@ -25,7 +25,7 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
-//			#include "DEST_gunTruck\cfgPatches.hpp"
+			#include "sites\cfgPatches.hpp"	
 		};
 		weapons[] = 
 		{
@@ -72,14 +72,16 @@ class CfgFunctions
 		{
 			file = "160thSOR_OpFor\functions";
 			class gunSpawn;
+			class NoFlySite4km;
+			class NoFlySite3km;
 		};
 	};
 };
 class cfgVehicles 
 {	 
-//	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
+	#include "sites\cfgVehicles.hpp"	
 };
 
 class cfgWeapons 
@@ -144,20 +146,10 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
-/*	
-	class SOR_OPFor_Cat_Faction_PMC_AI
+	class SOR_OPFor_Cat_Sites
 	{
-		displayName = "160th AI Private Military (PMC)";
-	};
-	class SOR_OPFor_Cat_Faction_TAK_AI
-	{
-		displayName = "160th AI Takistan Military (TAK)";
+		displayName = "160th Sites";
 	};	
-	class SOR_OPFor_Cat_Faction_CIV_AI
-	{
-		displayName = "160th AI Civilian (CIV)";
-	};	
-*/	
 };
 
 class CfgEditorSubcategories
@@ -213,6 +205,10 @@ class CfgEditorSubcategories
 	class SOR_OPFor_SubCat_Aircraft_Captured
 	{
 		displayName = "Captured Aircraft";
+	};
+	class SOR_OPFor_SubCat_NoFlyZone
+	{
+		displayName = "No Fly Zones";
 	};
 };
 
