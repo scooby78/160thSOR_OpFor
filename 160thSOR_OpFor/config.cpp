@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 /*
 	Name: 160th SOR Mod
 	Author: Scooby
@@ -26,8 +25,8 @@ class CfgPatches
 		{
 			#include "4th_Reich\cfgPatches.hpp"
 			#include "Rus_VDV\cfgPatches.hpp"
+			#include "sites\cfgPatches.hpp"	
 			#include "SOR_ISIS\cfgPatches.hpp"
-//			#include "DEST_gunTruck\cfgPatches.hpp"
 		};
 		weapons[] = 
 		{
@@ -74,22 +73,24 @@ class CfgFunctions
 		{
 			file = "160thSOR_OpFor\functions";
 			class gunSpawn;
+			class NoFlySite4km;
+			class NoFlySite3km;
 		};
 	};
 };
 class cfgVehicles 
 {	 
-//	#include "DEST_gunTruck\cfgVehicles.hpp"	
 	#include "Rus_VDV\cfgVehicles.hpp"
 	#include "4th_Reich\cfgVehicles.hpp"
-	#include "SOR_ISIS\cfgVehicles.hpp"
+	#include "sites\cfgVehicles.hpp"	
+	#include "SOR_ISIS\cfgVehicles.hpp"	
 };
 
 class cfgWeapons 
 {
 	#include "Rus_VDV\CfgWeapons.hpp"
 	#include "4th_Reich\CfgWeapons.hpp"
-	#include "SOR_ISIS\CfgWeapons.hpp"
+	#include "SOR_ISIS\CfgWeapons.hpp"	
 };
 
 class CfgBrains
@@ -130,14 +131,14 @@ class CfgBrains
 class UniformSlotInfo 
 { 
 	#include "4th_Reich\UniformSlotInfo.hpp"  
-	#include "SOR_ISIS\UniformSlotInfo.hpp"  
+	#include "SOR_ISIS\UniformSlotInfo.hpp"  	
 }; 
 
 class CfgEditorCategories
 {
 	#include "4th_Reich\cfgEditorCategories.hpp"
-	#include "Rus_VDV\cfgEditorCategories.hpp"
-	#include "SOR_ISIS\cfgEditorCategories.hpp"	
+	#include "Rus_VDV\cfgEditorCategories.hpp"	
+	#include "SOR_ISIS\cfgEditorCategories.hpp"		
 	class SOR_OPFor_Cat_Supplies
 	{
 		displayName = "160th Supplies Opfor";
@@ -150,20 +151,10 @@ class CfgEditorCategories
 	{
 		displayName = "160th Objects Opfor (Scripted)";
 	};
-/*	
-	class SOR_OPFor_Cat_Faction_PMC_AI
+	class SOR_OPFor_Cat_Sites
 	{
-		displayName = "160th AI Private Military (PMC)";
-	};
-	class SOR_OPFor_Cat_Faction_TAK_AI
-	{
-		displayName = "160th AI Takistan Military (TAK)";
+		displayName = "160th Sites";
 	};	
-	class SOR_OPFor_Cat_Faction_CIV_AI
-	{
-		displayName = "160th AI Civilian (CIV)";
-	};	
-*/	
 };
 
 class CfgEditorSubcategories
@@ -220,13 +211,17 @@ class CfgEditorSubcategories
 	{
 		displayName = "Captured Aircraft";
 	};
+	class SOR_OPFor_SubCat_NoFlyZone
+	{
+		displayName = "No Fly Zones";
+	};
 };
 
 class cfgFactionClasses
 {
 	#include "Rus_VDV\cfgFactionClasses.hpp"
 	#include "4th_Reich\cfgFactionClasses.hpp"
-	#include "SOR_ISIS\cfgFactionClasses.hpp"
+	#include "SOR_ISIS\cfgFactionClasses.hpp"	
 };
 
 class CfgGroups 
