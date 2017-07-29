@@ -242,7 +242,7 @@ class reich_groups
 			class Unit5
 			{
 				side = 0;
-				vehicle = "SS_Trooper_GD";
+				vehicle = "SS_Trooper_RM";
 				rank = "PRIVATE";
 				position[] = {15,-15,0};
 			};
@@ -298,7 +298,7 @@ class reich_groups
 			class Unit6
 			{
 				side = 0;
-				vehicle = "SS_Trooper_GD";
+				vehicle = "SS_Trooper_RM";
 				rank = "PRIVATE";
 				position[] = {-15,-15,0};
 			};

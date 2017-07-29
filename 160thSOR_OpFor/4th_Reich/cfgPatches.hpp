@@ -29,6 +29,8 @@
 "SS_Trooper_EXP",
 "SS_Trooper_MM",
 "SS_Trooper_BR",
+"SS_Trooper_RM",
+"SS_Officer",
 "Reich_Shock_trp",
 "Reich_Shock_trp_leader",
 "Reich_Shock_trp_aa",
