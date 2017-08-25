@@ -5,8 +5,8 @@
 	Description: cfgFactionClasses.hpp
 */
 
-class cfgFactionClasses 
-{ 
+
+ 
     class SOR_FACTION_ISIS
     { 
         displayName = "ISIS"; 
@@ -14,4 +14,4 @@ class cfgFactionClasses
         side = 0; // Opfor = 0, Blufor = 1, Indep = 2. 
         icon = ""; //Custom Icon 
     };  
-}; 
+ 
