@@ -7,7 +7,7 @@
     class SOR_FACTION_PMC
     { 
         displayName = "MilSec - PMC"; 
-        priority = 3; // Position in list. 
+        priority = 1; // Position in list. 
         side = 2; // Opfor = 0, Blufor = 1, Indep = 2. 
         icon = ""; //Custom Icon 
     };  

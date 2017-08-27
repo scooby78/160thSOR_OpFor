@@ -9,5 +9,5 @@
 
 class SOR_PMC_Cat_Faction
 {
-	displayName = "160th AI MilSec - PMC";
+	displayName = "160th AI MilSec PMC";
 };		
