@@ -14,8 +14,6 @@ class B_LSV_01_unarmed_F;
 class B_T_LSV_01_armed_F;
 class O_Truck_03_transport_F;
 class I_APC_Wheeled_03_cannon_F;
-class DefaultEventHandlers;
-class EventHandlers;
 
 // class DEST_gunTruck_truck_SAM; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 // class DEST_gunTruck_truck_AAA; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
