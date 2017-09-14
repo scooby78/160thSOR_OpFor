@@ -66,7 +66,7 @@
 "Nazi_Transport",
 "Nazi_Swift_attack",
 "Nazi_Swift_attack_armed",
-
+"Nazi_LAV",
 "Nazi_SAM",
 "Nazi_SAA",
 "Nazi_GBAD",
