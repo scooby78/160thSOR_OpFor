@@ -14,7 +14,8 @@ class PMC_Commander_D: B_Soldier_A_F
 	scope = 2; 
 	side = 2; 
 	displayName = "PMC Commander Desert";
-	faction = "class SOR_FACTION_PMC";
+	editorCategory = "SOR_PMC_Cat_Faction";
+	faction = "SOR_FACTION_PMC";
 	Backpack = "";
 	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
 	uniformClass = "SOR_PMC_DESERT"; 
@@ -164,7 +165,8 @@ class PMC_Commander_W: B_Soldier_A_F
 	scope = 2; 
 	side = 2; 
 	displayName = "PMC Commander Woodland";	
-	faction = "class SOR_FACTION_PMC";
+	editorCategory = "SOR_PMC_Cat_Faction";
+	faction = "SOR_FACTION_PMC";
 	Backpack = "";
 	model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 	uniformClass = "SOR_PMC_Woodland"; 
