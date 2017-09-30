@@ -13,6 +13,7 @@ class I_MRAP_03_hmg_F;
 class B_LSV_01_unarmed_F;
 class B_T_LSV_01_armed_F;
 class O_Truck_03_transport_F;
+class I_APC_Wheeled_03_cannon_F;
 
 // class DEST_gunTruck_truck_SAM; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
 // class DEST_gunTruck_truck_AAA; // already defined in \160thSOR_OpFor\DEST_gunTruck\cfgVehicles.hpp
@@ -254,6 +255,36 @@ class Nazi_Swift_attack_armed: B_T_LSV_01_armed_F
 	textureList[]={"",1};
 	hiddenSelections[] = {"Camo_1","Camo_2","Camo_3","Camo_4"};
 	hiddenSelectionsTextures[] = {"160thSOR_OpFor\4th_Reich\data\Nazi_LSV_01_Black_CO.paa","160thSOR_OpFor\4th_Reich\data\Nazi_LSV_02_Black_CO.paa","160thSOR_OpFor\4th_Reich\data\Nazi_LSV_03_Black_CO.paa","160thSOR_OpFor\4th_Reich\data\Nazi_LSV_Adds_Black_CO.paa"};
+	class TransportItems{};
+	class TransportWeapons{};
+	class TransportMagazines{};
+	class TransportBackpacks{};	
+};
+
+class Nazi_LAV: I_APC_Wheeled_03_cannon_F
+{
+	scope=2;
+	side=0;	
+	displayName="Reich LAV";
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
+	faction = "the_fourth_reich";
+	crew="Reich_Crew_Black";
+	typicalCargo[]=	{"Reich_Crew_Black"};
+	textureList[]={"",1};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"160thSOR_OpFor\4th_Reich\data\Nazi_lav_01_ext_wd.paa",
+			"160thSOR_OpFor\4th_Reich\data\Nazi_lav_02_ext_wd.paa",
+			"160thSOR_OpFor\4th_Reich\data\Nazi_lav_Turret_wd.paa",
+			"160thSOR_OpFor\4th_Reich\data\Nazi_lav_03_ext_wd.paa"
+		};
 	class TransportItems{};
 	class TransportWeapons{};
 	class TransportMagazines{};

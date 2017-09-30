@@ -43,7 +43,12 @@
 "the_fourth_reich_FT",
 "the_fourth_reich_FT2",
 "the_fourth_reich_FT3",
-
+"the_fourth_reich_FT2_1",
+"the_fourth_reich_FT2_2",
+"the_fourth_reich_FT3_1",
+"the_fourth_reich_FT3_2",
+"the_fourth_reich_FT_2",
+"the_fourth_reich_FT_1",
 
 "Nazi_Bo105_Armed",
 "Nazi_Bo105_rpm",
@@ -61,7 +66,7 @@
 "Nazi_Transport",
 "Nazi_Swift_attack",
 "Nazi_Swift_attack_armed",
-
+"Nazi_LAV",
 "Nazi_SAM",
 "Nazi_SAA",
 "Nazi_GBAD",
