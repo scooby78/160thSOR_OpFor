@@ -400,7 +400,7 @@ class SS_Officer: SS_Commander
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	displayName = "SS Office"; 
+	displayName = "SS Officer"; 
 	backpack = ""; // backpack
 	weapons[] = {"rhsusf_weap_m9","Throw","Put"}; 
 	respawnWeapons[] = {"rhsusf_weap_m9","Throw","Put"}; ///match weapons[]
