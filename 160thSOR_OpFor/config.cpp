@@ -75,6 +75,7 @@ class CfgFunctions
 			class gunSpawn;
 			class NoFlySite4km;
 			class NoFlySite3km;
+			class buildingSpawn;			
 		};
 	};
 };
@@ -215,6 +216,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "No Fly Zones";
 	};
+	class SOR_OPFor_SubCat_Barracks
+	{
+		displayName = "Populated Barracks";
+	};	
 };
 
 class cfgFactionClasses
