@@ -1,9 +1,7 @@
 if !(isServer) exitWith {};
-if (is3DEN) exitWith {};
-
 // Set variables
 SOR_GRPSPWN_ACTIVE = true;
-SOR_GRPSPWN_DEBUG = true;
+SOR_GRPSPWN_DEBUG = false;
 SOR_GRPSPWN_PAUSE = false;
 private ["_Group_Start_Object", "_vicClass", "_aiGRP", "_victimPos", "_wp", "_i", "_victim"];
 _Group_Start_Object = _this select 0;
@@ -13,7 +11,10 @@ _Scan_Range = _this select 3;
 _Engagement_Range = _this select 4;
 _Group_Class = _this select 5;
 _i = 0;
-
+// Area clear (50m)
+_terrainobjects=nearestTerrainObjects [(getPos _Group_Start_Object),["TREE", "SMALL TREE", "FOREST",  "FOREST BORDER", "FOREST TRIANGLE", "BUSH", "ROCK", "ROCKS"],25];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+if (is3DEN) exitWith {};
 waitUntil {time > 1};
 while {SOR_GRPSPWN_ACTIVE && (alive _Group_Start_Object) && _i < _t} do {
 	if (SOR_GRPSPWN_DEBUG) then {systemChat format ["L1 - Checking for targets. Scan Range = %1",_Scan_Range];};
@@ -50,8 +51,8 @@ while {SOR_GRPSPWN_ACTIVE && (alive _Group_Start_Object) && _i < _t} do {
 				sleep (floor(random 20));
 			};
 		};
-		sleep 1;
+		sleep 5;
 	};
-	sleep 10;
+	sleep 20;
 };
 if (SOR_GRPSPWN_DEBUG) then {systemChat "L0 - End";};

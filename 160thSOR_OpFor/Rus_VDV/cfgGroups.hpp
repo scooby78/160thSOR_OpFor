@@ -763,7 +763,29 @@ class SOR_Opfor_Groups_VDV_AI
 				rank = PRIVATE;
 				position[] = {0, -6, 0};
 			};
-		};					
+		};	
+		class SOR_Opfor_Patrol_VDV_AI
+		{
+			name = "Patrol Team";
+			faction = "SOR_Opfor_Faction_VDV_AI";
+			side = OPFOR;
+			rarityGroup = 0.75;
+			
+			class Unit0
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Grenadier_VDV_AI"; 
+				rank = SERGEANT;
+				position[] = {0, 0, 0};
+			};
+			class Unit1
+			{
+				side = OPFOR;
+				vehicle = "SOR_Opfor_Teamleader_VDV_AI";
+				rank = CORPORAL;
+				position[] = {0, -2, 0};
+			};
+		};		
 	};
 	class SOR_Opfor_InfGroups_Support_VDV_AI 
 	{

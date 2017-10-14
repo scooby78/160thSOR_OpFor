@@ -216,9 +216,17 @@ class CfgEditorSubcategories
 	{
 		displayName = "No Fly Zones";
 	};
-	class SOR_OPFor_SubCat_Barracks
+	class SOR_OPFor_SubCat_Barracks_Reich
 	{
-		displayName = "Populated Barracks";
+		displayName = "Populated Barracks (Reich)";
+	};
+	class SOR_OPFor_SubCat_Barracks_ISIS
+	{
+		displayName = "Populated Barracks (ISIS)";
+	};	
+	class SOR_OPFor_SubCat_Barracks_VDV_AI
+	{
+		displayName = "Populated Barracks (Russian)";
 	};	
 };
 
