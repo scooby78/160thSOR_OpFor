@@ -237,6 +237,10 @@ class CfgGroups
 		#include "Rus_VDV\CfgGroups.hpp"
 		#include "4th_Reich\CfgGroups.hpp"
 		#include "SOR_ISIS\CfgGroups.hpp"
+	};
+	
+	class Independent
+	{
 		#include "SOR_PMC\CfgGroups.hpp"
 	};
 };

@@ -8,6 +8,9 @@
 
 class sfp_bo105_pah1;
 class sfp_bo105_rmp;
+class sfp_bo105_unarmed;
+class sfp_bo105_hmp;
+class sfp_bo105_gsh;
 //class O_Plane_Fighter_02_Stealth_F; // defined already in 160thSOR_OpFor\Rus_VDV\CfgAircraft.hpp
 class B_T_VTOL_01_armed_F;
 class B_T_VTOL_01_vehicle_F;
@@ -302,3 +305,67 @@ class Nazi_VTOL_Transport2: B_T_VTOL_01_vehicle_F
 		"160thSOR_OpFor\4th_Reich\data\Nazi_VTOL_EXT04.paa"
 	};
 };
+class Nazi_Bo105_transport: sfp_bo105_unarmed
+{
+    displayName = "Reich BO105 Transport";
+	side = 0;
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = "the_fourth_reich";
+	vehicleclass = "SOR_Aircraft";
+	crew="Reich_Pilot";
+	typicalCargo[]=	{"Reich_Pilot"};
+hiddenSelections[] = {"camo"};
+hiddenSelectionsTextures[] = {"\sfp_bo105\data\exterior_2_co.paa"};
+	
+
+	class TransportItems 
+	{
+
+	};
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportBackpacks
+	{
+		
+	};
+};
+class Nazi_Bo105_attack: sfp_bo105_gsh
+{
+    displayName = "Reich BO105 CAS";
+	side = 0;
+	editorCategory = "SOR_Reich_Cat_Faction_VDV_AI";
+	editorSubcategory = "SOR_OPFor_SubCat_Aircraft";
+	faction = "the_fourth_reich";
+	vehicleclass = "SOR_Aircraft";
+	crew="Reich_Pilot";
+	typicalCargo[]=	{"Reich_Pilot"};
+	weapons[] = {"sfp_autocannon_20mm","sfp_hmp250","sfp_hydraPod"};
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\sfp_bo105\data\exterior_2_co.paa"};
+	armor = 40;
+
+	class TransportItems 
+	{
+
+	};
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportBackpacks
+	{
+		
+	};
+};
+

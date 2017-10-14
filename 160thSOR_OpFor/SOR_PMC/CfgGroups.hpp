@@ -1,14 +1,11 @@
 /*
 	Name: PMC
-	Author: YePMCie
+	Author: Yettie
 	Date: 25/04/17
 	Description: CfgGroups.hpp
 */
 
-class CfgGroups
-{
-	class Indep
-	{
+
 		class PMC_groups
 		{
 			name = "PMC";
@@ -19,7 +16,7 @@ class CfgGroups
 				{
 					name = "Squad Desert";
 					side = 2;
-					faction = "class SOR_FACTION_PMC";
+					faction = "SOR_FACTION_PMC";
 					class Unit0
 					{
 						side = 2;
@@ -89,7 +86,7 @@ class CfgGroups
 				{
 					name = "4 Man Team Desert";
 					side = 2;
-					faction = "class SOR_FACTION_PMC";
+					faction = "SOR_FACTION_PMC";
 					class Unit0
 					{
 						side = 2;
@@ -123,7 +120,7 @@ class CfgGroups
 				{
 					name = "4 Man Team Desert";
 					side = 2;
-					faction = "class SOR_FACTION_PMC";
+					faction = "SOR_FACTION_PMC";
 					class Unit0
 					{
 						side = 2;
@@ -158,7 +155,7 @@ class CfgGroups
 				{
 					name = "Squad Desert";
 					side = 2;
-					faction = "class SOR_FACTION_PMC";
+					faction = "SOR_FACTION_PMC";
 					class Unit0
 					{
 						side = 2;
@@ -226,5 +223,3 @@ class CfgGroups
 				};
 			};
 		};
-	};
-};

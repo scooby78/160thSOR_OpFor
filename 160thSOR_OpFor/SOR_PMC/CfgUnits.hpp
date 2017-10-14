@@ -139,7 +139,7 @@ class PMC_AT_Rifleman_D: PMC_Grenadier_D {
 	author = "Yettie"; 
 	_generalMacro = "O_T_Recon_F"; 
 	scope = 2; 
-	Backpack = "Smill_FCEFP";
+	Backpack = "";
 	displayName = "PMC Sniper Desert"; 
 	weapons[] = {"PMC_weap_M107","hgun_Pistol_heavy_01_F","Throw","Put"}; 
 	respawnWeapons[] = {"PMC_weap_M107","hgun_Pistol_heavy_01_F","Throw","Put"}; ///match weapons[]
