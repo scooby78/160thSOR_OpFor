@@ -20,7 +20,8 @@ class CfgPatches
 	class SOR_OpFor_Loadouts 
 	{
 		author="160th SOR";
-		url="http://www.160th.net";		
+		url="http://www.160th.net";	
+		version="2.1.3";		
 		units[] = 
 		{
 			#include "4th_Reich\cfgPatches.hpp"
@@ -35,7 +36,6 @@ class CfgPatches
 			"160_rhs_weap_ak74m_camo",
 			"160_rhs_weap_ak74m_1p63"
 		};
-		version="2.1.2";
 		requiredAddons[] = 
 		{
 			"160th_SOR_Loadouts",
