@@ -10,6 +10,8 @@ _t = _this select 2;
 _Scan_Range = _this select 3;
 _Engagement_Range = _this select 4;
 _Group_Class = _this select 5;
+_Engagement_Stop = _this select 6;
+if ((isNil _Engagement_Stop)) then {_Engagement_Stop = 10};
 _i = 0;
 // Area clear (50m)
 _terrainobjects=nearestTerrainObjects [(getPos _Group_Start_Object),["TREE", "SMALL TREE", "FOREST",  "FOREST BORDER", "FOREST TRIANGLE", "BUSH", "ROCK", "ROCKS"],25];
@@ -35,7 +37,7 @@ while {SOR_GRPSPWN_ACTIVE && (alive _Group_Start_Object) && _i < _t} do {
 		if (SOR_GRPSPWN_DEBUG && !(isNil "_victim")) then {_dist = (_Group_Start_Object distance _victim); systemChat format ["L2 - Distance = %1",_dist];};
 		if ((alive _Group_Start_Object) && SOR_GRPSPWN_ACTIVE && !(isNil "_victim") && !_VictimUnconscious) then
 		{
-			if ((_Group_Start_Object distance _victim) < 10) then {_i = _t; if (SOR_GRPSPWN_DEBUG) then {systemChat "L2 - End";};};
+			if ((_Group_Start_Object distance _victim) < _Engagement_Stop) then {_i = _t; if (SOR_GRPSPWN_DEBUG) then {systemChat "L2 - End";};};
 			if (((_Group_Start_Object distance _victim) < _Engagement_Range) && (_i < _t)) then
 			{	
 				_i = _i + 1;
